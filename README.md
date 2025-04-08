@@ -1,5 +1,11 @@
 # OpenMind: A Multimodal Generative AI System.
 
+## History Log
+
+- **2025, April 6**: *Task Description (e.g., Initial setup of project structure and documentation)* – **Mahadi**
+- *(Add further entries as needed)*
+
+
 ![Untitled Diagram](https://github.com/user-attachments/assets/5966b517-b878-4153-a27c-22b951ad0041)
 
 
