@@ -1,5 +1,9 @@
 # OpenMind: A Unified Generative AI Framework for Dynamic User Demand
 
+ **MD MAHADI HASAN, MD ASHIKUR RAHMAN, NABIRA JAHAN LIMU, ASIFA ASRAFI, YEASIR ARAFAT SHANTU**
+
+ 
+
 ## History Log
 
 - **2025, April 8**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
