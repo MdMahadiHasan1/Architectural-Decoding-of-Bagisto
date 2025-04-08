@@ -1,5 +1,6 @@
 # Multimodal-Generative-AI-System
 
+![Untitled Diagram](https://github.com/user-attachments/assets/5966b517-b878-4153-a27c-22b951ad0041)
 
 
 The Multimodal-Generative-AI-System seeks to revolutionize artificial intelligence by seamlessly integrating diverse data modalities text, images, audio, and sensor inputs into a cohesive generative framework. In an era where data is both abundant and fragmented, this system empowers industries and individuals to unlock transformative applications, from personalized healthcare diagnostics to immersive educational tools, by bridging the gap between human creativity and machine intelligence. At its core, the architecture harmonizes cutting-edge generative models (e.g., transformers, diffusion networks) with ethical design principles, ensuring scalability, interpretability, and societal benefit.
