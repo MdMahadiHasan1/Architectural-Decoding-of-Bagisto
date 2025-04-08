@@ -1,4 +1,4 @@
-# OpenMind: A Multimodal Generative AI System
+# OpenMind: A Unified Generative AI Framework for Dynamic User Demand
 
 ## History Log
 
