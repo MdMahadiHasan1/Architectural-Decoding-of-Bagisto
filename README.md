@@ -9,9 +9,6 @@ Central to this effort are stakeholders spanning developers, data scientists, do
 
 
 
-<img src="https://github.com/user-attachments/assets/254f5574-cc2e-44db-a873-9792d6c03172" 
-     alt="Untitled diagram-2025-04-07-142639" 
-     width="600" />
 ![Untitled diagram-2025-04-07-142639](https://github.com/user-attachments/assets/254f5574-cc2e-44db-a873-9792d6c03172)
 
 
