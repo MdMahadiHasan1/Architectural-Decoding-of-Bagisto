@@ -1,4 +1,4 @@
-# OpenMind: A Multimodal Generative AI System.
+# OpenMind: A Multimodal Generative AI System
 
 ## History Log
 
