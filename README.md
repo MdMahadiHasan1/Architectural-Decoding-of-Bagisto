@@ -1,4 +1,4 @@
-# Multimodal-Generative-AI-System
+# OpenMind: A Multimodal Generative AI System.
 
 ![Untitled Diagram](https://github.com/user-attachments/assets/5966b517-b878-4153-a27c-22b951ad0041)
 
