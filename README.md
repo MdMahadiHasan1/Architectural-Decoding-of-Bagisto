@@ -8,6 +8,16 @@
 
 - **2025, April 8**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
 
+  
+
+# Introduction
+
+# Business Requirements
+
+# Stakeholder Analysis
+
+
+
 
 
 
