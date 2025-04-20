@@ -59,7 +59,18 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
 | **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
 
+
 **Secondary Stakeholders**
+
+| Stakeholder    | Analysis |
+|----------------|----------|
+| **Regulatory Bodies**  | Government agencies enforcing compliance with laws (e.g., GDPR, consumer protection, taxation). |
+| **Technology Providers**     | Companies supplying infrastructure (e.g., cloud services like AWS, cybersecurity tools). |
+| **Marketing Agencies**    | External teams managing brand visibility and customer acquisition campaigns. |
+| **Local Communities** | Populations impacted by the e-commerce system’s environmental or economic footprint (e.g., warehouse locations). |
+| **Industry Associations** | Organizations setting standards or advocating for sector-wide practices (e.g., Digital Commerce Alliance). |
+
+**Negative Stakeholders**
 
 | Stakeholder    | Analysis |
 |----------------|----------|
@@ -70,7 +81,6 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Counterfeit Sellers** | Unauthorized third parties distributing fake products through the platform, damaging brand integrity. |
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
-**Negative Stakeholders**
 
 
 
