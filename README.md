@@ -23,6 +23,10 @@
 # Business Requirements
 
 # Stakeholder Analysis
+Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
+
+
+
 
 # Quality Attribute
 
