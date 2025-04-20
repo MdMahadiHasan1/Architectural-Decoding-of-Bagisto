@@ -126,7 +126,7 @@ Bagisto stored sensitive details such as customer names, addresses, emails, and 
 One of the most basic yet crucial security measures is the implementation of Secure Socket Layer (SSL) encryption. SSL ensured that all data transmitted between the user’s browser and the website’s server is encrypted, making it extremely difficult for hackers to intercept or manipulate sensitive information. This is especially important during checkout when users enter payment details or personal information. 
 
 ### 7. **Backup and Disaster Recovery Plans**
-Even with the best security measures in place, websites are still susceptible to threats like data corruption, server failure, or hacking attempts. Bagisto website administrators should implement a robust backup system that ensures the data can be restored in case of an emergency. Regular backups should be scheduled, and the backup files should be stored securely. Additionally, disaster recovery plans should be in place to recover the website quickly and minimize downtime.
+Even with the best security measures in place, websites are still susceptible to threats like data corruption, server failure, or hacking attempts. Bagisto website administrators implemented a robust backup system that ensured the data can be restored in case of an emergency. Regular backups  scheduled, and the backup files stored securely. 
 
 ### 8. **User Session Management**
 User sessions are another area where security must be closely monitored. It’s essential to implement session timeouts and ensure that expired sessions are properly terminated. Additionally, session tokens should be securely stored, and websites should enforce secure cookie practices (such as using the HttpOnly and Secure flags) to prevent session hijacking.
