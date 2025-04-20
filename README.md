@@ -116,7 +116,7 @@ Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP fra
 
 **Security**
  
-Security is a top priority for any eCommerce platform, and Bagisto is no exception. Since it handles sensitive customer data such as personal details, payment information, and order history it’s vital to implement robust security measures at every level. Below is an overview of key security practices to protect your Bagisto-based shopping website.
+Security is a top priority for any E-Commerce platform, and Bagisto is no exception. Since it handles sensitive customer data such as personal details, payment information, and order history it’s vital to implement robust security measures at every level. Below is an overview of key security practices to protect your Bagisto-based shopping website.
 
 1. *User Authentication and Authorization:* A secure user authentication system is vital in preventing unauthorized access to user accounts and sensitive areas of the website. Implementing strong password policies (e.g., requiring a mix of upper and lowercase letters, numbers, and special characters) helps to strengthen account security. Additionally, the use of multi-factor authentication (MFA) can provide an extra layer of protection. Users should also be encouraged to use unique passwords for their accounts. For administrators, restricting access to the backend based on roles and permissions can limit the impact of a potential breach.
 For example, Bagisto can offer a role-based access control (RBAC) system, where different levels of access are granted to admins, store managers, and customers. This way, sensitive operations (such as deleting products or managing customer data) are protected from unauthorized users.
