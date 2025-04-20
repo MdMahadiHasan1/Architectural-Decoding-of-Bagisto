@@ -82,7 +82,15 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
+# Key Quality Concerns
 
+  **Usability**
+  
+
+
+  
+
+  **Security**
 
 
 
