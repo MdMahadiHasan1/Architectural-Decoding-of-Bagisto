@@ -52,10 +52,10 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 |----------------|----------|
 | **Investors**  | Investors who have put **money** into the ride-sharing service and expect a return on their **investment**. These investors may include **venture capitalists**, **angel investors**, or **institutional investors**. |
 | **Riders**     | People who use the ride-sharing service to get from one place to another. These individuals have a stake in the success of the service because they **rely** on it for **transportation**. |
-| **Drivers**    | Individuals who work for the ride-sharing service and **provide rides** to **riders**. Drivers have a stake in the success of the service because their **livelihood** depends on it. |
-| **Administrators** | People who are responsible for managing the ride-sharing service, including making **decisions about pricing**, **marketing**, and **customer support**. |
-| **Regulators** | **Government agencies** or other entities that have **regulatory authority** over the ride-sharing service. These regulators may have an interest in ensuring that the service operates in compliance with **local laws** and **regulations**. |
-| **Competitors** | Other companies that offer ride-sharing services and may be **impacted** by the success of the service. |
+| **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
+| **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
+| **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
+| **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
 
 
 
