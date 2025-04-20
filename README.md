@@ -86,7 +86,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
-#Quality Attribute
+# Quality Attribute
 
 Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP framework) and Vue.js. As a modern, community-driven application, Bagisto supports multiple online selling scenarios including B2C("Business to Consumer"), B2B("business-to-business"), and multi-vendor marketplaces. Understanding the quality attributes—non-functional requirements that define system effectiveness beyond functional capabilities—is essential for evaluating Bagisto’s architectural strengths. 
 
@@ -100,6 +100,16 @@ Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP fra
 
 5. *Security:* Security ensures protection against unauthorized access and data breaches; Bagisto relies on Laravel’s built in safeguards—parameter bound queries against SQL injection, CSRF/XSS middleware, bcrypt password hashing—and implements RBAC in the admin panel plus GDPR compliant data export/deletion workflows. These measures deliver robust defense against common vulnerabilities, though more advanced policies (e.g., custom WAF rules) require separate configuration and maintenance.
 
+| Security Behaviore | Description |
+|----------------|-----------------|
+| **Authentication** | Bagisto uses Laravel’s authentication scaffolding—users log in with email/username and password (bcrypt hashed). 2FA can be added via community packages for extra security.|
+| **Authorization** | Role Based Access Control (RBAC) in the admin panel ensures that customers, sellers, and admins see only the features and data permitted by their role.|
+| **Confidentiality** | All sensitive channels (login, payments, APIs) must run over HTTPS/TLS. Payment data is tokenized via PCI compliant gateways (Stripe, Braintree) rather than stored locally.|
+| **Safety** | Credit card details are never persisted in Bagisto’s database; only non sensitive tokens/reference IDs from the payment provider are stored. |
+| **Data Integrity** | Requests and payloads are validated with Laravel’s form request rules; APIs use HMAC signed tokens or JWTs to prevent tampering in transit. |
+| **Auditing** | Key actions (user creation, order refunds, configuration changes) are logged to files or external systems (e.g., Monolog → Elasticsearch) with timestamps and actor IDs.|
+| **Non repudiation** | Detailed audit trails (who, what, when) plus immutable log storage (e.g., log shipping to append only stores) provide evidence that specific actions occurred.|
+
 6. *Maintainability:* Maintainability gauges ease of modifying the system to correct faults or add features; Bagisto’s strict MVC separation, PSR compliant coding standards, dependency injection via the Laravel service container, and comprehensive unit and feature tests (with PHPUnit and seeders) lower the mean time to repair. This disciplined structure reduces regression risk and technical debt, albeit demanding upfront investment in documentation, tests, and code reviews.
    
 7.	*Extensibility:* Extensibility reflects the ease of adding new capabilities; Bagisto’s event driven hooks (Laravel Events/Listeners), plugin architecture, and ability to override core classes via service providers enable isolated “Subscription” or “Loyalty” modules without touching existing code. This fosters third party innovation and future proofing, though maintaining plugin compatibility across upgrades becomes a governance concern.
@@ -111,20 +121,6 @@ Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP fra
 10.	*Testability:* Testability addresses how readily the system can be validated; Bagisto integrates PHPUnit for unit and feature tests, Laravel Dusk for browser automation, and uses factories/seeders to simulate realistic data, allowing CI pipelines to run comprehensive end to end tests on every pull request. This TDD friendly setup enhances release confidence but requires ongoing maintenance of test suites in step with evolving functionality.
     
 11.	*Deployability & Portability:* Deployability and portability describe ease of release and environment transfer; Bagisto uses .env configuration files, Docker images for identical dev/test/prod environments, and CI/CD pipelines (e.g., GitHub Actions) that build, test, and deploy with zero downtime (blue green or rolling updates). As a result, teams can migrate from on premise to AWS in days, though this relies on mature DevOps practices and infrastructure as code discipline.
-
-
-
-
-
-| Security Behaviore | Description |
-|----------------|-----------------|
-| **Authentication** | Bagisto uses Laravel’s authentication scaffolding—users log in with email/username and password (bcrypt hashed). 2FA can be added via community packages for extra security.|
-| **Authorization** | Role Based Access Control (RBAC) in the admin panel ensures that customers, sellers, and admins see only the features and data permitted by their role.|
-| **Confidentiality** | All sensitive channels (login, payments, APIs) must run over HTTPS/TLS. Payment data is tokenized via PCI compliant gateways (Stripe, Braintree) rather than stored locally.|
-| **Safety** | Credit card details are never persisted in Bagisto’s database; only non sensitive tokens/reference IDs from the payment provider are stored. |
-| **Data Integrity** | Requests and payloads are validated with Laravel’s form request rules; APIs use HMAC signed tokens or JWTs to prevent tampering in transit. |
-| **Auditing** | Key actions (user creation, order refunds, configuration changes) are logged to files or external systems (e.g., Monolog → Elasticsearch) with timestamps and actor IDs.|
-| **Non repudiation** | Detailed audit trails (who, what, when) plus immutable log storage (e.g., log shipping to append only stores) provide evidence that specific actions occurred.|
 
 
 
