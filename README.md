@@ -98,7 +98,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
   
 
  **Security**
- <p align="justify">
+ <p align="center">
 Security is a top priority for any eCommerce platform, and Bagisto is no exception. Since it handles sensitive customer data such as personal details, payment information, and order history it’s vital to implement robust security measures at every level. Below is an overview of key security practices to protect your Bagisto-based shopping website.
 
  ### 1. **User Authentication and Authorization**
