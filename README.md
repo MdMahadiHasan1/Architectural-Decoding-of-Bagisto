@@ -102,7 +102,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 
   
 
- **Security**
+**Security**
  
 Security is a top priority for any eCommerce platform, and Bagisto is no exception. Since it handles sensitive customer data such as personal details, payment information, and order history it’s vital to implement robust security measures at every level. Below is an overview of key security practices to protect your Bagisto-based shopping website.
 
@@ -120,7 +120,7 @@ When dealing with payment processing, security is of utmost importance. Bagisto 
 To prevent security risks, threat monitoring is essential. Bagisto administrators implemented the Intrusion Detection and Prevention Systems (IDS/IPS) to monitor network activity and flag suspicious behavior like brute-force attacks or unauthorized access. Utilized Laravel’s built-in logging system helps track system events and errors, which are regularly reviewed. Setting up automated alerts for critical incidents ensures quick response. Additionally, conducting regular security audits, including penetration testing, code reviews, and vulnerability assessments, helps identify and fix potential weaknesses before they can be exploited by attackers, maintaining a strong and secure system.
 
 ### 5. **Personal Data Protection**
-As an e-commerce platform, Bagisto manages large volumes of personal data and must comply with strict data protection laws like the GDPR and CCPA, which require safeguarding user information and providing control over personal data. Bagisto should store sensitive details such as customer names, addresses, emails, and payment info only as long as needed for business purposes and ensure secure deletion afterward. Users must have access to tools that let them update, delete, or export their data easily. A clear privacy policy should outline what data is collected, how it's used, how long it's retained, and offer users the option to opt out or withdraw consent.
+Bagisto stored sensitive details such as customer names, addresses, emails, and payment info only as long as needed for business purposes and ensured secure deletion afterward. Users have access to tools that let them update, delete, or export their data easily. A clear privacy policy mainly outlined what data is collected, how it's used, how long it's retained, and offered users the option to opt out or withdraw consent.
 
 ### 6. **SSL Encryption for Secure Communication**
 One of the most basic yet crucial security measures is the implementation of Secure Socket Layer (SSL) encryption. SSL ensures that all data transmitted between the user’s browser and the website’s server is encrypted, making it extremely difficult for hackers to intercept or manipulate sensitive information. This is especially important during checkout when users enter payment details or personal information. The website should be served over HTTPS, and SSL certificates should be regularly updated and configured correctly to avoid vulnerabilities.
