@@ -84,7 +84,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
-#Quality Attribute
+# Quality Attribute
 
 Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP framework) and Vue.js. As a modern, community-driven application, Bagisto supports multiple online selling scenarios including B2C("Business to Consumer"), B2B("business-to-business"), and multi-vendor marketplaces. Understanding the quality attributes—non-functional requirements that define system effectiveness beyond functional capabilities—is essential for evaluating Bagisto’s architectural strengths. 
 
