@@ -12,8 +12,8 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Business Requirements](#Business_Requirements)
-- [Stakeholder Analysis](#Stakeholder Analysis)
-- [Quality Attribute](#Quality Attribute)
+- [Stakeholder Analysis](#Stakeholder_Analysis)
+- [Quality Attribute](#Quality_Attribute)
 
 
   
