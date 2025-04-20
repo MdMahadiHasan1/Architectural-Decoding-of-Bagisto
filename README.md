@@ -86,7 +86,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
-# Quality Attribute
+#Quality Attribute
 
 Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP framework) and Vue.js. As a modern, community-driven application, Bagisto supports multiple online selling scenarios including B2C("Business to Consumer"), B2B("business-to-business"), and multi-vendor marketplaces. Understanding the quality attributes—non-functional requirements that define system effectiveness beyond functional capabilities—is essential for evaluating Bagisto’s architectural strengths. 
 
@@ -99,6 +99,22 @@ Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP fra
 4.	*Scalability:* Scalability describes handling growth by adding resources; as monthly traffic triples, Bagisto’s Dockerized stateless web nodes orchestrated via Kubernetes or ECS can be scaled out, while managed database read replicas and partitioning accommodate large catalogs. Static assets served through CDNs and elastic queue backends enable horizontal growth without code changes, though teams must maintain expertise in cloud orchestration and DevOps practices.
 
 5. *Security:* Security ensures protection against unauthorized access and data breaches; Bagisto relies on Laravel’s built in safeguards—parameter bound queries against SQL injection, CSRF/XSS middleware, bcrypt password hashing—and implements RBAC in the admin panel plus GDPR compliant data export/deletion workflows. These measures deliver robust defense against common vulnerabilities, though more advanced policies (e.g., custom WAF rules) require separate configuration and maintenance.
+
+6. *Maintainability:* Maintainability gauges ease of modifying the system to correct faults or add features; Bagisto’s strict MVC separation, PSR compliant coding standards, dependency injection via the Laravel service container, and comprehensive unit and feature tests (with PHPUnit and seeders) lower the mean time to repair. This disciplined structure reduces regression risk and technical debt, albeit demanding upfront investment in documentation, tests, and code reviews.
+   
+7.	*Extensibility:* Extensibility reflects the ease of adding new capabilities; Bagisto’s event driven hooks (Laravel Events/Listeners), plugin architecture, and ability to override core classes via service providers enable isolated “Subscription” or “Loyalty” modules without touching existing code. This fosters third party innovation and future proofing, though maintaining plugin compatibility across upgrades becomes a governance concern.
+
+8.	*Interoperability:* Interoperability is the capacity to exchange information with other systems; Bagisto exposes RESTful JSON APIs (and optional GraphQL) for products, orders, and customers, and supports webhooks for real time notifications to ERP or CRM platforms. This API first design underpins headless commerce and omnichannel scenarios, yet demands careful API versioning and backward compatibility management as the platform evolves.
+
+9.	*Usability:* Usability measures how effectively users accomplish goals; Bagisto’s intuitive admin dashboard—with guided setup wizards, drag and drop category management, multi-language and RTL support—and responsive Vue.js storefront enable a non technical manager to launch a store within 30 minutes. While this reduces training overhead and boosts adoption, deeply customized themes may still require specialized UX expertise.
+
+10.	*Testability:* Testability addresses how readily the system can be validated; Bagisto integrates PHPUnit for unit and feature tests, Laravel Dusk for browser automation, and uses factories/seeders to simulate realistic data, allowing CI pipelines to run comprehensive end to end tests on every pull request. This TDD friendly setup enhances release confidence but requires ongoing maintenance of test suites in step with evolving functionality.
+    
+11.	*Deployability & Portability:* Deployability and portability describe ease of release and environment transfer; Bagisto uses .env configuration files, Docker images for identical dev/test/prod environments, and CI/CD pipelines (e.g., GitHub Actions) that build, test, and deploy with zero downtime (blue green or rolling updates). As a result, teams can migrate from on premise to AWS in days, though this relies on mature DevOps practices and infrastructure as code discipline.
+
+
+
+
 
 | Security Behaviore | Description |
 |----------------|-----------------|
