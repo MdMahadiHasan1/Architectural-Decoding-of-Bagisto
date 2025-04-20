@@ -8,6 +8,7 @@
 
 - **2025, April 8**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
 - **2025, April 20**: *Task Description: Business Requirements* – **ASIFA**
+- **2025, April 20**: *Task Description: Key Quality Concerns* – **Mahadi, ASIFA**
 
 ## Table of Contents
 - [Introduction](#Introduction)
