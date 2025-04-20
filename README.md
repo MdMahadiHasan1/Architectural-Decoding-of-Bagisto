@@ -52,8 +52,8 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 
 | Stakeholder    | Analysis |
 |----------------|----------|
-| **Investors**  | Investors who have put **money** into the ride-sharing service and expect a return on their **investment**. These investors may include **venture capitalists**, **angel investors**, or **institutional investors**. |
-| **Riders**     | People who use the ride-sharing service to get from one place to another. These individuals have a stake in the success of the service because they **rely** on it for **transportation**. |
+| **Customers**  | End-users purchasing goods/services; central to revenue generation and user experience. |
+| **Business Owners/Shareholders**     | Entities investing capital and driving strategic decisions to maximize profitability. |
 | **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
 | **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
 | **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
