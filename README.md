@@ -139,7 +139,9 @@ For example, Bagisto can offer a role-based access control (RBAC) system, where 
 
 In conclusion, ensuring a secure Bagisto shopping website involves a combination of best practices in encryption, user authentication, input validation, secure payment integration, and ongoing security monitoring. By following these security guidelines, we can safeguard both our users’ data and our website from a wide range of potential threats.
 
+**Scalability**
 
+**System Context**
 
 
 
