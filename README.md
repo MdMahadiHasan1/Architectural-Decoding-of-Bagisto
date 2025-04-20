@@ -48,6 +48,8 @@ With the business requirements now established, we can shift our focus to design
 # Stakeholder Analysis
 Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
 
+**Primary Stakeholders**
+
 | Stakeholder    | Analysis |
 |----------------|----------|
 | **Investors**  | Investors who have put **money** into the ride-sharing service and expect a return on their **investment**. These investors may include **venture capitalists**, **angel investors**, or **institutional investors**. |
@@ -56,6 +58,19 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
 | **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
 | **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
+
+**Secondary Stakeholders**
+
+| Stakeholder    | Analysis |
+|----------------|----------|
+| **Competitors**  | Rival businesses seeking to undermine market share through aggressive pricing or innovation. |
+| **Cybercriminals**     | Malicious actors exploiting vulnerabilities for fraud, data breaches, or service disruptions. |
+| **Privacy Activists**    | Groups opposing data collection practices perceived as invasive or unethical. |
+| **Environmental Activists** | Organizations critiquing unsustainable practices (e.g., excessive packaging, carbon emissions from logistics).|
+| **Counterfeit Sellers** | Unauthorized third parties distributing fake products through the platform, damaging brand integrity. |
+| **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
+
+**Negative Stakeholders**
 
 
 
