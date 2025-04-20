@@ -144,7 +144,18 @@ In conclusion, ensuring a secure Bagisto shopping website involves a combination
 **Scalability**
 
 # System Context
+![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
 
+The Bagisto E-Commerce Platform orchestrates a seamless, event-driven workflow designed for scalability and customization. The process begins when user devices (web or mobile) interact with Bagisto’s storefront, built on Laravel and Vue.js/React, enabling customers to browse products, submit reviews, and complete purchases. Transactions are processed natively through Bagisto’s Laravel-based order management system, which handles inventory updates, tax calculations, and multi-channel sync (e.g., POS or marketplace integrations). The platform’s architecture encompasses several integrated components: User Device, E-Commerce Platform, Payment Gateway, Shipping Provider, SMS/Email Service, Analytics Service, Marketing, AI Powered E-Commerce, Customer Rating.
+User Devices represent the entry point where customers interact with the e-commerce platform. These include smartphones, tablets, and computers running web browsers or mobile apps. Users browse products, place orders, and submit reviews through these devices, which communicate with the platform via APIs or direct web requests.
+E-Commerce Platform serves as the central hub managing all online retail operations. It processes orders, handles inventory, and coordinates between other services like payment gateways and shipping providers. Built on technologies like Laravel, it ensures seamless integration of all components while providing a responsive user interface.
+Payment Gateway securely processes all financial transactions between customers and merchants. It encrypts sensitive credit card information and handles authorization requests with banks. The platform typically supports multiple gateways (Stripe, or PayPal) to offer customers various payment options including credit cards, digital wallets, and alternative payment methods.
+Shipping Provider integration allows the platform to connect with major delivery services worldwide. This connection enables features like real-time rate calculations, shipping label generation, and package tracking. The system can compare rates across providers to offer customers the best options.
+SMS/Email Service represents the communication infrastructure that delivers all customer-facing messages. This includes transactional emails (receipts, shipping notices) as well as marketing communications. 
+Analytics Service goes beyond basic sales tracking to provide deeper business insights. It aggregates data from multiple touchpoints, offering visual dashboards that show trends, customer demographics, and campaign performance. Advanced implementations might include predictive analytics for inventory planning.
+Marketing encompasses all promotional activities managed through the platform. This includes creating discounts, running email campaigns, and setting up loyalty programs. The system allows targeting specific customer segments based on their purchase history or browsing behavior.
+AI Powered E-Commerce indicates the use of Large Language Model to enhance various aspects of the shopping experience. This could involve personalized product recommendations, dynamic pricing algorithms. AI helps the platform adapt to individual user preferences over time.
+Finally, customer Rating refers to the review system where buyers can evaluate products and share their experiences. These ratings influence future customers’ purchasing decisions and help merchants identify popular items or areas needing improvement. The platform included features to verify purchases before allowing reviews.
 
 
 
