@@ -21,7 +21,7 @@
 # Introduction
 
 # Business Requirements
-Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
+Before we explore the architecture of the Bagisto shopping website in detail, let’s begin by outlining the key business requirements it needs to fulfill:
 
 | Requirements    | Descriptions |
 |----------------|----------|
@@ -42,6 +42,8 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Marketing (Promotions, Communications, Search and SEO)** | Support discount codes and campaigns. Enable email marketing integration. Optimize for search engines. Provide analytics for marketing efforts. |
 | **Reporting (Sales, Customers, Products)** | Generate customizable reports. Export data for analysis. Track customer acquisition. Monitor inventory turnover rates. |
 | **Taxes** | Automatically calculate applicable taxes. Support regional tax rules. Allow tax-exempt customers. Generate tax reports for accounting. |
+
+With the business requirements now established, we can shift our focus to designing the architecture of the Bagisto shopping site to ensure it meets functionality, scalability, and performance needs.
 
 # Stakeholder Analysis
 Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
