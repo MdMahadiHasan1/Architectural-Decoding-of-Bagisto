@@ -83,7 +83,8 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
- Quality Attribute
+#Quality Attribute
+
 Bagisto is an open-source, modular e-commerce platform built on Laravel (PHP framework) and Vue.js. As a modern, community-driven application, Bagisto supports multiple online selling scenarios including B2C("Business to Consumer"), B2B("business-to-business"), and multi-vendor marketplaces. Understanding the quality attributes—non-functional requirements that define system effectiveness beyond functional capabilities—is essential for evaluating Bagisto’s architectural strengths. 
 
  1.	*Functional Suitability:* Functional suitability measures how well a system’s features satisfy user and business needs; for instance, when a retailer must launch a multi vendor marketplace within days, Bagisto’s modular “Seller” package (enabled via Laravel service providers and migrations) provides out of the box vendor registration, product management, and commission rules. This modularization streamlines configuration through JSON/YAML files, minimizes core code changes, and accelerates rollout, though highly specialized workflows may still require custom plugin development.
