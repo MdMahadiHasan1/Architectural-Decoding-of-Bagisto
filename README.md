@@ -21,7 +21,7 @@
 # Introduction
 
 # Business Requirements
-Before we explore the architecture of the Bagisto shopping website in detail, let’s begin by outlining the key business requirements it needs to fulfill:
+To understand the architecture of the Bagisto shopping website in depth, it’s important to first outline the core business requirements. These requirements provide a clear foundation for the system’s design, ensuring it effectively supports the platform’s goals, user needs, and overall functionality for smooth online shopping experiences.
 
 | Requirements    | Descriptions |
 |----------------|----------|
