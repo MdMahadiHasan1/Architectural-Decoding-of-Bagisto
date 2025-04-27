@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/c874140b-4a91-4359-939d-509c790e9ecc)<div align="center">
   <img src="https://github.com/user-attachments/assets/2e783412-7ece-416e-8f1f-763cfaca88b7" alt="Your description here" width="100">
 </div>
 
@@ -232,6 +232,9 @@ In conclusion, ensuring a secure Bagisto shopping website involves a combination
 Scalability is a critical quality attribute for modern e-commerce systems, as it ensures that the platform can handle growing traffic, increasing transaction volumes, and expanding product catalogs without degrading performance. As the e-commerce landscape continues to evolve, platforms must be designed to scale efficiently to meet the demands of businesses of all sizes. For Bagisto, scalability is not only about handling higher traffic but also about maintaining optimal performance and availability as the business grows. This section explores how scalability is incorporated into the architecture of Bagisto, detailing its design principles, strategies, and the trade-offs involved in ensuring that the platform can grow with the business.Bagisto’s architecture is designed to be highly scalable, addressing both horizontal and vertical scaling needs. Whether deployed for a small boutique e-commerce site or a large, enterprise-level marketplace, Bagisto’s core components support efficient scaling through modular design, caching, load balancing, and robust database handling. Understanding scalability in the context of Bagisto involves analyzing its architecture, database management, caching mechanisms, queue systems, and cloud deployment strategies.
 
 1. Horizontal and Vertical Scalability
+Horizontal scaling involves adding more servers or instances to distribute the workload evenly across the system. Bagisto supports horizontal scaling by allowing the system to run on multiple web servers, which can handle increased traffic. This is achieved through containerization (using Docker), load balancing, and auto-scaling capabilities available on cloud platforms.
+Bagisto's stateless design makes it easy to scale horizontally. Each request is independent, meaning one server can handle a request without relying on others, and additional servers can be added without disrupting the service. By deploying Docker containers or using cloud services like AWS Elastic Load Balancer (ELB) or Google Cloud’s Load Balancer, Bagisto ensures that web traffic is distributed across multiple servers. These instances can be scaled up or down automatically based on the traffic, which is particularly useful during high-demand events like sales or promotions.
+
 2. Database Scalability
 3. Caching and Content Delivery Networks (CDNs)
 4. Asynchronous Processing and Queues
