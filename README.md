@@ -7,12 +7,14 @@
   
   <h3><a href="#introduction">Documentation</a> | <a href="https://example.com/demo">Demo</a></h3>
   
-  <br>
+</div>
   
-  [![GitHub Build](https://img.shields.io/badge/Github%20build-passing-success?logo=check-circle&style=for-the-badge)](https://github.com/actions)  
-  [![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=Follow%20%40bagisto&style=for-the-badge&color=white&logo=x)](https://twitter.com/bagisto)  
-  [![Discord](https://img.shields.io/discord/YOUR_SERVER_ID?label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/YOUR_INVITE_LINK)  
-  [![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
+ <div align="center" style="display: flex; gap: 10px;">
+
+[![GitHub Build](https://img.shields.io/badge/GITHUB%20BUILD-PASSING-success?style=for-the-badge)](https://github.com/actions)
+[![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=FOLLOW%20@BAGISTO&style=social&color=white&logo=x)](https://twitter.com/bagisto)
+[![Discord](https://img.shields.io/discord/123456789?label=DISCORD&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
+[![License](https://img.shields.io/badge/LICENSE-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
 
 </div>
 
