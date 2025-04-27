@@ -239,7 +239,8 @@ Horizontal scaling involves adding more servers or instances to distribute the w
 Vertical scaling involves upgrading the hardware of a single server, such as increasing CPU, memory, or storage capacity. For resource-intensive operations like database queries, complex searches, or data processing, Bagisto can be vertically scaled. While vertical scaling is typically limited by hardware constraints, it remains an option for specific use cases, such as dedicated database servers or processing nodes.In environments where vertical scaling is necessary, Bagisto can optimize its resource consumption by optimizing database queries and using memory-efficient technologies such as Redis for caching and Laravel Octane to serve applications faster. However, vertical scaling alone is not a long-term solution to growing traffic, and horizontal scaling should generally be prioritized for continued growth.
 
 
-3. Database Scalability
+2. Database Scalability
+
 As an e-commerce platform, Bagisto’s database is crucial for storing large amounts of dynamic data such as product catalogs, customer profiles, and transactional data. Ensuring that the database can handle increasing traffic and growing data without performance degradation is key to maintaining a responsive user experience.
    
 - *Read Replicas and Sharding:*
