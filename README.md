@@ -261,10 +261,14 @@ Bagisto implements multiple layers of caching to enhance performance:
 - *CDNs for Static Assets:*
 Bagisto integrates with Content Delivery Networks (CDNs) like Cloudflare or AWS CloudFront to serve static assets such as images, CSS, and JavaScript. CDNs distribute static content across multiple geographically distributed servers, enabling faster delivery to users worldwide. This reduces latency and load times, improving the overall performance of the platform.
 
-
 4. Asynchronous Processing and Queues
-5. Cloud-Based Scalability
-6. Scalability Trade-Offs
+E-commerce websites like Bagisto often need to process tasks that can be time-consuming, such as sending order confirmation emails, processing payments, and generating invoices. Performing these tasks asynchronously helps to keep the application responsive, especially under heavy loads.
+
+- *Laravel Queues:*
+Bagisto leverages Laravel Queues to handle time-consuming tasks in the background. By queuing tasks such as order processing or email notifications, Bagisto ensures that users are not kept waiting for lengthy operations to complete. These background tasks are processed asynchronously, freeing up resources for real-time interactions.!
+
+6. Cloud-Based Scalability
+7. Scalability Trade-Offs
 
 
 
