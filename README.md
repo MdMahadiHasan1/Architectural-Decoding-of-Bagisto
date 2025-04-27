@@ -5,7 +5,7 @@
 
 <div align="center">
   
-  <h3><a href="#introduction">Documentation</a> | <a href="https://example.com/demo">Demo</a></h3>
+  <h4><a href="#introduction">Documentation</a> | <a href="https://example.com/demo">Demo</a></h4>
   
 </div>
   
