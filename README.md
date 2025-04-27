@@ -10,7 +10,7 @@
   <br>
   
   [![GitHub Build](https://img.shields.io/badge/Github%20build-passing-success?logo=check-circle&style=for-the-badge)](https://github.com/actions)
-  [![Follow on X](https://img.shields.io/twitter/follow/evershopjs?label=Follow%20%40evershopjs&style=social&color=white&logo=x)](https://x.com/BagistoShop/status/1914220057527267464)
+  [![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=Follow%20%40bagisto&style=social&color=white&logo=x)](https://twitter.com/bagisto)
   [![Discord](https://img.shields.io/discord/123456789?label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
   [![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
 
