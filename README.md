@@ -261,14 +261,24 @@ Finally, customer Rating refers to the review system where buyers can evaluate p
 
 **Essential user interface (UI) Functional Requirements**
 
-| Stakeholder    | Analysis |
-|----------------|----------|
-| **Customers**  | End-users purchasing goods/services; central to revenue generation and user experience. |
-| **Business Owners/Shareholders**     | Entities investing capital and driving strategic decisions to maximize profitability. |
-| **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
-| **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
-| **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
-| **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
+| UI Feature                             | Functional Requirement                                                                                                                                                                           |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Global Navigation Bar                  | Must display the store logo, primary navigation links (e.g., Shop, Categories, Cart), and a full-text search input with autocomplete; should collapse into a hamburger menu on smaller viewports. |
+| Footer                                 | Must include secondary navigation links (e.g., About, Help, Policies), contact information, and social media icons, ensuring consistency across all pages.                                       |
+| Product Listing Grid                   | Must support both grid and list views with thumbnail images, product names, prices, and hover-activated “Add to Cart” or “View Details” actions.                                                 |
+| Product Detail Page                    | Must present high-resolution images, detailed descriptions, attribute selectors (size, color), customer reviews, and real-time stock availability.                                              |
+| Search & Autocomplete                  | Must offer a full-text search bar with predictive suggestions and support image-based search for visually similar products.                                                                      |
+| Faceted Filtering                      | Must provide dynamic filters by category, price range, brand, and custom attributes, updating product counts in real time.                                                                       |
+| Mini-Cart Widget                       | Must persistently display in the header, showing item count and subtotal, and expand on hover or click to reveal cart contents and quick links to checkout.                                       |
+| Cart & Checkout Pages                  | Must allow users to edit quantities, apply promotional codes, choose shipping options, and complete multi-step or single-page checkout with progress indicators; support guest checkout.          |
+| User Registration & Authentication     | Must provide forms for email/password signup, password reset flows, and JWT-based login; enable social login (GitHub, Google) via admin-configurable settings.                                    |
+| User Account Dashboard                 | Must allow customers to view and update profile information, manage addresses, review order history, and maintain wishlists from an intuitive dashboard.                                         |
+| Theme Customization Interface          | Must enable store owners to select or upload themes, modify colors, fonts, and layouts via a GUI; support Blade component overrides and asset pipeline configuration.                            |
+| Admin DataGrid Components              | Must provide sortable, filterable, and paginated data tables for resource management (products, orders, customers), with mass-action capabilities and AJAX support.                              |
+| Responsive & Accessible Design         | Must implement mobile-first layouts, ARIA roles, keyboard navigation, and color-contrast adherence to WCAG standards, ensuring usability across devices and assistive technologies.                |
+| PWA & Mobile App UI                    | Must support Progressive Web App installability, dark-mode toggle, push notifications, multi-locale and multi-currency switching to mirror web-store functionality on mobile.                   |
+| AI-Driven Features                     | Must integrate AI modules for semantic search, chatbot support, and automated content generation within the UI, enhancing the shopping experience.                                               |
+
 
 
 
