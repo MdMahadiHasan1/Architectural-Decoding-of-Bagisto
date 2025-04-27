@@ -279,7 +279,8 @@ Using cloud load balancers, Bagisto can distribute traffic evenly across multipl
 7. Scalability Trade-Offs
 While scalability is a crucial aspect of Bagisto’s architecture, there are inherent trade-offs that need to be considered:
 
-
+-	Complexity:* Horizontal scaling introduces complexity in terms of infrastructure management, network configuration, and maintaining data consistency across multiple instances. This requires expertise in cloud services, container orchestration tools like Kubernetes, and monitoring solutions.
+-	*	Costs:* As Bagisto scales horizontally by adding more servers or using managed cloud services, the operational costs increase. Businesses need to balance the need for scalability with the associated costs of cloud resources, storage, and network bandwidth.
 
 
 
