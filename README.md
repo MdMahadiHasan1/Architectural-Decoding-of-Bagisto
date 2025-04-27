@@ -256,7 +256,7 @@ To further optimize database performance, Bagisto integrates with Redis and Memc
 Bagisto implements multiple layers of caching to enhance performance:
   - - Route Caching: Routes in the application are cached, reducing the time required to determine how a request is handled.
   - - Config and View Caching: Bagisto caches configuration files and views to avoid repeated loading during each request.
-  - -Database Query Caching: Using Redis or Memcached, Bagisto caches the results of frequently accessed database queries, reducing database load and ensuring faster responses.
+  - - Database Query Caching: Using Redis or Memcached, Bagisto caches the results of frequently accessed database queries, reducing database load and ensuring faster responses.
 
 
 6. Asynchronous Processing and Queues
