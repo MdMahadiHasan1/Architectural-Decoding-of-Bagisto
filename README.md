@@ -61,7 +61,10 @@ The discussion begins with an overview of business requirements and stakeholder 
     • Logistics Coordination (real-time shipping rate calculations and carrier APIs).
     • Analytics and Reporting (data-driven insights for inventory and marketing).
 
-Bagisto's architecture follows a modular monolith approach. While it is technically a monolithic application, it is structured in a way that allows developers to build and scale different parts of the system independently. The platform is divided into multiple modules, each responsible for a specific area of the business, such as products, orders, customers, and payment gateways. This modularity enables easy customization and extension without affecting the overall system.
+Bagisto's architecture follows a modular monolith approach. While it is technically a monolithic application, it is structured in a way that allows developers to build and scale different parts of the system independently. The platform is divided into multiple modules, each responsible for a specific area of the business, such as products, orders, customers, and payment gateways. This modularity enables easy customization and extension without affecting the overall system.The core components of Bagisto’s architecture can be divided into the following layers:
+
+1.	Frontend Layer (Vue.js): The frontend is built using Vue.js, a progressive JavaScript framework that enables reactive and dynamic user interfaces. It ensures that the website is highly interactive, allowing for features like real-time updates, seamless page transitions, and improved user experience across devices.
+
 
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
 ands.
