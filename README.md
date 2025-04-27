@@ -273,7 +273,8 @@ The modern e-commerce platforms require high availability and the ability to sca
 Bagisto is designed to run efficiently on cloud platforms like AWS, Google Cloud, and Azure. These platforms provide essential tools for scalable infrastructure, including load balancing, auto-scaling, and elastic storage. Cloud-based auto-scaling ensures that resources are provisioned dynamically based on traffic, ensuring that the platform can handle surges in demand without manual intervention.
 Cloud hosting also provides features like global data replication, which can distribute data across multiple regions, ensuring that Bagisto remains available even in case of regional outages. Additionally, cloud platforms provide managed services like RDS (Relational Database Service) for databases and ElastiCache for in-memory caching, which simplifies database scaling and caching management
 
-
+- *Load Balancers:*
+Using cloud load balancers, Bagisto can distribute traffic evenly across multiple servers, ensuring high availability and fault tolerance. The load balancer directs incoming traffic to the healthiest available server instance, ensuring that no single server is overloaded.
 
 
 
