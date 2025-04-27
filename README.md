@@ -233,11 +233,10 @@ Scalability is a critical quality attribute for modern e-commerce systems, as it
 ## System Context
 
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
-
- <img src="[download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)">
+<div align="center">
+  <img src="[download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)">
   <p>Figure 000: System Context Diagram </p>
 </div>
-
 
 The Bagisto E-Commerce Platform orchestrates a seamless, event-driven workflow designed for scalability and customization. The process begins when user devices (web or mobile) interact with Bagisto’s storefront, built on Laravel and Vue.js/React, enabling customers to browse products, submit reviews, and complete purchases. Transactions are processed natively through Bagisto’s Laravel-based order management system, which handles inventory updates, tax calculations, and multi-channel sync (e.g., POS or marketplace integrations). The platform’s architecture encompasses several integrated components: User Device, E-Commerce Platform, Payment Gateway, Shipping Provider, SMS/Email Service, Analytics Service, Marketing, AI Powered E-Commerce, Customer Rating.
 
