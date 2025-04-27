@@ -68,6 +68,8 @@ Bagisto's architecture follows a modular monolith approach. While it is technica
 3.	Database Layer (MySQL, Redis): Bagisto uses MySQL as its primary database for storing transactional data, such as customer information, orders, products, and inventory. For caching and session management, Bagisto integrates Redis, which helps speed up data retrieval and enhances performance.
 4.	Queue Layer (Redis, Beanstalkd): Bagisto uses queues to handle background tasks such as sending emails, processing orders, and generating reports. Queues are an essential part of the architecture, as they help offload resource-intensive tasks from the main request-response cycle, ensuring that the system remains responsive under heavy load.
 5.	API Layer (RESTful API, GraphQL): Bagisto exposes RESTful APIs for third-party integrations, allowing other systems (e.g., CRMs, ERPs, mobile apps) to interact with the platform. It also supports GraphQL, enabling more flexible data querying, particularly for complex client-side applications.
+6.	Extension Layer: One of Bagisto’s key strengths is its extensibility. It provides an extension system that allows developers to easily add new features or replace existing ones. For example, developers can create custom payment gateways, shipping methods, or integrations with third-party services, such as the OpenAI Chatbot (Bagisto Chatbot Integration).
+
 
 
 
