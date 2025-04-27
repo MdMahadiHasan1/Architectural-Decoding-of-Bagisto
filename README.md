@@ -6,7 +6,7 @@
 
 
 
-# Architectural Decoding of Bagisto: Scalability, Modularity, and Design Patterns in a Laravel-Powered eCommerce Ecosystem
+**Architectural Decoding of Bagisto: Scalability, Modularity, and Design Patterns in a Laravel-Powered eCommerce Ecosystem**
 
  *MD MAHADI HASAN, MD ASHIKUR RAHMAN, NABIRA JAHAN LIMU, ASIFA ASRAFI, YEASIR ARAFAT SHANTU*
 
