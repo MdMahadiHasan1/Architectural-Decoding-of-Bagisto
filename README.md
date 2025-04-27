@@ -44,13 +44,6 @@
 - [Stakeholder Analysis](#Stakeholder_Analysis)
 - [Quality Attribute](#Quality_Attribute)
 - [System Context](#System_Context)
-   - [Consistency](#consistency)
-   - [Availability](#availability)
-   - [Scalability](#scalability)
-   - [Flexibility](#flexibility)
-   - [Security](#security)
-   - [Performance](#performance)
-
 
   
 
