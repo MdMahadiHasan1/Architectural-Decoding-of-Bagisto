@@ -65,6 +65,7 @@ Bagisto's architecture follows a modular monolith approach. While it is technica
 
 1.	Frontend Layer (Vue.js): The frontend is built using Vue.js, a progressive JavaScript framework that enables reactive and dynamic user interfaces. It ensures that the website is highly interactive, allowing for features like real-time updates, seamless page transitions, and improved user experience across devices.
 2.	Application Layer (Laravel): The backend of Bagisto is powered by Laravel, a robust PHP framework known for its scalability, flexibility, and security features. Laravel’s MVC (Model-View-Controller) pattern is used to structure the application logically, promoting separation of concerns and making it easier to maintain and extend.
+3.	Database Layer (MySQL, Redis): Bagisto uses MySQL as its primary database for storing transactional data, such as customer information, orders, products, and inventory. For caching and session management, Bagisto integrates Redis, which helps speed up data retrieval and enhances performance.
 
 
 
