@@ -75,9 +75,9 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 ![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)
 
 <div align="center">
-  <tex ="Figure 1: System overview">
+  <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
+  <p>Figure 1: System overview</p>
 </div>
-
 
 
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
