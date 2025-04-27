@@ -72,7 +72,7 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 7.	Deployment Layer: Bagisto is designed to be easily deployable across various environments, from local development to production. It supports containerized deployment using Docker, and can be deployed to cloud platforms such as AWS, Google Cloud, and DigitalOcean. The platform also integrates with CI/CD pipelines, enabling automated testing, build, and deployment processes.
 
 <div align="center">
-  <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
+  <img src="![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
   <p>Figure 1: System overview</p>
 </div>
 
