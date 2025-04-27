@@ -271,7 +271,9 @@ The Bagisto platform is composed of independent, reusable components that collab
 | **Customer Management Component** | Handles user profiles, authentication, and role-based access control. Manages guest checkout and purchase-verified reviews.|
 | **Security & Compliance Component** | Enforces encryption, GDPR/CCPA compliance, and audit logging. Interfaces: Threat detection APIs and consent management tools.|
 | **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
-![Component Diagram](https://github.com/user-attachments/assets/a31913d3-0f5f-4db3-92eb-affd264cc6f8)
+
+![co1](https://github.com/user-attachments/assets/9317855a-295a-4a78-b49f-098b5ad24479)
+
 
 ## Functional Requirements
 
