@@ -5,7 +5,7 @@
 
 <div align="center">
   
-  <h3>- [Introduction](#Introduction)  | <a href="https://demo.bagisto.com/">Demo</a></h3>
+  <h3>- [Introduction](## Table of Contents)  | <a href="https://demo.bagisto.com/">Demo</a></h3>
   
   <br>
   
