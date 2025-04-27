@@ -280,12 +280,13 @@ Cloud hosting also provides features like global data replication, which can dis
 Using cloud load balancers, Bagisto can distribute traffic evenly across multiple servers, ensuring high availability and fault tolerance. The load balancer directs incoming traffic to the healthiest available server instance, ensuring that no single server is overloaded.
 
 6. Scalability Trade-Offs
+   
 While scalability is a crucial aspect of Bagisto’s architecture, there are inherent trade-offs that need to be considered:
 
 -	*Complexity:* Horizontal scaling introduces complexity in terms of infrastructure management, network configuration, and maintaining data consistency across multiple instances. This requires expertise in cloud services, container orchestration tools like Kubernetes, and monitoring solutions.
 -	*Costs:* As Bagisto scales horizontally by adding more servers or using managed cloud services, the operational costs increase. Businesses need to balance the need for scalability with the associated costs of cloud resources, storage, and network bandwidth.
 - *Data Consistency:* In horizontally scaled systems, maintaining data consistency can be challenging, especially with distributed databases or microservices. Solutions like event sourcing and event-driven architectures may help address this, but they introduce additional complexity.
-- Latency:* As more components are added to the system, there is a possibility of increased network latency. For example, requests routed across multiple services or regions may take longer to process, and strategies such as caching and replication become essential to mitigate this.
+- *Latency:* As more components are added to the system, there is a possibility of increased network latency. For example, requests routed across multiple services or regions may take longer to process, and strategies such as caching and replication become essential to mitigate this.
 
 
 
