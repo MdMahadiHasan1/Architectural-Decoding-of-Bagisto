@@ -55,9 +55,9 @@ In today’s digital landscape, e-commerce platforms have become integral to bus
 
 Bagisto E-Commerce Platform, a Laravel and Vue.js/React-powered system designed for flexibility, scalability, and enterprise-grade performance. Tailored for developers, architects, and stakeholders, this document elucidates the platform’s structural components, quality attributes, and design principles, equipping teams to deploy, customize, and optimize Bagisto effectively.The discussion begins with an overview of business requirements and stakeholder dynamics, highlighting the needs of customers, administrators, and third-party service providers. We then delve into the platform’s architectural blueprint, detailing core modules such as:
 
-1. User Devices (web/mobile interfaces for browsing and purchasing)
+. User Devices (web/mobile interfaces for browsing and purchasing)
 Payment Gateway Integration (multi-provider support for secure transactions).
-    • AI-Powered Personalization (dynamic pricing and recommendation engines).
+. AI-Powered Personalization (dynamic pricing and recommendation engines).
     • Logistics Coordination (real-time shipping rate calculations and carrier APIs).
     • Analytics and Reporting (data-driven insights for inventory and marketing).
 
