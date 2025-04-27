@@ -1,5 +1,5 @@
 <div align="center">
-![idQlzNRPVG_1745729330155](https://github.com/user-attachments/assets/2e783412-7ece-416e-8f1f-763cfaca88b7)
+  <img src="https://github.com/user-attachments/assets/2e783412-7ece-416e-8f1f-763cfaca88b7" alt="Your description here" width="600">
 </div>
 
 
