@@ -7,9 +7,9 @@
   
   <h3><a href="#introduction">Documentation</a>  | <a href="https://demo.bagisto.com/">Demo</a></h3>
   
-  <br>
-  
-  <div style="display: flex; gap: 10px;">
+</div>
+
+<div style="display: flex; gap: 10px;">
   <div style="width: 200px; height: 35px;">
     [![GitHub Build](https://img.shields.io/badge/GITHUB%20BUILD-PASSING-success?style=for-the-badge)](https://github.com/actions)
   </div>
@@ -22,8 +22,6 @@
   <div style="width: 200px; height: 35px;">
     [![License](https://img.shields.io/badge/LICENSE-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
   </div>
-</div>
-
 </div>
 
 
