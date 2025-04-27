@@ -59,7 +59,7 @@ Bagisto E-Commerce Platform, a Laravel and Vue.js/React-powered system designed 
 . Payment Gateway Integration (multi-provider support for secure transactions).\
 . AI-Powered Personalization (dynamic pricing and recommendation engines).\
 . Logistics Coordination (real-time shipping rate calculations and carrier APIs).\
-. Analytics and Reporting (data-driven insights for inventory and marketing).\
+. Analytics and Reporting (data-driven insights for inventory and marketing).
 
 Bagisto's construct follows a modular monolith approach. While it is technically a monolithic application, it is structured in a way that allows developers to build and scale different parts of the system independently. The platform is divided into multiple modules, each responsible for a specific area of the business, such as products, orders, customers, and payment gateways. This modularity enables easy customization and extension without affecting the overall system.The core components of Bagisto’s establishment can be divided into the following layers:
 
