@@ -253,11 +253,11 @@ To further optimize database performance, Bagisto integrates with Redis and Memc
 
 3. Caching and Content Delivery Networks (CDNs)
 
-### - *Caching:*
+ - *Caching:*
 Bagisto implements multiple layers of caching to enhance performance:
-  - - Route Caching: Routes in the application are cached, reducing the time required to determine how a request is handled.
-  - - Config and View Caching: Bagisto caches configuration files and views to avoid repeated loading during each request.
-  - - Database Query Caching: Using Redis or Memcached, Bagisto caches the results of frequently accessed database queries, reducing database load and ensuring faster responses.
+# - Route Caching: Routes in the application are cached, reducing the time required to determine how a request is handled.
+# - Config and View Caching: Bagisto caches configuration files and views to avoid repeated loading during each request.
+# - Database Query Caching: Using Redis or Memcached, Bagisto caches the results of frequently accessed database queries, reducing database load and ensuring faster responses.
 - *CDNs for Static Assets:*
 Bagisto integrates with Content Delivery Networks (CDNs) like Cloudflare or AWS CloudFront to serve static assets such as images, CSS, and JavaScript. CDNs distribute static content across multiple geographically distributed servers, enabling faster delivery to users worldwide. This reduces latency and load times, improving the overall performance of the platform.
 
