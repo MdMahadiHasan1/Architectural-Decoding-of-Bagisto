@@ -69,6 +69,8 @@ Bagisto's architecture follows a modular monolith approach. While it is technica
 4.	Queue Layer (Redis, Beanstalkd): Bagisto uses queues to handle background tasks such as sending emails, processing orders, and generating reports. Queues are an essential part of the architecture, as they help offload resource-intensive tasks from the main request-response cycle, ensuring that the system remains responsive under heavy load.
 5.	API Layer (RESTful API, GraphQL): Bagisto exposes RESTful APIs for third-party integrations, allowing other systems (e.g., CRMs, ERPs, mobile apps) to interact with the platform. It also supports GraphQL, enabling more flexible data querying, particularly for complex client-side applications.
 6.	Extension Layer: One of Bagisto’s key strengths is its extensibility. It provides an extension system that allows developers to easily add new features or replace existing ones. For example, developers can create custom payment gateways, shipping methods, or integrations with third-party services, such as the OpenAI Chatbot (Bagisto Chatbot Integration).
+7.	Deployment Layer: Bagisto is designed to be easily deployable across various environments, from local development to production. It supports containerized deployment using Docker, and can be deployed to cloud platforms such as AWS, Google Cloud, and DigitalOcean. The platform also integrates with CI/CD pipelines, enabling automated testing, build, and deployment processes.
+
 
 
 
