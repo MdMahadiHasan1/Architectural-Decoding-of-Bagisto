@@ -9,10 +9,20 @@
   
   <br>
   
-  [![GitHub Build](https://img.shields.io/badge/Github%20build-passing-success?logo=check-circle&style=for-the-badge)](https://github.com/actions)
-  [![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=Follow%20%40bagisto&style=social&color=white&logo=x)](https://twitter.com/bagisto)
-  [![Discord](https://img.shields.io/discord/123456789?label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
-  [![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
+  <div style="display: flex; gap: 10px;">
+  <div style="width: 200px; height: 35px;">
+    [![GitHub Build](https://img.shields.io/badge/GITHUB%20BUILD-PASSING-success?style=for-the-badge)](https://github.com/actions)
+  </div>
+  <div style="width: 200px; height: 35px;">
+    [![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=Follow%20@bagisto&style=social&color=white&logo=x)](https://twitter.com/bagisto)
+  </div>
+  <div style="width: 200px; height: 35px;">
+    [![Discord](https://img.shields.io/discord/123456789?label=DISCORD&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
+  </div>
+  <div style="width: 200px; height: 35px;">
+    [![License](https://img.shields.io/badge/LICENSE-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
+  </div>
+</div>
 
 </div>
 
