@@ -283,11 +283,6 @@ While scalability is a crucial aspect of Bagisto’s architecture, there are inh
 -	*	Costs:* As Bagisto scales horizontally by adding more servers or using managed cloud services, the operational costs increase. Businesses need to balance the need for scalability with the associated costs of cloud resources, storage, and network bandwidth.
 
 
-
-
-
-
-
 ## System Context
 
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
