@@ -265,8 +265,7 @@ Bagisto integrates with Content Delivery Networks (CDNs) like Cloudflare or AWS 
 E-commerce websites like Bagisto often need to process tasks that can be time-consuming, such as sending order confirmation emails, processing payments, and generating invoices. Performing these tasks asynchronously helps to keep the application responsive, especially under heavy loads.
 
 - *Laravel Queues:*
-Bagisto leverages Laravel Queues to handle time-consuming tasks in the background. By queuing tasks such as order processing or email notifications, Bagisto ensures that users are not kept waiting for lengthy operations to complete. These background tasks are processed asynchronously, freeing up resources for real-time interactions.!
-
+Bagisto leverages Laravel Queues to handle time-consuming tasks in the background. By queuing tasks such as order processing or email notifications, Bagisto ensures that users are not kept waiting for lengthy operations to complete. These background tasks are processed asynchronously, freeing up resources for real-time interactions.Bagisto supports multiple queue backends, such as Redis, Beanstalkd, or Amazon SQS, allowing the system to scale the background processing capacity as needed. For example, during peak shopping periods, Bagisto can add more queue workers to process background jobs faster, ensuring the platform remains responsive.
 6. Cloud-Based Scalability
 7. Scalability Trade-Offs
 
