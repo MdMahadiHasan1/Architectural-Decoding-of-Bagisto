@@ -44,6 +44,9 @@
 - [Stakeholder Analysis](#Stakeholder_Analysis)
 - [Quality Attribute](#Quality_Attribute)
 - [System Context](#System_Context)
+- [Architecture Components](#Architecture_Components)
+- [Functional Requirements](#Functional_Requirements)
+- [Architecture Views](#Architecture_Views)
 
   
 
