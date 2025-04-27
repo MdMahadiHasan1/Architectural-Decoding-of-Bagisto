@@ -73,7 +73,10 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 
 
 ![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)
-!Figure 1: System overview 
+
+<div align="center">
+  <tex src="Figure 1: System overview">
+</div>
 
 
 
