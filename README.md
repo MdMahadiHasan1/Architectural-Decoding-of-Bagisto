@@ -258,7 +258,17 @@ Finally, customer Rating refers to the review system where buyers can evaluate p
 
 ## Functional Requirements
 
-## Essential user interface (UI) Functional Requirements
+
+**Essential user interface (UI) Functional Requirements**
+
+| Stakeholder    | Analysis |
+|----------------|----------|
+| **Customers**  | End-users purchasing goods/services; central to revenue generation and user experience. |
+| **Business Owners/Shareholders**     | Entities investing capital and driving strategic decisions to maximize profitability. |
+| **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
+| **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
+| **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
+| **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
 
 
 
