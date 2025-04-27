@@ -247,7 +247,8 @@ As an e-commerce platform, Bagisto’s database is crucial for storing large amo
 Bagisto utilizes read replicas for database scalability. With read replicas, multiple copies of the database are created, and read requests (e.g., for viewing product information or checking order statuses) are distributed across these replicas, reducing the load on the primary database. This ensures faster read operations, especially during high traffic periods.
 Additionally, database sharding can be used to split the database into smaller, more manageable pieces, based on certain criteria such as customer ID or product category. This helps to reduce the load on a single database instance by distributing the data across multiple servers.
 
-- *Caching:*To further optimize database performance, Bagisto integrates with Redis and Memcached to cache frequently accessed data, such as product details and inventory levels. By reducing the number of database queries required for common requests, caching plays a vital role in reducing latency and improving response times.Database scalability allows Bagisto to handle increasingly large product catalogs, customer data, and order histories without compromising performance.
+- *Caching:*
+To further optimize database performance, Bagisto integrates with Redis and Memcached to cache frequently accessed data, such as product details and inventory levels. By reducing the number of database queries required for common requests, caching plays a vital role in reducing latency and improving response times.Database scalability allows Bagisto to handle increasingly large product catalogs, customer data, and order histories without compromising performance.
 
 4. Caching and Content Delivery Networks (CDNs)
 5. Asynchronous Processing and Queues
