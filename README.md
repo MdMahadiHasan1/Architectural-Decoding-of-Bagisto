@@ -367,6 +367,8 @@ The Bagisto platform is composed of independent, reusable components that collab
 | Impersonation (Login-as-Customer)  | It enables an admin to impersonate any customer from the customer grid, initiating a session that mirrors the customer’s storefront view for support and troubleshooting purposes.                                                                                                         |
 | Localization & Language Settings   | It permits switching of the admin panel’s language and locale via the Settings menu, supporting multiple language packs and RTL layouts to accommodate international teams.                                                                                                               |
 
+## Architecture Views
+
 
 
 
