@@ -243,7 +243,7 @@ Vertical scaling involves upgrading the hardware of a single server, such as inc
 
 As an e-commerce platform, Bagisto’s database is crucial for storing large amounts of dynamic data such as product catalogs, customer profiles, and transactional data. Ensuring that the database can handle increasing traffic and growing data without performance degradation is key to maintaining a responsive user experience.
    
-- - *Read Replicas and Sharding:*
+- *Read Replicas and Sharding:*
 Bagisto utilizes read replicas for database scalability. With read replicas, multiple copies of the database are created, and read requests (e.g., for viewing product information or checking order statuses) are distributed across these replicas, reducing the load on the primary database. This ensures faster read operations, especially during high traffic periods.
 Additionally, database sharding can be used to split the database into smaller, more manageable pieces, based on certain criteria such as customer ID or product category. This helps to reduce the load on a single database instance by distributing the data across multiple servers.
 
