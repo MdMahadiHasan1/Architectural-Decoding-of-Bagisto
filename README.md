@@ -13,7 +13,6 @@
 
 [![GitHub Build](https://img.shields.io/badge/GITHUB%20BUILD-PASSING-success?style=for-the-badge)](https://github.com/actions)
 [![Follow on X](https://img.shields.io/twitter/follow/bagisto?label=FOLLOW%20@BAGISTO&style=social&color=white&logo=x)](https://twitter.com/bagisto)
-[![Discord](https://img.shields.io/discord/123456789?label=DISCORD&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
 [![License](https://img.shields.io/badge/LICENSE-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
 
 </div>
