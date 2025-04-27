@@ -369,6 +369,8 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ## Architecture Views
 
+### Use Case Viewpoint
+
 
 
 
