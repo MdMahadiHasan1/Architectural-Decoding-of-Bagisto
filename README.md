@@ -3,6 +3,19 @@
 </div>
 
 
+<div align="center">
+  
+  <h3><a href="https://example.com/docs">Documentation</a> | <a href="https://example.com/demo">Demo</a></h3>
+  
+  <br>
+  
+  [![GitHub Build](https://img.shields.io/badge/Github%20build-passing-success?logo=check-circle&style=for-the-badge)](https://github.com/actions)
+  [![Follow on X](https://img.shields.io/twitter/follow/evershopjs?label=Follow%20%40evershopjs&style=social&color=white&logo=x)](https://twitter.com/evershopjs)
+  [![Discord](https://img.shields.io/discord/123456789?label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/example)
+  [![License](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=open-source-initiative)](LICENSE)
+
+</div>
+
 
 
 ![logoOutputs 3be56cf8](https://github.com/user-attachments/assets/e2214bf5-c1d6-44a3-9c75-9470339d504c)
