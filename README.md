@@ -22,8 +22,6 @@
 ![logoOutputs 3be56cf8](https://github.com/user-attachments/assets/e2214bf5-c1d6-44a3-9c75-9470339d504c)
 
 
-![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)
-
 # Architectural Decoding of Bagisto: Scalability, Modularity, and Design Patterns in a Laravel-Powered eCommerce Ecosystem
 
  *MD MAHADI HASAN, MD ASHIKUR RAHMAN, NABIRA JAHAN LIMU, ASIFA ASRAFI, YEASIR ARAFAT SHANTU*
@@ -70,7 +68,8 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 5.	API Layer (RESTful API, GraphQL): Bagisto exposes RESTful APIs for third-party integrations, allowing other systems (e.g., CRMs, ERPs, mobile apps) to interact with the platform. It also supports GraphQL, enabling more flexible data querying, particularly for complex client-side applications.
 6.	Extension Layer: One of Bagisto’s key strengths is its extensibility. It provides an extension system that allows developers to easily add new features or replace existing ones. For example, developers can create custom payment gateways, shipping methods, or integrations with third-party services, such as the OpenAI Chatbot (Bagisto Chatbot Integration).
 7.	Deployment Layer: Bagisto is designed to be easily deployable across various environments, from local development to production. It supports containerized deployment using Docker, and can be deployed to cloud platforms such as AWS, Google Cloud, and DigitalOcean. The platform also integrates with CI/CD pipelines, enabling automated testing, build, and deployment processes.
-
+   
+![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)
 <div align="center">
   <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
   <p>Figure 1: System overview</p>
