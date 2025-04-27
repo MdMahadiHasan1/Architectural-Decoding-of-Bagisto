@@ -250,10 +250,18 @@ Additionally, database sharding can be used to split the database into smaller, 
 - *Caching:*
 To further optimize database performance, Bagisto integrates with Redis and Memcached to cache frequently accessed data, such as product details and inventory levels. By reducing the number of database queries required for common requests, caching plays a vital role in reducing latency and improving response times.Database scalability allows Bagisto to handle increasingly large product catalogs, customer data, and order histories without compromising performance.
 
-4. Caching and Content Delivery Networks (CDNs)
-5. Asynchronous Processing and Queues
-6. Cloud-Based Scalability
-7. Scalability Trade-Offs
+3. Caching and Content Delivery Networks (CDNs)
+
+- *Caching:*
+Bagisto implements multiple layers of caching to enhance performance:
+  - - Route Caching: Routes in the application are cached, reducing the time required to determine how a request is handled.
+  - - Config and View Caching: Bagisto caches configuration files and views to avoid repeated loading during each request.
+  - -Database Query Caching: Using Redis or Memcached, Bagisto caches the results of frequently accessed database queries, reducing database load and ensuring faster responses.
+
+
+6. Asynchronous Processing and Queues
+7. Cloud-Based Scalability
+8. Scalability Trade-Offs
 
 
 
