@@ -249,6 +249,8 @@ Finally, customer Rating refers to the review system where buyers can evaluate p
 
 # Functional Requirements
 
+# Essential user interface (UI) Functional Requirements
+
 
 
 
