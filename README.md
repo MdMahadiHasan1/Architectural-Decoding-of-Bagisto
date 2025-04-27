@@ -245,6 +245,8 @@ AI Powered E-Commerce indicates the use of Large Language Model to enhance vario
 
 Finally, customer Rating refers to the review system where buyers can evaluate products and share their experiences. These ratings influence future customers’ purchasing decisions and help merchants identify popular items or areas needing improvement. The platform included features to verify purchases before allowing reviews.
 
+# Functional Requirements
+
 
 
 
