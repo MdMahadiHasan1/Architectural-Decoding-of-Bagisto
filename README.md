@@ -73,6 +73,7 @@ Bagisto's architecture follows a modular monolith approach. While it is technica
 
 
 ![image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)
+                             Figure 1: System overview
 
 
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
