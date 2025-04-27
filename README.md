@@ -54,8 +54,9 @@ This software architecture document provides a comprehensive analysis of the Bag
 
 The discussion begins with an overview of business requirements and stakeholder dynamics, highlighting the needs of customers, administrators, and third-party service providers. We then delve into the platform’s architectural blueprint, detailing core modules such as:
 
-•	User Devices (web/mobile interfaces for browsing and purchasing),
-•	Payment Gateway Integration (multi-provider support for secure transactions),
+•	User Devices (web/mobile interfaces for browsing and purchasing)
+
+•	Payment Gateway Integration (multi-provider support for secure transactions)
 •	AI-Powered Personalization (dynamic pricing and recommendation engines),
 •	Logistics Coordination (real-time shipping rate calculations and carrier APIs),
 •	Analytics and Reporting (data-driven insights for inventory and marketing).
