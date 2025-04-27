@@ -276,12 +276,8 @@ Cloud hosting also provides features like global data replication, which can dis
 - *Load Balancers:*
 Using cloud load balancers, Bagisto can distribute traffic evenly across multiple servers, ensuring high availability and fault tolerance. The load balancer directs incoming traffic to the healthiest available server instance, ensuring that no single server is overloaded.
 
-
-
-
 7. Scalability Trade-Offs
-
-
+While scalability is a crucial aspect of Bagisto’s architecture, there are inherent trade-offs that need to be considered:
 
 
 
