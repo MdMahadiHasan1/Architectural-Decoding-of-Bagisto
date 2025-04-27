@@ -255,6 +255,22 @@ AI Powered E-Commerce indicates the use of Large Language Model to enhance vario
 Finally, customer Rating refers to the review system where buyers can evaluate products and share their experiences. These ratings influence future customers’ purchasing decisions and help merchants identify popular items or areas needing improvement. The platform included features to verify purchases before allowing reviews.
 
 ## Architecture Components
+This component diagram outlines the modular, service-oriented architecture of the Bagisto E-Commerce Platform, emphasizing its core components, interfaces, and interrelationships. Designed for scalability and extensibility, these components collaborate to deliver a robust, secure, and user-centric e-commerce ecosystem.
+
+The Bagisto platform is composed of independent, reusable components that collaborate to deliver a cohesive e-commerce experience. Each component operates as a self-contained service, communicating via well-defined interfaces (APIs, webhooks) and adhering to standardized protocols. Below are the critical components and their roles:
+
+| Component | Description |
+|----------------|-----------------|
+| **User Interface Component** | Manages customer and administrator interactions via responsive web/mobile interfaces built with Vue.js/React. Includes product browsing, cart management, and checkout workflows.|
+| **Order Management Component** | Orchestrates order processing, inventory synchronization, tax calculations, and multi-channel integration (POS, marketplaces). Built on Laravel, it ensures transactional consistency across distributed systems.|
+| **Shipping Integration Component** | Integrates with global carriers (FedEx, DHL) via RESTful APIs for real-time rate calculation, label generation, and package tracking. Optimizes delivery costs using rule-based logic.|
+| **Analytics & Reporting Component** | Aggregates sales, inventory, and user data for actionable insights. Interfaces: Data pipelines for dashboards and predictive models.|
+| **Marketing Component** | Manages promotions, discounts, and loyalty programs. Interfaces: Email/SMS APIs for campaigns. |
+| **AI/ML Component** |Powers personalized product recommendations and dynamic pricing algorithms using collaborative filtering and neural networks. Adapts to user preferences over time.|
+| **Customer Management Component** | Handles user profiles, authentication, and role-based access control. Manages guest checkout and purchase-verified reviews.|
+| **Security & Compliance Component** | Enforces encryption, GDPR/CCPA compliance, and audit logging. Interfaces: Threat detection APIs and consent management tools.|
+| **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
+![Commerce Architecture](https://github.com/user-attachments/assets/7212e703-b513-478b-b641-f870f54c59d0)
 
 ## Functional Requirements
 
