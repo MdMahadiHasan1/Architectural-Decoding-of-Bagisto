@@ -78,7 +78,7 @@ Bagisto's architecture follows a modular monolith approach. While it is technica
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
 ands.
 
-# Business Requirements
+## Business Requirements
 To understand the architecture of the Bagisto shopping website in depth, it’s important to first outline the core business requirements. These requirements provide a clear foundation for the system’s design, ensuring it effectively supports the platform’s goals, user needs, and overall functionality for smooth online shopping experiences.
 
 | Requirements    | Descriptions |
@@ -103,7 +103,7 @@ To understand the architecture of the Bagisto shopping website in depth, it’s 
 
 With the business requirements now established, we can shift our focus to designing the architecture of the Bagisto shopping site to ensure it meets functionality, scalability, and performance needs.
 
-# Stakeholder Analysis
+## Stakeholder Analysis
 Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
 
 **Primary Stakeholders**
@@ -140,7 +140,7 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 | **Regulators (in non-compliance scenarios)** | Authorities imposing fines or sanctions for violations of legal/ethical standards. |
 
 
-# Quality Attribute
+## Quality Attribute
 
 Bagisto supports multiple online selling scenarios including B2C("Business to Consumer"), B2B("business-to-business"), and multi-vendor marketplaces. Understanding the quality attributes—non-functional requirements that define system effectiveness beyond functional capabilities—is essential for evaluating Bagisto’s architectural strengths. 
 
@@ -230,7 +230,7 @@ In conclusion, ensuring a secure Bagisto shopping website involves a combination
 **Scalability**
 
 Scalability is a critical quality attribute for modern e-commerce systems, as it ensures that the platform can handle growing traffic, increasing transaction volumes, and expanding product catalogs without degrading performance. As the e-commerce landscape continues to evolve, platforms must be designed to scale efficiently to meet the demands of businesses of all sizes. For Bagisto, scalability is not only about handling higher traffic but also about maintaining optimal performance and availability as the business grows. This section explores how scalability is incorporated into the architecture of Bagisto, detailing its design principles, strategies, and the trade-offs involved in ensuring that the platform can grow with the business.Bagisto’s architecture is designed to be highly scalable, addressing both horizontal and vertical scaling needs. Whether deployed for a small boutique e-commerce site or a large, enterprise-level marketplace, Bagisto’s core components support efficient scaling through modular design, caching, load balancing, and robust database handling. Understanding scalability in the context of Bagisto involves analyzing its architecture, database management, caching mechanisms, queue systems, and cloud deployment strategies.
-# System Context
+## System Context
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
 
 
@@ -253,11 +253,11 @@ AI Powered E-Commerce indicates the use of Large Language Model to enhance vario
 
 Finally, customer Rating refers to the review system where buyers can evaluate products and share their experiences. These ratings influence future customers’ purchasing decisions and help merchants identify popular items or areas needing improvement. The platform included features to verify purchases before allowing reviews.
 
-# Architecture Components
+## Architecture Components
 
-# Functional Requirements
+## Functional Requirements
 
-# Essential user interface (UI) Functional Requirements
+## Essential user interface (UI) Functional Requirements
 
 
 
