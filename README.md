@@ -478,7 +478,7 @@ Explanation of the Diagram:
 
 - View Sales Reports: Vendors view reports on their product sales and performance.
 
-Use Case Diagram provides a high-level overview of how the various users interact with the Bagisto platform. It helps to illustrate the core functionalities available to each actor, such as managing products, processing orders, and handling payments. This type of diagram is a crucial part of the architecture views as it helps stakeholders understand the system’s functionality and interactions clearly. \
+Use Case Diagram provides a high-level overview of how the various users interact with the Bagisto platform. It helps to illustrate the core functionalities available to each actor, such as managing products, processing orders, and handling payments. This type of diagram is a crucial part of the architecture views as it helps stakeholders understand the system’s functionality and interactions clearly. \\
 
 
 
