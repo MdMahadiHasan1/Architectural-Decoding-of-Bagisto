@@ -435,6 +435,48 @@ The Bagisto platform is composed of independent, reusable components that collab
   <p>Figure 000: System Usecase Diagram </p>
 </div>
 
+Explanation of the Diagram:
+*Actors:*
+
+- Customer (C): The main consumer of the e-commerce system who browses products, adds items to the cart, makes purchases, and tracks orders.
+
+- Admin (A): The platform administrator who is responsible for managing the entire system, including products, users, orders, and generating reports.
+
+- Vendor (V): In the multi-vendor setup, vendors manage their own products, view their sales data, and interact with the admin.
+
+- Payment Gateway (PG): External actors that handle the payment processing for transactions made by the customers.
+
+- Shipping Provider (SP): External actors responsible for providing shipping rates and tracking shipments.
+
+*Use Cases:*
+
+- Browse Products: The customer browses the available products within various categories.
+
+- Add to Cart: Customers can add selected products to their shopping cart for future checkout.
+
+- Register/Login: Customers must register or log in to the platform to make a purchase or track their orders.
+
+- Checkout: The customer proceeds with the checkout process, including shipping details and payment methods.
+
+- Make Payment: Customers pay for their orders through integrated payment gateways like PayPal or Stripe.
+
+- Track Orders: Once an order is placed, the customer can track its status.
+
+- Process Orders: The admin processes orders, handles order statuses, and resolves any issues.
+
+- Manage Products: The admin can create, update, and delete products in the catalog.
+
+- Manage Categories: Admins categorize products for easier navigation.
+
+- Generate Reports: Admins can generate sales, user, and inventory reports to monitor performance.
+
+- Vendor Product Management: Vendors can manage their own products and stock in the marketplace.
+
+- Provide Shipping Rates: Shipping providers offer shipping options and rates based on location.
+
+- Track Shipment: Shipping providers update shipment tracking for the customer.
+
+- View Sales Reports: Vendors view reports on their product sales and performance.
 
 
 ![usecase](https://github.com/user-attachments/assets/78ec7ed6-3687-40b8-85a5-1684ae17eec1)
