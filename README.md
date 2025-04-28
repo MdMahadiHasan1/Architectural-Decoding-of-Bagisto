@@ -397,6 +397,8 @@ The Bagisto platform is composed of independent, reusable components that collab
   <p>Figure 000: Usecase Diagram </p>
 </div>
 
+![WechatIMG2027](https://github.com/user-attachments/assets/25db1930-bee7-4bc8-9ef1-d248c55958be)
+
 
 
 
