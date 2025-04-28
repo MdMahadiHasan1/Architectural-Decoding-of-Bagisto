@@ -390,6 +390,15 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Use Case Viewpoint
 
+![usecase](https://github.com/user-attachments/assets/42b90ff6-a362-4e2c-abe5-fd896295c6e8)
+
+<div align="center">
+  <img src="[usecase](https://github.com/user-attachments/assets/42b90ff6-a362-4e2c-abe5-fd896295c6e8)">
+  <p>Figure 000: Usecase Diagram </p>
+</div>
+
+
+
 
 
 
