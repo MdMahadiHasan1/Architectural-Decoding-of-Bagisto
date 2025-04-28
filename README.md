@@ -390,6 +390,8 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Use Case Viewpoint
 
+
+
 ![usecase](https://github.com/user-attachments/assets/42b90ff6-a362-4e2c-abe5-fd896295c6e8)
 
 <div align="center">
@@ -397,7 +399,16 @@ The Bagisto platform is composed of independent, reusable components that collab
   <p>Figure 000: Usecase Diagram </p>
 </div>
 
-![WechatIMG2027](https://github.com/user-attachments/assets/25db1930-bee7-4bc8-9ef1-d248c55958be)
+
+
+![usecase](https://github.com/user-attachments/assets/78ec7ed6-3687-40b8-85a5-1684ae17eec1)
+<div align="center">
+  <img src="[usecase](https://github.com/user-attachments/assets/78ec7ed6-3687-40b8-85a5-1684ae17eec1)">
+  <p>Figure 000: Costumer Usecase Diagram </p>
+</div>
+
+
+
 
 
 
