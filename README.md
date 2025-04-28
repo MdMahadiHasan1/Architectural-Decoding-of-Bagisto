@@ -390,13 +390,49 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Use Case Viewpoint
 
+#### Bagisto Use Case Diagram
+*Actors:*
+- Customer: The end-user who browses products, places orders, and interacts with the e-commerce platform.
+
+- Admin: The site administrator responsible for managing products, orders, users, and configuring settings.
+
+- Vendor: In case of a multi-vendor setup, the vendor is responsible for managing their products and orders.
+
+- Payment Gateway: An external system used for processing payments.
+
+- Shipping Provider: An external service used for providing shipping rates and tracking shipments.
+
+*Use Cases:*
+- Browse Products: The customer browses through various product categories.
+
+- Add to Cart: The customer adds selected products to their shopping cart.
+
+- Register/Login: A customer registers an account or logs into an existing account.
+
+- Checkout: The customer proceeds to checkout to purchase products.
+
+- Make Payment: The customer makes the payment through integrated payment gateways.
+
+- Track Orders: The customer tracks the order status after payment.
+
+- Manage Products: The admin adds, updates, or deletes products in the catalog.
+
+- Manage Categories: The admin organizes products into various categories.
+
+- Generate Reports: The admin generates reports for sales, customers, or inventory.
+
+- Vendor Product Management: The vendor manages their own products and stock.
+
+- Process Payments: The payment gateway processes the payment made by customers.
+
+- Track Shipments: The shipping provider tracks the delivery status of shipments.
 
 
 ![usecase](https://github.com/user-attachments/assets/42b90ff6-a362-4e2c-abe5-fd896295c6e8)
 
 <div align="center">
   <img src="[usecase](https://github.com/user-attachments/assets/42b90ff6-a362-4e2c-abe5-fd896295c6e8)">
-  <p>Figure 000: Usecase Diagram </p>
+  <p>Figure 000: System Usecase Diagram </p>
 </div>
 
 
