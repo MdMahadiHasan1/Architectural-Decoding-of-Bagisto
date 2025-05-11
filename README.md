@@ -404,8 +404,6 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 
 
-
-
 ## Logical Viewpoint
 The Bagisto shopping site can be organized using a layered architecture, which is a common way to build complex software systems. In this setup, the system is divided into different layers, and each layer has its own specific job. As you go from the bottom layers to the top ones, the tasks become more focused and affect fewer parts of the system if something goes wrong. This layered design makes the system easier to build, update, and manage. It also helps the site stay flexible, grow smoothly, and work reliably—important features for a modern e-commerce platform like Bagisto.
 
