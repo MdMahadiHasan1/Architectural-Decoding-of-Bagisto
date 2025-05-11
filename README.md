@@ -381,7 +381,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 #### Secondary users:
 
 
-| Primary user                           | Description                                                                                                                                                                           |
+| Secondary users                        | Description                                                                                                                                                                           |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | API Client (Third-Party Integrator)    | Any external system (e.g., mobile app, IoT device, B2B portal) consuming Bagisto’s REST or GraphQL Shop and Admin APIs to read/write data.|
 | Payment Gateway                        | External payment processors (e.g., PayPal, Stripe, Authorize.net) interacting via the Payment package to authorize and capture payments. |
