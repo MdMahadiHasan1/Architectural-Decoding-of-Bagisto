@@ -311,7 +311,8 @@ The Bagisto platform is composed of independent, reusable components that collab
 | **Security & Compliance Component** | Enforces encryption, GDPR/CCPA compliance, and audit logging. Interfaces: Threat detection APIs and consent management tools.|
 | **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
 
-![Weixin Image_20250429091241](https://github.com/user-attachments/assets/db65cdb2-4d0c-43f5-b1ab-c38b8e6ff8ed)
+![Architecture Component Diagram](https://github.com/user-attachments/assets/07853b8a-b03a-456e-ae9a-25afcbaf496b)
+
 
 <div align="center">
   <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
