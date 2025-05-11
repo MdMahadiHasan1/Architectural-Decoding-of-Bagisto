@@ -365,6 +365,29 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Actors:
 
+#### Primary users:
+
+**Essential user interface (UI) Functional Requirements**
+
+| Primary user                           | Description                                                                                                                                                                           |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Customer (Registered Shopper)          | Browses products, adds items to cart, checks out, views order history via the Shop package.|
+| Guest User                             | Browses catalog and may checkout as guest (no login) through the Shop package. |
+| Administrator                          | Manages products, categories, orders, customers, promotions, taxes, channels, etc., via the Admin Panel backed by the Sales, Product, Marketing, Settings, and Reporting packages                 |
+| Product Detail Page                    | It presents high-resolution images, detailed descriptions, attribute selectors (size, color), customer reviews, and real-time stock availability.                                              |
+| Search & Autocomplete                  | It offers a full-text search bar with predictive suggestions and supports image-based search for visually similar products.                                                                      |
+| Faceted Filtering                      | It provides dynamic filters by category, price range, brand, and custom attributes, updating product counts in real time.                                                                       |
+| Mini-Cart Widget                       | It persistently displays in the header, showing item count and subtotal, and expands on hover or click to reveal cart contents and quick links to checkout.                                       |
+| Cart & Checkout Pages                  | It allows users to edit quantities, apply promotional codes, choose shipping options, and complete multi-step or single-page checkout with progress indicators; supports guest checkout.          |
+| User Registration & Authentication     | It provides forms for email/password signup, password reset flows, and JWT-based login; enables social login (GitHub, Google) via admin-configurable settings.                                    |
+| User Account Dashboard                 | The system allows customers to view and update profile information, manage addresses, review order history, and maintain wishlists from an intuitive dashboard.                                   |
+| Theme Customization Interface          | It enables store owners to select or upload themes, modify colors, fonts, and layouts via a GUI; supports Blade component overrides and asset pipeline configuration.                            |
+| Admin DataGrid Components              | It provides sortable, filterable, and paginated data tables for resource management (products, orders, customers), with mass-action capabilities and AJAX support.                              |
+| Responsive & Accessible Design         | It implements mobile-first layouts, ARIA roles, keyboard navigation, and color-contrast adherence to WCAG standards, ensuring usability across devices and assistive technologies.                |
+| PWA & Mobile App UI                    | It supports Progressive Web App installability, dark-mode toggle, push notifications, multi-locale and multilingual switching to mirror web-store functionality on mobile.                   |
+| AI-Driven Features                     | It integrates AI modules for semantic search, chatbot support, and automated content generation within the UI, enhancing the shopping experience.                                               |
+
+
 
 
 
