@@ -447,7 +447,7 @@ The Bagisto Shopping Site operates as an e-commerce platform connecting customer
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/45babd0d-0ee4-4f46-853c-d3039e2e70a3" width="600" alt="Context Viewpoint">
+  <img src="https://github.com/user-attachments/assets/45babd0d-0ee4-4f46-853c-d3039e2e70a3" width="900" alt="Context Viewpoint">
   <p>Figure: Context Viewpoint</p>
 </div>
 
