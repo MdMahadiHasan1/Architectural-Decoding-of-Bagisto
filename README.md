@@ -493,7 +493,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 ## Process Viewpoint
 
-![Process View Point](https://github.com/user-attachments/assets/2db416da-d3f0-4ca9-ae5b-1ce93ad3e087)
+![Process View Point](https://github.com/user-attachments/assets/2db416da-d3f0-4ca9-ae5b-1ce93ad3e087) 
 
 
 ## Context Viewpoint
