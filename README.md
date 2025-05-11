@@ -363,6 +363,13 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Use Case Viewpoint
 
+### Actors:
+
+
+
+
+### Use Cases:
+
 
 
 ## Logical Viewpoint
