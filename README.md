@@ -36,7 +36,7 @@
 - **2025, April 20**: *Task Description: System Context* – **Limu**
 - **2025, April 20**: *Task Description: Quality Attribute* – **Md Ashikur Rahman**
 
-## Table of Contents(#introduction)
+## Table of Contents
 - [Introduction](#Introduction)
 - [Business Requirements](#Business_Requirements)
 - [Stakeholder Analysis](#Stakeholder_Analysis)
