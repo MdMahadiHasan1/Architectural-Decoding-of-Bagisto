@@ -130,9 +130,9 @@ Bagisto supports multiple online selling scenarios including B2C("Business to Co
 
 5. *Security:* Security ensures protection against unauthorized access and data breaches; Bagisto relies on Laravel’s built in safeguards—parameter bound queries against SQL injection, CSRF/XSS middleware, bcrypt password hashing—and implements RBAC in the admin panel plus GDPR compliant data export/deletion workflows. These measures deliver robust defense against common vulnerabilities, though more advanced policies (e.g., custom WAF rules) require separate configuration and maintenance.
 
-| Security Behaviore | Description |
-|----------------|-----------------|
-| **Authentication** | Bagisto uses Laravel’s authentication scaffolding—users log in with email/username and password (bcrypt hashed). 2FA can be added via community packages for extra security.|
+| Security Behaviore | Description |Stakeholders |
+|----------------|-----------------|--------------|
+| **Authentication** | Bagisto uses Laravel’s authentication scaffolding—users log in with email/username and password (bcrypt hashed). 2FA can be added via community packages for extra security.|Customers, Admins, System Developers|
 | **Authorization** | Role Based Access Control (RBAC) in the admin panel ensures that customers, sellers, and admins see only the features and data permitted by their role.|
 | **Confidentiality** | All sensitive channels (login, payments, APIs) must run over HTTPS/TLS. Payment data is tokenized via PCI compliant gateways (Stripe, Braintree) rather than stored locally.|
 | **Safety** | Credit card details are never persisted in Bagisto’s database; only non sensitive tokens/reference IDs from the payment provider are stored. |
