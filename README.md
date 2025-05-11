@@ -363,6 +363,8 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ### Use Case Viewpoint
 
+Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, Sales, Payment, Shipping, Inventory, Notification, Marketing) and exposes both REST and GraphQL APIs for headless integrations. Human actors include Customers (both registered and guests), Administrators (with fine-grained Roles/ACL), Vendors (in multi-vendor setups), CMS Editors, and POS/Mobile users. System actors encompass API Clients (third-party applications), Payment Gateways, Shipping Carriers, Inventory Systems, Notification Services (email/SMS), Search Engines (Elasticsearch), PIM/ERP/CRM integrations, and headless storefront consumers.
+
 ### Actors:
 
 #### Primary users:
@@ -395,7 +397,10 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 
 
-### Use Cases:
+
+
+
+
 
 
 
