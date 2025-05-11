@@ -378,6 +378,20 @@ The Bagisto platform is composed of independent, reusable components that collab
 | Mobile App User                        | Shops via a native or PWA front end using Bagisto’s GraphQL Shop API or headless storefront.                                                                    |
 
 
+#### Secondary users:
+
+
+| Primary user                           | Description                                                                                                                                                                           |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| API Client (Third-Party Integrator)    | Any external system (e.g., mobile app, IoT device, B2B portal) consuming Bagisto’s REST or GraphQL Shop and Admin APIs to read/write data.|
+| Payment Gateway                        | External payment processors (e.g., PayPal, Stripe, Authorize.net) interacting via the Payment package to authorize and capture payments. |
+| Shipping Carrier Service               | Carriers such as FedEx, UPS, DHL integrated through the Shipping package to calculate rates and generate labels.             |
+| Inventory Management System            | An ERP/WMS that synchronizes stock levels via the Inventory package or custom data-import hooks.                                       |
+| Notification Service                   | Email/SMS gateways (e.g., SendGrid, Twilio) invoked by the Notification package to send order confirmations, shipment alerts, and marketing messages                                              |
+| Search Engine (Elasticsearch)          | An external search index that Bagisto configures for product/category search via the Configure Elasticsearch helper.                                                                    |
+| PIM / ERP / CRM System                 | External business systems (Product Information Management, Enterprise Resource Planning, Customer Relationship Management) integrating via REST/GraphQL or scheduled data imports.|
+
+
 
 
 
