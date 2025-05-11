@@ -396,6 +396,7 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 | PIM / ERP / CRM System                 | External business systems (Product Information Management, Enterprise Resource Planning, Customer Relationship Management) integrating via REST/GraphQL or scheduled data imports.|
 
 
+![one](https://github.com/user-attachments/assets/eabee17f-4a85-493c-9949-39b9b3494f32)
 
 
 
