@@ -481,10 +481,10 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 ![Logical Viewpoint](https://github.com/user-attachments/assets/9ac7d597-5e5b-41aa-9cfa-6aec157f6b44)
 
 <div align="center">
-  <img src="![Logical Viewpoint](https://github.com/user-attachments/assets/9ac7d597-5e5b-41aa-9cfa-6aec157f6b44)" width="100">
- <div align="center" style="display: flex; gap: 8px;">
-  <p>Figure : Logical Viewpoint</p>
+  <img src="https://github.com/user-attachments/assets/9ac7d597-5e5b-41aa-9cfa-6aec157f6b44" width="300" alt="Logical Viewpoint">
+  <p>Figure: Logical Viewpoint</p>
 </div>
+
 
 
 In conclusion, the logical viewpoint provides a clear and structured representation of the software system's layered architecture, highlighting how different components interact and contribute to overall functionality. By organizing the system into distinct layers—such as Infrastructure, Business, Product, Presentation, and Edge—it ensures modularity, maintainability, and scalability. Additional supporting layers like Application, Integration, Security, and Data Access further enhance the system’s flexibility and robustness, enabling seamless integration, secure operations, and efficient data management.
