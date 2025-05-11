@@ -446,7 +446,10 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 The Bagisto Shopping Site operates as an e-commerce platform connecting customers, administrators, and payment systems. Customers interact with the system by browsing products, adding items to their cart, and completing purchases using payment information (e.g., credit card or digital wallets). The system processes orders, generates invoices, and updates inventory. Administrators manage product listings, customer accounts, and order fulfillment, while also handling refunds or cancellations. Payment gateways (e.g., banks or third-party services) verify transactions and transfer funds. Additionally, the system may integrate with logistics providers for shipping coordination. Key data flows include product details, order confirmations, payment receipts, and delivery tracking, ensuring seamless end-to-end shopping experiences.
 
 
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/45babd0d-0ee4-4f46-853c-d3039e2e70a3" width="600" alt="Context Viewpoint">
+  <p>Figure: Context Viewpoint</p>
+</div>
 
 
 
