@@ -478,7 +478,7 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 | **Data Access Layer** | The Data Access Layer (DAL) is responsible for encapsulating all database operations within the application. It includes tools like Eloquent repositories, query builders, and raw SQL handlers, which facilitate interaction with the database. The main purpose of this layer is to make data access modular and replaceable, allowing for easy changes in the underlying database system without impacting other parts of the application. For instance, if you decide to switch from MySQL to another database, the DAL ensures that the transition can happen smoothly without disrupting the rest of the system. |
 | **Security Layer** | The Security Layer is responsible for managing authentication, authorization, and data protection within the application. It includes mechanisms like JWT tokens, OAuth, and role-based access control to ensure that only authorized users can access certain resources and that sensitive data is securely protected. This layer is especially important in high-security applications or multi-tenant setups, where robust security measures are crucial to safeguard user information and maintain the integrity of the system. By isolating security concerns in this layer, the application can maintain strong protection while keeping security-related logic separate from the rest of the system. |
 
-![Logical Viewpoint](https://github.com/user-attachments/assets/9ac7d597-5e5b-41aa-9cfa-6aec157f6b44)
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9ac7d597-5e5b-41aa-9cfa-6aec157f6b44" width="300" alt="Logical Viewpoint">
