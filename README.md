@@ -53,7 +53,7 @@
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
 <div align="center">
   <img src="[download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)">
-  <p>Figure 1: System overview</p>
+  <p>Figure 1: Bagisto System overview</p>
 </div>
   
 
@@ -397,9 +397,10 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1a36612c-0a6e-4c80-8650-aaf3e2ab1ce0" alt="Bagisto Use-Case Diagram" />
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1a36612c-0a6e-4c80-8650-aaf3e2ab1ce0" alt="Bagisto Use-Case Diagram">
+  <p>Figure 1: Bagisto System overview</p>
+</div>
 
 
 
