@@ -463,6 +463,18 @@ Use Case Diagram provides a high-level overview of how the various users interac
 </div>
 
 
+## Logical Viewpoint
+The Bagisto shopping site can be organized using a layered architecture, which is a common way to build complex software systems. In this setup, the system is divided into different layers, and each layer has its own specific job. As you go from the bottom layers to the top ones, the tasks become more focused and affect fewer parts of the system if something goes wrong. This layered design makes the system easier to build, update, and manage. It also helps the site stay flexible, grow smoothly, and work reliably—important features for a modern e-commerce platform like Bagisto.
+
+| Logical Viewpoint | Description |
+|----------------|----------|
+| **Customers**  | End-users purchasing goods/services; central to revenue generation and user experience. |
+| **Business Owners/Shareholders**     | Entities investing capital and driving strategic decisions to maximize profitability. |
+| **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
+| **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
+| **Payment Gateways** | Financial intermediaries (e.g., PayPal, Stripe) enabling secure transaction processing. |
+| **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
+
 ## Process Viewpint
 
 
