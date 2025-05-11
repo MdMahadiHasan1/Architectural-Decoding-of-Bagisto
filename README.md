@@ -138,7 +138,7 @@ Bagisto supports multiple online selling scenarios including B2C("Business to Co
 | **Safety** | Credit card details are never persisted in Bagisto’s database; only non sensitive tokens/reference IDs from the payment provider are stored. |Customers, Developers, Payment Gateway Providers|
 | **Data Integrity** | Requests and payloads are validated with Laravel’s form request rules; APIs use HMAC signed tokens or JWTs to prevent tampering in transit. |API Consumers, Developers|
 | **Auditing** | Key actions (user creation, order refunds, configuration changes) are logged to files or external systems (e.g., Monolog → Elasticsearch) with timestamps and actor IDs.|
-| **Non repudiation** | Detailed audit trails (who, what, when) plus immutable log storage (e.g., log shipping to append only stores) provide evidence that specific actions occurred.|
+| **Non repudiation** | Detailed audit trails (who, what, when) plus immutable log storage (e.g., log shipping to append only stores) provide evidence that specific actions occurred.|Auditors, System Admins|
 
 6. *Maintainability:* Maintainability gauges ease of modifying the system to correct faults or add features; Bagisto’s strict MVC separation, PSR compliant coding standards, dependency injection via the Laravel service container, and comprehensive unit and feature tests (with PHPUnit and seeders) lower the mean time to repair. This disciplined structure reduces regression risk and technical debt, albeit demanding upfront investment in documentation, tests, and code reviews.
    
