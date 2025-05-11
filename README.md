@@ -51,7 +51,7 @@
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
 <div align="center">
   <img src="[download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)">
-  <p>Figure 000: System Context Diagram </p>
+  <p>System overview</p>
 </div>
   
 
