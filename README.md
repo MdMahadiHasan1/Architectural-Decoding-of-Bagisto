@@ -445,8 +445,9 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 The context diagram for the Bagisto shopping site illustrates the high-level interaction between the system and its external entities. At the center of the diagram is the Bagisto platform, which serves as the core system coordinating all major activities of the e-commerce application. Surrounding the system are key actors: the Customer, Admin (Store Owner), Payment Gateway, Shipping Provider, and the Database. Customers interact with the site by registering, browsing products, placing orders, submitting payment information, and writing reviews. The Admin is responsible for managing product listings, handling orders, viewing reports, and overseeing user accounts. The Payment Gateway processes payment requests and sends back transaction confirmations, while the Shipping Provider handles shipping requests and updates the delivery status. Additionally, the Database supports the application by storing critical information such as product details, user data, transactions, and shipping records. This context diagram effectively highlights the flow of data and responsibilities, offering a clear overview of how the Bagisto system communicates with its external stakeholders to provide a complete e-commerce experience.
 
 
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/dedaed7b-0497-479d-9869-fd65f7a98662" width="700" alt="Context Viewpoint">
+  <img src="https://github.com/user-attachments/assets/af44d67b-07a8-4820-88ca-6f4c85edc2a1" width="700" alt="Context Viewpoint">
   <p>Figure: Context Viewpoint</p>
 </div>
 
