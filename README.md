@@ -438,7 +438,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 ![Process View Point](https://github.com/user-attachments/assets/2db416da-d3f0-4ca9-ae5b-1ce93ad3e087) 
 <div align="center">
   <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
-  <p>Figure 000: Process Diagram for Bagisto System </p>
+  <p>Figure : Process Diagram for Bagisto System </p>
 </div>
 
 
