@@ -36,6 +36,7 @@
 - **2025, April 20**: *Task Description: System Context* – **Limu**
 - **2025, April 20**: *Task Description: Introduction, Quality Attribute, Database Development* – **Md Ashikur Rahman**
 - **2025, May 11**: *Task Description: Logical Viewpoint* – **ASIFA**
+-  **2025, May 11**: *Task Description: Architecture Views* – **Mahadi, Ashikur, Shantu, Limu**
 
 ## Table of Contents
 - [Introduction](#Introduction)
