@@ -460,6 +460,7 @@ This Diagram illustrates the architecture and interaction within the Bagisto Sho
   <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)" width="100">
   <p>Figure : Bagisto Schema Diagram </p>
 </div>
+This Bagisto Database Schema illustrates a modular, normalized, and extensible relational design, well aligned with modern e-commerce requirements. Each functional area (identity, catalog, sales, cart, promotions, feedback) is clearly demarcated yet interconnected via foreign-key relationships. Such a schema supports maintainability, future extension (e.g., chat-bot logs, analytics tables), and robust performance tuning (indexes, sharding, caching). This database foundation enables Bagisto to scale from small shops to large multi-vendor marketplaces without requiring major schema overhauls.
 
 
 
