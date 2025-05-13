@@ -457,7 +457,7 @@ This Diagram illustrates the architecture and interaction within the Bagisto Sho
 ## Database Development
 ![image](https://github.com/user-attachments/assets/380519a9-039d-4646-a4e1-976d9fa7aead)
 <div align="center">
-  <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
+  <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)" alt="Your description here" width="100">
   <p>Figure 000: Bagisto Database Structure and Schema Diagram </p>
 </div>
 
