@@ -468,7 +468,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - **Alternative path**: If not logged in, they are presented with an option to log in.  
 
 ## Checkout and Order Creation
-- **Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
+**Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
 - **Web/App/Storefront**: Sends the order details to the **Bagisto Server**.  
 - **Bagisto Server**:  
   - **Create order**: Generates a new order record.  
@@ -476,7 +476,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - **Condition**: This step depends on payment confirmation ([Needs payment]).  
 
 ## Payment Processing
-- **Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
+**Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
   - **Payment Gateway**: Processes the payment.  
   - **If payment is successful**:  
     - Sends a payment confirmation back to the **Bagisto Server**.  
@@ -489,13 +489,13 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - **Bagisto Server**: Handles the payment failure (e.g., notify the customer, attempt retry).  
 
 ## Order Fulfillment
-- **Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
+**Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
   - **Prepare shipment**: Arranges for the products to be packaged and readied for shipping.  
   - **Process shipment**: Coordinates with shipping carriers (e.g., print shipping labels, schedule pick-ups).  
   - **Shipment notification**: Sends a notification to the **Shopper/User/Customer** with shipment details.  
 
 ## Special Scenarios
-- **No payment required**:  
+**No payment required**:  
   - **Bagisto Server**: Processes the order directly, generates an order confirmation, and sends:  
     - An order confirmation email to the customer.  
     - An order notification to the **Store Administrator**.  
