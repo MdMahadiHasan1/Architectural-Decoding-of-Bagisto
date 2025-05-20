@@ -51,6 +51,7 @@
 - [Architecture Patterns](#Architecture_Patterns)
 - [Architecture Decisions](#Architecture_Decisions)
 - [Conclusion](#Conclusion)
+- [References](References)
 
 
 ![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
