@@ -498,7 +498,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
  **No payment required**:  
   - **Bagisto Server**: Processes the order directly, generates an order confirmation, and sends:  
     - An order confirmation email to the customer.  
-    - An order notification to the *Store Administrator*.
+    - An order notification to the **Store Administrator**.
 - **Order unavailable**:  
   - **Bagisto Server**: Notifies the customer about the unavailability of the order.  
 - **Order cancellation**:  
