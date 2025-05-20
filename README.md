@@ -521,7 +521,7 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b">
-  <p>Figure : Microservice Architecture Of Ride Sharing Service </p>
+  <p>Figure : Microservice Architecture Of Bagisto Service </p>
 </div>
 
 
