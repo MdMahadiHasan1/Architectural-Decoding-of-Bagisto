@@ -48,6 +48,7 @@
 - [Functional Requirements](#Functional_Requirements)
 - [Architecture Views](#Architecture_Views)
 - [Database Development](#Database_Development)
+- [Architecture Patterns](#Architecture_Patterns)
 
 
 
