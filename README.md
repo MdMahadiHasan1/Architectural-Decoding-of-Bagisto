@@ -446,7 +446,7 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 
 
 
-In conclusion, the logical viewpoint provides a clear and structured representation of the software system's layered architecture, highlighting how different components interact and contribute to overall functionality. By organizing the system into distinct layers—such as Infrastructure, Business, Product, Presentation, and Edge—it ensures modularity, maintainability, and scalability. Additional supporting layers like Application, Integration, Security, and Data Access further enhance the system’s flexibility and robustness, enabling seamless integration, secure operations, and efficient data management.
+In conclusion, the logical viewpoint provides a clear and structured representation of the software system's layered architecture, highlighting how different components interact and contribute to overall functionality. By organizing the system into distinct layers—such as Infrastructure, Business, Product, Presentation, and Edge—it ensures modularity, maintainability, and scalability. Additional supporting layers like Application and Integration further enhance the system’s flexibility and robustness, enabling seamless integration, secure operations, and efficient data management.
 
 
 ## Process Viewpoint
