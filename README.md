@@ -475,7 +475,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
   - **Reduce stock**: Immediately reduces the stock levels of the products in the order.  
     - **Condition**: This step depends on payment confirmation ([Needs payment]).  
 
-## 3. Payment Processing
+## Payment Processing
 - **Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
   - **Payment Gateway**: Processes the payment.  
   - **If payment is successful**:  
