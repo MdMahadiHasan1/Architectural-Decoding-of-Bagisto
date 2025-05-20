@@ -373,7 +373,7 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4005a95a-fec6-4133-9fd5-c7c7c608999d" width="700" alt="Context Viewpoint">
+  <img src="https://github.com/user-attachments/assets/4005a95a-fec6-4133-9fd5-c7c7c608999d" width="500" alt="Context Viewpoint">
   <p>Figure: Context Viewpoint</p>
 </div>
 
