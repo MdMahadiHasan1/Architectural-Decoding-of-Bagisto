@@ -458,7 +458,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 # Process Diagram for Bagisto System
 
-## 1. User Interaction with Storefront
+## User Interaction with Storefront
 - **Shopper/User/Customer**:  
   - **Browse products**: The process begins with the user accessing the "Web/App/Storefront" to look through available products.  
   - **Add to cart**: Once the user selects products they want to purchase, they add these items to their shopping cart.  
@@ -466,7 +466,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - **Condition**: If the user is not logged in, they are prompted to log in ([Log in required]).  
     - **Alternative path**: If not logged in, they are presented with an option to log in.  
 
-## 2. Checkout and Order Creation
+## Checkout and Order Creation
 - **Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
 - **Web/App/Storefront**: Sends the order details to the **Bagisto Server**.  
 - **Bagisto Server**:  
