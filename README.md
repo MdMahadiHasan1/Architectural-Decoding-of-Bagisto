@@ -438,7 +438,7 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d239e24a-c860-4de4-9662-ce97d9f0f1ae" width="400" alt="Logical Viewpoint">
+  <img src="https://github.com/user-attachments/assets/d239e24a-c860-4de4-9662-ce97d9f0f1ae" width="800" alt="Logical Viewpoint">
   <p>Figure: Logical Viewpoint</p>
 </div>
 
