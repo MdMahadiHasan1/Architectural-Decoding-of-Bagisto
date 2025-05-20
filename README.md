@@ -417,8 +417,8 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1a36612c-0a6e-4c80-8650-aaf3e2ab1ce0" alt="Bagisto Use-Case Diagram">
-  <p>Figure: Bagisto System overview</p>
+  <img src="https://github.com/user-attachments/assets/36b50a93-217d-4a89-b26a-78ba997e2347" alt="Bagisto Use-Case Diagram">
+  <p>Figure: Bagisto Use Case Diagram</p>
 </div>
 
 
