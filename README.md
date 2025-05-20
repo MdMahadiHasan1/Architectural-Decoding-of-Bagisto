@@ -488,7 +488,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - Payment Gateway sends a payment failure message to the **Bagisto Server**.  
     - **Bagisto Server**: Handles the payment failure (e.g., notify the customer, attempt retry).  
 
-## 4. Order Fulfillment
+## Order Fulfillment
 - **Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
   - **Prepare shipment**: Arranges for the products to be packaged and readied for shipping.  
   - **Process shipment**: Coordinates with shipping carriers (e.g., print shipping labels, schedule pick-ups).  
