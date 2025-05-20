@@ -364,6 +364,17 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ## Architecture Views
 
+## Context Viewpoint
+This Diagram illustrates the architecture and interaction within the Bagisto Shopping Site ecosystem. At the center of the diagram is the Bagisto platform, which acts as the core system connecting all components. The Customer interacts with the site by signing up or logging in, browsing products, adding them to the cart, placing orders, and leaving reviews. The Admin (Store Owner) manages the backend, including product listings, order processing, user management, and accessing reports. Payment processing is handled through the Payment Gateway, which communicates both with the Bagisto platform and the Database to handle transaction details. The Shipping Provider manages shipping requests and updates the system with delivery status, in coordination with the database. This structure ensures a clear, internationally recognized flow of data and responsibilities, supporting a smooth online shopping experience.
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4005a95a-fec6-4133-9fd5-c7c7c608999d" width="700" alt="Context Viewpoint">
+  <p>Figure: Context Viewpoint</p>
+</div>
+
+
+
 ### Use Case Viewpoint
 
 Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, Sales, Payment, Shipping, Inventory, Notification, Marketing) and exposes both REST and GraphQL APIs for headless integrations. Human actors include Customers (both registered and guests), Administrators (with fine-grained Roles/ACL), Vendors (in multi-vendor setups), CMS Editors, and POS/Mobile users. System actors encompass API Clients (third-party applications), Payment Gateways, Shipping Carriers, Inventory Systems, Notification Services (email/SMS), Search Engines (Elasticsearch), PIM/ERP/CRM integrations, and headless storefront consumers.
@@ -442,14 +453,6 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 </div>
 
 
-## Context Viewpoint
-This Diagram illustrates the architecture and interaction within the Bagisto Shopping Site ecosystem. At the center of the diagram is the Bagisto platform, which acts as the core system connecting all components. The Customer interacts with the site by signing up or logging in, browsing products, adding them to the cart, placing orders, and leaving reviews. The Admin (Store Owner) manages the backend, including product listings, order processing, user management, and accessing reports. Payment processing is handled through the Payment Gateway, which communicates both with the Bagisto platform and the Database to handle transaction details. The Shipping Provider manages shipping requests and updates the system with delivery status, in coordination with the database. This structure ensures a clear, internationally recognized flow of data and responsibilities, supporting a smooth online shopping experience.
-
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/af44d67b-07a8-4820-88ca-6f4c85edc2a1" width="700" alt="Context Viewpoint">
-  <p>Figure: Context Viewpoint</p>
-</div>
 
 
 
