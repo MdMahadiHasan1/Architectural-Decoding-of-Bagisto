@@ -520,7 +520,7 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 ## Microservices Pattern
 
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b)">
+  <img src="https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b">
   <p>Figure : Bagisto Schema Diagram </p>
 </div>
 
