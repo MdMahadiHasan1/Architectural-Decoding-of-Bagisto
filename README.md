@@ -459,24 +459,25 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 # Process Diagram for Bagisto System
 
-## User Interaction with Storefront
-  **Shopper/User/Customer**:  
+
+## 1. User Interaction with Storefront
+- **Shopper/User/Customer**:  
   - **Browse products**: The process begins with the user accessing the "Web/App/Storefront" to look through available products.  
   - **Add to cart**: Once the user selects products they want to purchase, they add these items to their shopping cart.  
   - **View cart**: The user can review the items in their cart.  
     - **Condition**: If the user is not logged in, they are prompted to log in ([Log in required]).  
     - **Alternative path**: If not logged in, they are presented with an option to log in.  
 
-## Checkout and Order Creation
-**Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
+## 2. Checkout and Order Creation
+- **Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
 - **Web/App/Storefront**: Sends the order details to the **Bagisto Server**.  
 - **Bagisto Server**:  
   - **Create order**: Generates a new order record.  
   - **Reduce stock**: Immediately reduces the stock levels of the products in the order.  
     - **Condition**: This step depends on payment confirmation ([Needs payment]).  
 
-## Payment Processing
-**Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
+## 3. Payment Processing
+- **Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
   - **Payment Gateway**: Processes the payment.  
   - **If payment is successful**:  
     - Sends a payment confirmation back to the **Bagisto Server**.  
@@ -488,14 +489,14 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - Payment Gateway sends a payment failure message to the **Bagisto Server**.  
     - **Bagisto Server**: Handles the payment failure (e.g., notify the customer, attempt retry).  
 
-## Order Fulfillment
-**Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
+## 4. Order Fulfillment
+- **Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
   - **Prepare shipment**: Arranges for the products to be packaged and readied for shipping.  
   - **Process shipment**: Coordinates with shipping carriers (e.g., print shipping labels, schedule pick-ups).  
   - **Shipment notification**: Sends a notification to the **Shopper/User/Customer** with shipment details.  
 
-## Special Scenarios
-**No payment required**:  
+## 5. Special Scenarios
+- **No payment required**:  
   - **Bagisto Server**: Processes the order directly, generates an order confirmation, and sends:  
     - An order confirmation email to the customer.  
     - An order notification to the **Store Administrator**.  
@@ -503,7 +504,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
   - **Bagisto Server**: Notifies the customer about the unavailability of the order.  
 - **Order cancellation**:  
   - **Shopper/User/Customer**: Requests to cancel the order.  
-  - **Bagisto Server**: Processes the cancellation and sends a cancellation confirmation to the customer.  
+  - **Bagisto Server**: Processes the cancellation and sends a cancellation confirmation to the customer.   
 
 
 
