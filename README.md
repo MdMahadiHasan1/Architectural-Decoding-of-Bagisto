@@ -308,7 +308,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 | **Analytics & Reporting Component** | Aggregates sales, inventory, and user data for actionable insights. Interfaces: Data pipelines for dashboards and predictive models.|
 | **Marketing Component** | Manages promotions, discounts, and loyalty programs. Interfaces: Email/SMS APIs for campaigns. |
 | **AI/ML Component** |Powers personalized product recommendations and dynamic pricing algorithms using collaborative filtering and neural networks. Adapts to user preferences over time.|
-| **Customer Management Component** | Handles user profiles, authentication, and role-based access control. Manages guest checkout and purchase-verified reviews.|
+| **Buyer Management Component** | Handles user profiles, authentication, and role-based access control. Manages guest checkout and purchase-verified reviews.|
 | **Security & Compliance Component** | Enforces encryption, GDPR/CCPA compliance, and audit logging. Interfaces: Threat detection APIs and consent management tools.|
 | **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
 
