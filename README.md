@@ -459,8 +459,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 # Process Diagram for Bagisto System
 
-## User Interaction with Storefront
-    **Shopper/User/Customer**:  
+## User Interaction with Storefront 
   - **Browse products**: The process begins with the user accessing the "Web/App/Storefront" to look through available products.  
   - **Add to cart**: Once the user selects products they want to purchase, they add these items to their shopping cart.  
   - **View cart**: The user can review the items in their cart.  
