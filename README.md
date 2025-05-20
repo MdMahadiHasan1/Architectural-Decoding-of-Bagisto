@@ -494,7 +494,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
   - **Process shipment**: Coordinates with shipping carriers (e.g., print shipping labels, schedule pick-ups).  
   - **Shipment notification**: Sends a notification to the **Shopper/User/Customer** with shipment details.  
 
-## 5. Special Scenarios
+## Special Scenarios
 - **No payment required**:  
   - **Bagisto Server**: Processes the order directly, generates an order confirmation, and sends:  
     - An order confirmation email to the customer.  
