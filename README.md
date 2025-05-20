@@ -440,8 +440,9 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 | **Security Layer** | The Security Layer is responsible for managing authentication, authorization, and data protection within the application. It includes mechanisms like JWT tokens, OAuth, and role-based access control to ensure that only authorized users can access certain resources and that sensitive data is securely protected. This layer is especially important in high-security applications or multi-tenant setups, where robust security measures are crucial to safeguard user information and maintain the integrity of the system. By isolating security concerns in this layer, the application can maintain strong protection while keeping security-related logic separate from the rest of the system. |
 
 
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d239e24a-c860-4de4-9662-ce97d9f0f1ae" width="800" alt="Logical Viewpoint">
+  <img src="https://github.com/user-attachments/assets/8217e25f-c1af-4f5d-8073-eba566e9b6c2" width="800" alt="Logical Viewpoint">
   <p>Figure: Logical Viewpoint</p>
 </div>
 
