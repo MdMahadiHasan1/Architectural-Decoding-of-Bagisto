@@ -365,7 +365,11 @@ The Bagisto platform is composed of independent, reusable components that collab
 ## Architecture Views
 
 ## Context Viewpoint
-This Diagram illustrates the architecture and interaction within the Bagisto Shopping Site ecosystem. At the center of the diagram is the Bagisto platform, which acts as the core system connecting all components. The Customer interacts with the site by signing up or logging in, browsing products, adding them to the cart, placing orders, and leaving reviews. The Admin (Store Owner) manages the backend, including product listings, order processing, user management, and accessing reports. Payment processing is handled through the Payment Gateway, which communicates both with the Bagisto platform and the Database to handle transaction details. The Shipping Provider manages shipping requests and updates the system with delivery status, in coordination with the database. This structure ensures a clear, internationally recognized flow of data and responsibilities, supporting a smooth online shopping experience.
+This diagram illustrates the workflow of a multi-vendor e-commerce platform powered by the Bagisto Shopping Site. At the center of the system is the Bagisto platform, which serves as the hub connecting all key entities: buyers, vendors, the admin (site owner), the payment gateway, and the shipping provider.
+
+Buyers interact with the shopping site by signing up or logging in, browsing and searching for products, adding items to their cart, placing orders, and submitting reviews and ratings. Once an order is placed, the Bagisto platform processes it and sends a payment request to the integrated payment gateway, which supports options such as PayPal and cash on delivery. Simultaneously, a shipping request is sent to the designated shipping provider, such as FedEx or DHL, to handle the product delivery.
+
+Vendors participate in the multi-vendor marketplace by listing and managing their products on the platform. They can monitor order and payment statuses through the system. The site admin, or owner, oversees the entire operation using dashboard insights, viewing orders, tracking payment status, and generating performance reports. All interactions between these parties are centralized through the Bagisto platform, ensuring an efficient, streamlined process for managing product listings, transactions, and deliveries in an online marketplace environment.
 
 
 <div align="center">
