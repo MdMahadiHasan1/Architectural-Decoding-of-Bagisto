@@ -526,6 +526,16 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 
 # Architecture Decisions
 
+| Architecture Decision | Explanation |Justification |
+|----------------|-----------------|--------------|
+| **Modular, Service-Oriented Architecture** | Bagisto is structured as decoupled modules (e.g., Payment Gateway, Order Management, Shipping Integration) that operate independently via APIs.|Enables targeted scaling (e.g., scaling the Payment Gateway during peak sales). Reduces downtime risks failure in one module (e.g., Marketing) doesn’t crash the entire system.|
+| **Kubernetes Orchestration** | Containerized services (Docker) are managed via Kubernetes for auto-scaling, self-healing, and load balancing.|Simplifies deployment of modular components. For example, Kubernetes can auto-scale the Order Management service during sudden traffic surges, ensuring high availability across global regions.|
+| **REST/GraphQL APIs** | APIs standardize communication between frontend (Vue.js/React), backend (Laravel), and third-party systems.|REST APIs simplify integrations (e.g., ERP/CRM systems). GraphQL optimizes data fetching for complex queries (e.g., product catalogs with filters).|
+| **Event-Driven Architecture** | Asynchronous workflows (Redis/RabbitMQ) handle tasks like inventory sync, email notifications, and order confirmations.|Reduces latency for user-facing operations (e.g., checkout). Ensures eventual consistency for multi-channel inventory updates (e.g., syncing stock between web and POS systems).|
+| **MySQL/PostgreSQL for Data Storage** | Relational databases manage structured data (orders, users, inventory) with ACID compliance. |Ensures transactional integrity for critical operations (e.g., payment processing). Supports complex queries for reporting and analytics.|
+| **Redis for Caching** | Redis for CachingCaches high-frequency data like product listings, session states, and API responses.|Reduces database load during traffic spikes (e.g., flash sales). Accelerates page load times for product searches and recommendations.|
+| **Third-Party Integrations** | REST APIs/webhooks connect Bagisto to ERP (SAP), CRM (Salesforce), payment gateways (Stripe), and shipping carriers (FedEx).|Streamlines operations (e.g., auto-updating inventory in SAP post-purchase). Enables personalized marketing campaigns via Mailchimp.|
+
 ## Architecture Decision for Microservice Pattern
 
 <div align="center">
