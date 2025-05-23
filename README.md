@@ -375,8 +375,9 @@ Buyers interact with the shopping site by signing up or logging in, browsing and
 Vendors participate in the multi-vendor marketplace by listing and managing their products on the platform. They can monitor order and payment statuses through the system. The site admin, or owner, oversees the entire operation using dashboard insights, viewing orders, tracking payment status, and generating performance reports. All interactions between these parties are centralized through the Bagisto platform, ensuring an efficient, streamlined process for managing product listings, transactions, and deliveries in an online marketplace environment.
 
 
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4005a95a-fec6-4133-9fd5-c7c7c608999d" width="900" alt="Context Viewpoint">
+  <img src="https://github.com/user-attachments/assets/2ce69d06-7972-4465-b815-709d7a04310b" width="900" alt="Context Viewpoint">
   <p>Figure: Context Viewpoint</p>
 </div>
 
