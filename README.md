@@ -317,8 +317,11 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 
 
+![Architecture Component Diagram (1)](https://github.com/user-attachments/assets/9071e2ae-5360-426c-8f9d-f596d3ed6110)
+
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/9071e2ae-5360-426c-8f9d-f596d3ed6110)">
+  <img src="[image](https://github.com/user-attachments/assets/ca13111a-3ed3-41b0-858e-7b8727102440)">
   <p>Figure : Architecture Component Diagram</p>
 </div>
 
