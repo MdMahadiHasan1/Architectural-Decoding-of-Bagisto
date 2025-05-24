@@ -316,10 +316,6 @@ The Bagisto platform is composed of independent, reusable components that collab
 | **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
 
 
-
-![Architecture Component Diagram (1)](https://github.com/user-attachments/assets/9071e2ae-5360-426c-8f9d-f596d3ed6110)
-
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9071e2ae-5360-426c-8f9d-f596d3ed6110" width="900">
   <p>Figure : Architecture Component Diagram</p>
