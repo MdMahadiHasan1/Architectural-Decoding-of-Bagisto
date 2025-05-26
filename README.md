@@ -552,37 +552,6 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 
 
 
-🧠 Bagisto Architecture Decision Records (ADR)
-
-| Decision ID | Architecture Decision Title                     | Status      | Context                                                                                      | Decision                                                                                                     | Consequences                                                                                                   |
-|-------------|--------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| ADR-001     | Modular Monolith using Laravel Packages         | ✅ Accepted | Laravel’s package system supports modular development.                                       | Use Laravel packages to modularize core features like Cart, Catalog, and Admin.                            | Improves maintainability and supports parallel development.                                                    |
-| ADR-002     | MVC Pattern Adoption                            | ✅ Accepted | Laravel enforces MVC as its base architectural style.                                        | Follow MVC strictly for separation of concerns.                                                             | Better organization, easier testing and debugging.                                                             |
-| ADR-003     | RESTful API Layer                               | ✅ Accepted | Required for mobile apps and third-party integrations.                                       | Use `bagisto-api` to expose all major functionality via REST APIs.                                          | Enables integrations, mobile-first apps, and SPAs.                                                             |
-| ADR-004     | Service-Oriented Internal Design                | ✅ Accepted | Business logic needs to be reusable and testable.                                             | Use service classes like `CartService`, `ShippingService`, etc.                                             | Promotes loose coupling and logic reuse.                                                                       |
-| ADR-005     | Event-Driven Architecture                       | ✅ Accepted | Side effects like notifications, stock updates are common.                                   | Use Laravel’s Event-Listener mechanism to decouple actions.                                                 | Easier to extend and maintain.                                                                                 |
-| ADR-006     | Docker-based Containerization                   | ✅ Accepted | Developers need uniform environments and CI/CD support.                                      | Use Docker with Laravel, MySQL, Redis, Elasticsearch.                                                       | Simplifies deployment and team onboarding.                                                                     |
-| ADR-007     | Cloud-Native Deployment                         | 🟡 Recommended | Scalability and fault-tolerance are important.                                                 | Support AWS, GCP, Azure for scalable service hosting.                                                       | Improves scalability, performance, and availability.                                                           |
-| ADR-008     | Elasticsearch for Product Search                | ✅ Accepted | Product catalogs grow large; users need fast search.                                          | Integrate Elasticsearch for full-text and filtered product search.                                          | Improves UX and handles scale.                                                                                 |
-| ADR-009     | Repository Pattern                              | ✅ Accepted | Logic/data coupling should be avoided.                                                       | Use Repositories for DB access (`ProductRepository`, `OrderRepository`).                                    | Abstracts database layer; improves maintainability.                                                            |
-| ADR-010     | Role-Based Access Control (RBAC)                | ✅ Accepted | Admin, vendors, and customers need different access.                                          | Use Laravel Gates, Policies, and Bagisto ACL system.                                                        | Fine-grained security and access control.                                                                      |
-| ADR-011     | Optional CQRS for Analytics                     | 🟡 Proposed  | Some modules are read-heavy (e.g., dashboards).                                               | Use different read/write models for such cases (e.g., using cache or search indices for reads).             | Boosts performance and scalability.                                                                            |
-| ADR-012     | Event Queues (RabbitMQ/Kafka)                   | 🟡 Proposed  | Async processing is needed in high-traffic apps.                                              | Introduce queuing for notifications, indexing, etc.                                                         | Decouples user flow and reduces latency.                                                                       |
-| ADR-013     | Redis Caching                                   | ✅ Accepted | Frequently accessed data like config, session, and products.                                 | Use Redis for session and caching layer.                                                                    | Reduces DB pressure and speeds up response.                                                                    |
-| ADR-014     | Load Balancer & Horizontal Scaling              | 🟡 Recommended | High-traffic shops require resilient, distributed architecture.                               | Deploy multiple Laravel app instances behind NGINX or AWS ELB.                                              | Improves availability and performance under load.                                                              |
-| ADR-015     | Serverless Functions for Peripheral Tasks       | 🟡 Proposed  | Some jobs (emails, thumbnails) are simple and bursty.                                         | Use AWS Lambda/GCP Cloud Functions for stateless lightweight jobs.                                          | Offloads tasks and saves compute cost.                                                                         |
-| ADR-016     | Service Mesh for Enterprise Deployments         | 🟡 Proposed  | Enterprise customers may deploy Bagisto in microservice form on Kubernetes.                  | Use Istio or Linkerd for secure, observable inter-service communication.                                    | Better control and observability over services in container environments.                                      |
-
-
-> ✅ Accepted 🟡 Recommended/Proposed ❌ Rejected
-
-
-
-
-
-
-
-
 
 ## Architecture Decision for Microservice Pattern
 
