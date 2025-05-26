@@ -40,8 +40,7 @@
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Business Requirements](#Business_Requirements)
-- [Stakeholder Analysis](#Stakeholder_Analysis)
+- [Stakeholder Analysis](#Stakeholder Analysis)
 - [Quality Attribute](#Quality_Attribute)
 - [System Context](#System_Context)
 - [Architecture Components](#Architecture_Components)
