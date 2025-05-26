@@ -542,7 +542,7 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 ## Architecture Decision for Microservice Pattern
 
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae)">
+  <img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae">
   <p>Figure : Architecture Decision for Microservice Pattern of Bagisto </p>
 </div>
 
