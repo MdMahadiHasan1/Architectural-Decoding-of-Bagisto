@@ -182,6 +182,12 @@ Bagisto supports multiple online selling scenarios including B2C("Business to Co
 
    10. **User Feedback and Continuous Improvement:** Bagisto is an open-source project, meaning it evolves based on community feedback and contributions. The platform is regularly updated, and new features or improvements are added through pull requests from the community. This ensures that the platform remains up-to-date with the latest industry trends and usability best practices.
 
+       
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5ab3b839-658b-46fb-8867-94700bbed272" width="1000" alt=" Pattern">
+  <p>Figure : Usability of Bagisto </p>
+</div>
+
   
 
 **Security**
