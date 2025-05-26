@@ -403,7 +403,6 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 | Roles & ACL User                       | Any back-office user assigned specific permissions (e.g., Catalog Manager, Order Processor) with capabilities configured under Settings → Roles .             |
 | Vendor (Marketplace Seller)            | In a multi-vendor marketplace extension, sellers manage their own products, orders, and storefronts via vendor-scoped APIs and UI.                                        |
 | Point-of-Sale (POS) Operator           | Uses a Retail POS integration (e.g., Mobikul POS) to process in-store orders, synchronized via Bagisto’s REST/GraphQL Admin API.                                                                  |
-| Mobile App User                        | Shops via a native or PWA front end using Bagisto’s GraphQL Shop API or headless storefront.                                                                    |
 
 
 #### Secondary users:
