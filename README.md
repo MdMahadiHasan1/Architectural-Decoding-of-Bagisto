@@ -540,6 +540,7 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 | **RBAC (Role-Based Access Control)**                | Security mechanism that restricts system access to authorized users.                           | The ACL system in Bagisto enforces role-based access to Admin, Vendor, and Customer features using Laravel policies and gates.                                  |
 
 
+
 ## Microservices Pattern
 
 <div align="center">
