@@ -565,7 +565,7 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 | ADR-015     | Serverless Functions for Peripheral Tasks       | 🟡 Proposed  | Some jobs (emails, thumbnails) are simple and bursty.                                         | Use AWS Lambda/GCP Cloud Functions for stateless lightweight jobs.                                          | Offloads tasks and saves compute cost.                                                                         |
 | ADR-016     | Service Mesh for Enterprise Deployments         | 🟡 Proposed  | Enterprise customers may deploy Bagisto in microservice form on Kubernetes.                  | Use Istio or Linkerd for secure, observable inter-service communication.                                    | Better control and observability over services in container environments.                                      |
 
-> 📝 **Legend**  
+
 > ✅ Accepted 🟡 Recommended/Proposed ❌ Rejected
 
 
