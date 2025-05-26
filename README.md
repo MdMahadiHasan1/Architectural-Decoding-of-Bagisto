@@ -398,11 +398,10 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 | Primary user                           | Description                                                                                                                                                                           |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Buyer (Registered Shopper)          | Browses products, adds items to cart, checks out, views order history via the Shop package.|
-| Guest User                             | Browses catalog and may checkout as guest (no login) through the Shop package. |
-| Roles & ACL User                       | Any back-office user assigned specific permissions (e.g., Catalog Manager, Order Processor) with capabilities configured under Settings → Roles .             |
-| Vendor (Marketplace Seller)            | In a multi-vendor marketplace extension, sellers manage their own products, orders, and storefronts via vendor-scoped APIs and UI.                                        |
-| Point-of-Sale (POS) Operator           | Uses a Retail POS integration (e.g., Mobikul POS) to process in-store orders, synchronized via Bagisto’s REST/GraphQL Admin API.                                                                  |
+| Buyer           | Browses products, adds items to cart, checks out, views order history via the Shop package.|
+| Guest User                             | Unregistered users who can browse and search products but must register/login to access full features like checkout or order history. |
+| Vendor             | Manages product listings and inventory. Vendors can view their own orders, manage and update their products, and sync inventory data with the inventory management system.                                 |
+| Admin           | Oversees the entire platform. Admins manage orders, customers, settings, promotions, categories, and products. They also handle shipment tracking and content generation.                                                                |
 
 
 #### Secondary users:
@@ -410,13 +409,13 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 | Secondary users                        | Description                                                                                                                                                                           |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| API Client (Third-Party Integrator)    | Any external system (e.g., mobile app, IoT device, B2B portal) consuming Bagisto’s REST or GraphQL Shop and Admin APIs to read/write data.|
-| Payment Gateway                        | External payment processors (e.g., PayPal, Stripe, Authorize.net) interacting via the Payment package to authorize and capture payments. |
-| Shipping Carrier Service               | Carriers such as FedEx, UPS, DHL integrated through the Shipping package to calculate rates and generate labels.             |
-| Inventory Management System            | An ERP/WMS that synchronizes stock levels via the Inventory package or custom data-import hooks.                                       |
-| Notification Service                   | Email/SMS gateways (e.g., SendGrid, Twilio) invoked by the Notification package to send order confirmations, shipment alerts, and marketing messages                                              |
-| Search Engine (Elasticsearch)          | An external search index that Bagisto configures for product/category search via the Configure Elasticsearch helper.                                                                    |
-| PIM / ERP / CRM System                 | External business systems (Product Information Management, Enterprise Resource Planning, Customer Relationship Management) integrating via REST/GraphQL or scheduled data imports.|
+| Inventory Management System    | External system that syncs inventory data with the Bagisto platform to ensure consistency across sales channels.|
+| Search Engine (Elasticsearch)                        | Provides advanced search capabilities to enhance product search performance through the Search Integration module. |
+| Shipping Carrier (System)               | Third-party service that facilitates tracking of shipments once orders are placed and dispatched.             |
+| API Client (Third-Party Integrations)            | External systems or services that interact with Bagisto via REST API endpoints for data exchange and system interoperability.                    |
+| Notification Service                   | Sends stock alerts and notifications to relevant users or systems regarding inventory or order changes. |
+| PIM/ERP/CRM System          | Integrates with the platform to synchronize catalog and orders, enhancing data consistency across business systems.                                         |
+| AI Tool                 | Supports the generation of content/images and translation of reviews, and can also be used for chatbot interactions to improve customer engagement.|
 
 
 
