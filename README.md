@@ -519,6 +519,8 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 
 # Architecture Patterns
 
+These architecture patterns have been selected to ensure scalability, maintainability, and extensibility for Bagisto, especially in enterprise and cloud-native environments.
+
 | Architecture Pattern                                | Explanation                                                                                    | Bagisto Application Usage                                                                                                                                       |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Microservices**                                   | A method of developing software systems as a suite of independently deployable services.       | Bagisto’s enterprise deployment uses microservices for modules like Product, Order, Inventory, Payment, etc., enabling independent scaling and fault isolation. |
