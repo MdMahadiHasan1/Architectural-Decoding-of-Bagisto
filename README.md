@@ -588,11 +588,11 @@ These architecture patterns have been selected to ensure scalability, maintainab
 
 
 
-## Architecture Decision for Microservice Pattern
+## Architecture Decision for Microservice Pattern and Modular Monolith
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae">
-  <p>Figure : Architecture Decision for Microservice Pattern of Bagisto </p>
+  <p>Figure : Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
 </div>
 
 
