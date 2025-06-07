@@ -79,9 +79,6 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 7.	Deployment Layer: Bagisto is designed to be easily deployable across various environments, from local development to production. It supports containerized deployment using Docker, and can be deployed to cloud platforms such as AWS, Google Cloud, and DigitalOcean. The platform also integrates with CI/CD pipelines, enabling automated testing, build, and deployment processes.
 
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
-and.
-
-
 
 
 <div align="center">
