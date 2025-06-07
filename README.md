@@ -544,7 +544,7 @@ These architecture patterns have been selected to ensure scalability, maintainab
 | **RBAC (Role-Based Access Control)**                | Security mechanism that restricts system access to authorized users.                           | The ACL system in Bagisto enforces role-based access to Admin, Vendor, and Customer features using Laravel policies and gates.                                  |
 
 
-## Modular Monolith
+## Modular Monolith Architecture Pattern
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f449a188-ec71-4b16-98ec-ab66fac405e0">
@@ -554,7 +554,7 @@ These architecture patterns have been selected to ensure scalability, maintainab
 
 
 
-## Microservices Pattern
+## Microservices Architecture Pattern
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b">
