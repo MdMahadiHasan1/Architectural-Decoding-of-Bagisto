@@ -588,7 +588,13 @@ These architecture patterns have been selected to ensure scalability, maintainab
 
 
 
-## Architecture Decision for Microservice Pattern and Modular Monolith
+## Architecture Decision for Microservice Pattern vs Modular Monolith
+
+Bagisto adopts a Modular Monolith architecture by default, structuring its codebase into distinct Laravel packages that encapsulate specific business functionalities such as Cart, Catalog, and Customer. This approach promotes clear separation of concerns, facilitating independent development and testing of modules while maintaining the simplicity of a single deployable application. The modular design enhances maintainability and scalability within the monolithic structure.
+
+For enterprise-level scalability and flexibility, Bagisto can be adapted to a Microservices architecture. This involves decomposing the monolithic application into independent services—such as Product, Order, and Payment—each responsible for specific business capabilities. These services communicate via APIs and can be deployed and scaled independently, often orchestrated using tools like Docker.
+
+In summary, Bagisto's architecture supports a transition from a modular monolith to microservices, allowing businesses to start with a simpler structure and evolve to a more complex, scalable system as their needs grow.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae">
