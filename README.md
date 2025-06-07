@@ -55,12 +55,6 @@
 - [Conclusion](#Conclusion)
 - [References](References)
 
-
-![download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)
-<div align="center">
-  <img src="[download (3)](https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d)">
-  <p>Figure 1: Bagisto System overview</p>
-</div>
   
 
 ## Introduction
@@ -85,7 +79,16 @@ Bagisto's construct follows a modular monolith approach. While it is technically
 7.	Deployment Layer: Bagisto is designed to be easily deployable across various environments, from local development to production. It supports containerized deployment using Docker, and can be deployed to cloud platforms such as AWS, Google Cloud, and DigitalOcean. The platform also integrates with CI/CD pipelines, enabling automated testing, build, and deployment processes.
 
 Further sections address quality attributes such as performance efficiency, fault tolerance, and usability, alongside strategies for addressing scalability challenges and regulatory compliance. By dissecting Bagisto’s event-driven workflows, modular design patterns, and integration capabilities, this document serves as a practical guide for building adaptable e-commerce solutions that align with modern retail demands.
-ands.
+and.
+
+
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d">
+  <p>Figure 1: Bagisto System overview</p>
+</div>
+
 
 ## Stakeholder Analysis
 Stakeholders in e-commerce ecosystems are individuals, groups, or entities that influence or are influenced by the system’s operations, objectives, or outcomes. These stakeholders can be categorized as primary, secondary, or negative, depending on their relationship to the system.
