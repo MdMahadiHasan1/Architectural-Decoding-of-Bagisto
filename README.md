@@ -592,7 +592,7 @@ Below is a categorized list of architectural decision types made during the deve
 **Note:** These values are approximations based on architectural documentation, codebase reviews, and GitHub issue analysis as of June 2025.
 
 
-## Architecture Decision for Microservice Pattern vs Modular Monolith
+## Architecture Patterns Decision for Microservice Pattern vs Modular Monolith
 
 Bagisto adopts a Modular Monolith architecture by default, structuring its codebase into distinct Laravel packages that encapsulate specific business functionalities such as Cart, Catalog, and Customer. This approach promotes clear separation of concerns, facilitating independent development and testing of modules while maintaining the simplicity of a single deployable application. The modular design enhances maintainability and scalability within the monolithic structure.
 
