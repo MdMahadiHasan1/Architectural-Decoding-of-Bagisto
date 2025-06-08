@@ -51,7 +51,7 @@
 6. [System Context](#System-Context)
 7. [Architecture Components](#Architecture-Components)
 8. [Functional Requirements](#Functional-Requirements)
-   - [Essential user interface (UI) Functional Requirements](#Essential-user-interface-(UI)-Functional-Requirements)
+   - [Essential User interface (UI) Functional Requirements](#Essential-user-interface-(UI)-Functional-Requirements)
    - [Essential Admin Interface Functional Requirements](#Essential-Admin-Interface-Functional-Requirements)
 10. [Architecture Views](#Architecture-Views)
    - [Context Viewpoint](#Context-Viewpoint)
