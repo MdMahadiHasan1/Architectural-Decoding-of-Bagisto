@@ -183,7 +183,7 @@ Bagisto supports multiple online selling scenarios including B2C("Business to Co
 
 ## Key Quality Concerns
 
-  **Usability**
+### Usability
   
    1. **Admin Panel Usability:** The admin panel in Bagisto is intuitive and user-friendly. It provides an organized dashboard with easy access to key functionalities, such as managing products, categories, orders, customers, and promotions. The interface is clean and straightforward, allowing administrators to quickly update product details, set up shipping rules, manage inventory, and more. Bagisto’s role-based access control ensures that only authorized personnel can access sensitive administrative features.
       
@@ -211,7 +211,7 @@ The following figure shows some key usability in Bagisto
 
   
 
-**Security**
+### Security
  
 Security is a top priority for any E-Commerce platform, and Bagisto is no exception. Since it handles sensitive customer data such as personal details, payment information, and order history it’s vital to implement robust security measures at every level. Below is an overview of key security practices to protect your Bagisto-based shopping website.
 
@@ -237,7 +237,7 @@ For example, Bagisto can offer a role-based access control (RBAC) system, where 
 In conclusion, ensuring a secure Bagisto shopping website involves a combination of best practices in encryption, user authentication, input validation, secure payment integration, and ongoing security monitoring. By following these security guidelines, we can safeguard both our users’ data and our website from a wide range of potential threats.
 
 
-**Scalability**
+### Scalability
 
 Scalability is a critical quality attribute for modern e-commerce systems, as it ensures that the platform can handle growing traffic, increasing transaction volumes, and expanding product catalogs without degrading performance. As the e-commerce landscape continues to evolve, platforms must be designed to scale efficiently to meet the demands of businesses of all sizes. For Bagisto, scalability is not only about handling higher traffic but also about maintaining optimal performance and availability as the business grows. This section explores how scalability is incorporated into the architecture of Bagisto, detailing its design principles, strategies, and the trade-offs involved in ensuring that the platform can grow with the business.Bagisto’s architecture is designed to be highly scalable, addressing both horizontal and vertical scaling needs. Whether deployed for a small boutique e-commerce site or a large, enterprise-level marketplace, Bagisto’s core components support efficient scaling through modular design, caching, load balancing, and robust database handling. Understanding scalability in the context of Bagisto involves analyzing its architecture, database management, caching mechanisms, queue systems, and cloud deployment strategies.
 
