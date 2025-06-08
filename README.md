@@ -562,6 +562,8 @@ These architecture patterns have been selected to ensure scalability, maintainab
   <p>Figure : Microservice Architecture of Bagisto Service </p>
 </div>
 
+# Architecture Decisions
+
 Below is a categorized list of architectural decision types made during the development and maintenance of the Bagisto open-source e-commerce platform, including representative examples, counts, and estimated percentages.
 
 ```markdown
