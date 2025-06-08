@@ -391,6 +391,17 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 
+## The 4 + 1 View Model
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/764809b3-0879-4466-8ce8-29cda3d9d110" width="900">
+  <p>Figure: Bagisto 4+1 view model</p>
+</div>
+
+
+
+
 ### Use Case Viewpoint
 
 Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, Sales, Payment, Shipping, Inventory, Notification, Marketing) and exposes both REST and GraphQL APIs for headless integrations. Human actors include Customers (both registered and guests), Administrators (with fine-grained Roles/ACL), Vendors (in multi-vendor setups), CMS Editors, and POS/Mobile users. System actors encompass API Clients (third-party applications), Payment Gateways, Shipping Carriers, Inventory Systems, Notification Services (email/SMS), Search Engines (Elasticsearch), PIM/ERP/CRM integrations, and headless storefront consumers.
