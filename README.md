@@ -611,20 +611,7 @@ Below is a categorized list of architectural decision types made during the deve
 | Introduce Centralized Configuration Service (e.g., Consul, Spring Config)         | Tool Decision, Data Decision                    | Manages environment-specific config centrally to avoid duplication.                                | Easier configuration management across services.             |
 | Integrate AI Services (LLMs, Recommendations, Chatbots) with Isolated Adapters    | Component, Integration Decision                 | Keeps AI-related services decoupled for replacement or upgrades.                                    | Maintainability and future-proof AI service integration.     |
 
-## Architecture Patterns Decision for Microservice Pattern vs Modular Monolith
-
-Bagisto adopts a Modular Monolith architecture by default, structuring its codebase into distinct Laravel packages that encapsulate specific business functionalities such as Cart, Catalog, and Customer. This approach promotes clear separation of concerns, facilitating independent development and testing of modules while maintaining the simplicity of a single deployable application. The modular design enhances maintainability and scalability within the monolithic structure.
-
-For enterprise-level scalability and flexibility, Bagisto can be adapted to a Microservices architecture. This involves decomposing the monolithic application into independent services—such as Product, Order, and Payment—each responsible for specific business capabilities. These services communicate via APIs and can be deployed and scaled independently, often orchestrated using tools like Docker.
-
-In summary, Bagisto's architecture supports a transition from a modular monolith to microservices, allowing businesses to start with a simpler structure and evolve to a more complex, scalable system as their needs grow.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae" width="600">
-  <p>Figure : Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
-</div>
-
-
+<img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae" width="600">
 
 # Conclusion
 This analysis of Bagisto's architectural intricacies reveals a system grounded in robust principles of scalability, modularity, and established design patterns. A thorough examination, encompassing its diverse stakeholder landscape, critical quality attributes specifically performance efficiency, stringent security, and superior usability and various architectural viewpoints (Context, Use Case, Logical, and Process), demonstrates Bagisto's engineering as a highly adaptable and efficient e-commerce platform. Its fundamental design leverages the strategic integration of the Laravel PHP framework for backend operations and dynamic frontend technologies such as Vue.js/React. This is further complemented by a meticulously crafted layered architectural design, ensuring distinct separation of concerns from the Edge to the Infrastructure tiers. Event-driven communication within the system promotes loose coupling and enhances responsiveness, while its flexible deployment strategies ranging from a pragmatic modular monolith facilitating rapid development to a microservices paradigm enabling ultimate scalability and fault isolation position Bagisto as a highly versatile solution for contemporary retail. The platform's extensive feature set, intelligently supported by optimized caching mechanisms (such as Redis for high-frequency data access), asynchronous processing via Laravel Queues, and inherent cloud-native capabilities, collectively ensure its effective responsiveness to the diverse and dynamic demands of modern businesses. Furthermore, the detailed exploration of its database schema, diverse architectural patterns (including MVC, Service-Oriented Architecture, Command Query Responsibility Segregation, and the Repository Pattern), and explicit architectural decisions underscores a deliberate and thoughtful approach to constructing a system designed for organic evolution. Consequently, Bagisto consistently delivers a secure, performant, maintainable, and extensible ecosystem capable of supporting operations from nascent small-scale online ventures to extensive multi-vendor marketplaces. 
