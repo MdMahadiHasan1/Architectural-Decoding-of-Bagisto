@@ -357,7 +357,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 
 
-### Essential user interface (UI) Functional Requirements
+### Essential User interface (UI) Functional Requirements
 
 | UI Feature                             | Functional Requirement                                                                                                                                                                           |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
