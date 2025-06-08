@@ -627,6 +627,14 @@ These architecture patterns have been selected to ensure scalability, maintainab
   <p>Figure : Microservice Architecture of Bagisto Service </p>
 </div>
 
+## Event-Driven Architecture (EDA)
+
+<div align="center">
+  <img src="![image](https://github.com/user-attachments/assets/0806e0be-7600-436b-a300-2b9427d3dfbe)">
+  <p>Figure : Event-Driven Architecture (EDA) </p>
+</div>
+
+
 # Architecture Decisions
 
 Below is a categorized list of architectural decision types made during the development and maintenance of the Bagisto open-source e-commerce platform, including representative examples, counts, and estimated percentages.
