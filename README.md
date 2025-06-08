@@ -49,12 +49,13 @@
 6. [Architecture Components](#Architecture-Components)
 7. [Functional Requirements](#Functional-Requirements)
 8. [Architecture Views](#Architecture-Views)
-9. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
-10. [Database Development](#Database-Development)
-11. [Architecture Patterns](#Architecture-Patterns)
-12. [Architecture Decisions](#Architecture-Decisions)
-13. [Conclusion](#Conclusion)
-14. [References](References)
+     - [Context Viewpoint](#Context-Viewpoint)  
+10. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
+11. [Database Development](#Database-Development)
+12. [Architecture Patterns](#Architecture-Patterns)
+13. [Architecture Decisions](#Architecture-Decisions)
+14. [Conclusion](#Conclusion)
+15. [References](References)
 
   
 
