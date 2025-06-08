@@ -546,7 +546,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 ### Deployment Viewpoint
 
-This section elucidates the operational aspects of the Bagisto E-commerce Platform, focusing on how software components are transitioned from development to a live environment. Illustrated in Figure Deployment Lifecycle for Bagisto E-commerce, this diagram details the iterative stages of the application lifecycle, emphasizing the processes and strategies employed for continuous delivery. The following outlines these key phases, highlighting their alignment with modern software architecture practices.
+This section elucidates the operational aspects of the Bagisto E-commerce Platform, focusing on how software components are transitioned from deployment to a live environment. Illustrated in Figure Deployment Lifecycle for Bagisto E-commerce, this diagram details the iterative stages of the application lifecycle, emphasizing the processes and strategies employed for continuous delivery. The following outlines these key phases, highlighting their alignment with modern software architecture practices.
 - **Develop Module / Feature**:
 New functionalities for Bagisto, leveraging Laravel (backend) and Vue.js/React (frontend), are coded and implemented.
 - **Unit & Integration Testing**:
@@ -567,8 +567,8 @@ A critical contingency plan allows for rapid reversion to a stable previous vers
 The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8728e56e-5a8e-4637-811b-184b43a0cc9a">
-  <p>Figure : Development Lifecycle </p>
+  <img src="(https://github.com/user-attachments/assets/4dfd8c76-7479-4409-9c23-d753b30b949b)">
+  <p>Figure : Deployment Lifecycle </p>
 </div>
 
 
