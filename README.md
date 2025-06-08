@@ -376,7 +376,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 ## Architecture Views
 
-## Context Viewpoint
+### Context Viewpoint
 This diagram illustrates the workflow of a multi-vendor e-commerce platform powered by the Bagisto Shopping Site. At the center of the system is the Bagisto platform, which serves as the hub connecting all key entities: buyers, vendors, the admin (site owner), the payment gateway, and the shipping provider.
 
 Buyers interact with the shopping site by signing up or logging in, browsing and searching for products, adding items to their cart, placing orders, and submitting reviews and ratings. Once an order is placed, the Bagisto platform processes it and sends a payment request to the integrated payment gateway, which supports options such as PayPal and cash on delivery. Simultaneously, a shipping request is sent to the designated shipping provider, such as FedEx or DHL, to handle the product delivery.
@@ -392,26 +392,26 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 
-## The 4+1 View Model
+### The 4+1 View Model
 The Bagisto 4+1 View Model is a software architectural framework that provides a comprehensive understanding of the Bagisto system from multiple perspectives. It is based on the 4+1 view model developed by Philippe Kruchten, which organizes the architecture into five key views:
 
-### 1. Logical View
+#### 1. Logical View
 - Focuses on the logical organization and allocation of functionality within the system.
 - Helps identify the main design elements and their relationships.
 
-### 2. Process View
+#### 2. Process View
 - Describes the system's runtime behavior.
 - Covers aspects such as concurrency, communication, and synchronization between processes.
 
-### 3. Implementation View
+#### 3. Implementation View
 - Details the code organization.
 - Includes configuration, build processes, and the use of operating systems, databases, and middleware.
 
-### 4. Deployment View
+#### 4. Deployment View
 - Addresses the physical distribution of software and hardware components.
 - Defines the system's topology.
 
-### 5. Use-case View (Central View)
+#### 5. Use-case View (Central View)
 - Represents the functional requirements and scenarios that guide the architecture.
 - Serves as a bridge connecting all other views.
 
@@ -428,9 +428,9 @@ The Bagisto 4+1 View Model is a software architectural framework that provides a
 
 Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, Sales, Payment, Shipping, Inventory, Notification, Marketing) and exposes both REST and GraphQL APIs for headless integrations. Human actors include Customers (both registered and guests), Administrators (with fine-grained Roles/ACL), Vendors (in multi-vendor setups), CMS Editors, and POS/Mobile users. System actors encompass API Clients (third-party applications), Payment Gateways, Shipping Carriers, Inventory Systems, Notification Services (email/SMS), Search Engines (Elasticsearch), PIM/ERP/CRM integrations, and headless storefront consumers.
 
-### Actors:
+#### Actors:
 
-#### Primary users:
+##### Primary users:
 
 
 | Primary user                           | Description                                                                                                                                                                           |
@@ -441,7 +441,7 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 | Admin           | Oversees the entire platform. Admins manage orders, customers, settings, promotions, categories, and products. They also handle shipment tracking and content generation.                                                                |
 
 
-#### Secondary users:
+##### Secondary users:
 
 
 | Secondary users                        | Description                                                                                                                                                                           |
@@ -464,7 +464,7 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 
 
-## Logical Viewpoint
+### Logical Viewpoint
 The Bagisto shopping site can be organized using a layered architecture, which is a common way to build complex software systems. In this setup, the system is divided into different layers, and each layer has its own specific job. As you go from the bottom layers to the top ones, the tasks become more focused and affect fewer parts of the system if something goes wrong. This layered design makes the system easier to build, update, and manage. It also helps the site stay flexible, grow smoothly, and work reliably—important features for a modern e-commerce platform like Bagisto.
 
 | Logical Viewpoint | Description |
@@ -489,7 +489,7 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 In conclusion, the logical viewpoint provides a clear and structured representation of the software system's layered architecture, highlighting how different components interact and contribute to overall functionality. By organizing the system into distinct layers—such as Infrastructure, Business, Product, Presentation, and Edge—it ensures modularity, maintainability, and scalability. Additional supporting layers like Application and Integration further enhance the system’s flexibility and robustness, enabling seamless integration, secure operations, and efficient data management.
 
 
-## Process Viewpoint
+### Process Viewpoint
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2db416da-d3f0-4ca9-ae5b-1ce93ad3e087">
@@ -497,14 +497,14 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 </div>
 
 
-## User Interaction with Storefront 
+### User Interaction with Storefront 
   - **Browse products**: The process begins with the user accessing the "Web/App/Storefront" to look through available products.  
   - **Add to cart**: Once the user selects products they want to purchase, they add these items to their shopping cart.  
   - **View cart**: The user can review the items in their cart.  
     - **Condition**: If the user is not logged in, they are prompted to log in ([Log in required]).  
     - **Alternative path**: If not logged in, they are presented with an option to log in.  
 
-## Checkout and Order Creation
+### Checkout and Order Creation
    **Proceed to checkout**: After logging in (if required), the user moves forward with the checkout process.  
 - **Web/App/Storefront**: Sends the order details to the **Bagisto Server**.  
 - **Bagisto Server**:  
@@ -512,7 +512,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
   - **Reduce stock**: Immediately reduces the stock levels of the products in the order.  
     - **Condition**: This step depends on payment confirmation ([Needs payment]).  
 
-## Payment Processing
+### Payment Processing
   **Bagisto Server**: If payment is required, it sends the order details to the **Payment Gateway**.  
   - **Payment Gateway**: Processes the payment. 
   - **If payment is successful**:  
@@ -525,13 +525,13 @@ In conclusion, the logical viewpoint provides a clear and structured representat
     - Payment Gateway sends a payment failure message to the **Bagisto Server**.  
     - **Bagisto Server**: Handles the payment failure (e.g., notify the customer, attempt retry).  
 
-## Order Fulfillment
+### Order Fulfillment
  **Bagisto Server**: Once the order is marked as paid (or in cases where no payment is required, after order processing), it initiates order fulfillment.  
   - **Prepare shipment**: Arranges for the products to be packaged and readied for shipping.  
   - **Process shipment**: Coordinates with shipping carriers (e.g., print shipping labels, schedule pick-ups).  
   - **Shipment notification**: Sends a notification to the **Shopper/User/Customer** with shipment details.  
 
-## Special Scenarios
+### Special Scenarios
  **No payment required**:  
   - **Bagisto Server**: Processes the order directly, generates an order confirmation, and sends:  
     - An order confirmation email to the customer.  
@@ -544,7 +544,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 
 
-## Deployment Viewpoint
+### Deployment Viewpoint
 
 This section elucidates the operational aspects of the Bagisto E-commerce Platform, focusing on how software components are transitioned from development to a live environment. Illustrated in Figure Deployment Lifecycle for Bagisto E-commerce, this diagram details the iterative stages of the application lifecycle, emphasizing the processes and strategies employed for continuous delivery. The following outlines these key phases, highlighting their alignment with modern software architecture practices.
 - **Develop Module / Feature**:
