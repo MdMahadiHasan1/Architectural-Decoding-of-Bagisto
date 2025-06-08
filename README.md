@@ -68,7 +68,6 @@
     - [Microservices Architecture Pattern](#Microservices-Architecture-Pattern)
     - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
     - [Event-Driven Architecture (EDA)](Event-Driven-Architecture-(EDA))
-      
 14. [Architecture Decisions](#Architecture-Decisions)
 15. [Conclusion](#Conclusion)
 16. [References](References)
