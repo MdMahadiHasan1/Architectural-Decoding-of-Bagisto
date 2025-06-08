@@ -567,7 +567,7 @@ A critical contingency plan allows for rapid reversion to a stable previous vers
 The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
 
 <div align="center">
-  <img src="(https://github.com/user-attachments/assets/4dfd8c76-7479-4409-9c23-d753b30b949b)">
+  <img src="https://github.com/user-attachments/assets/4dfd8c76-7479-4409-9c23-d753b30b949b">
   <p>Figure : Deployment Lifecycle </p>
 </div>
 
