@@ -587,6 +587,12 @@ This Bagisto Database Schema illustrates a modular, normalized, and extensible r
 
 These architecture patterns have been selected to ensure scalability, maintainability, and extensibility for Bagisto, especially in enterprise and cloud-native environments.
 
+## Architecture Patterns
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/b511ce11-2254-4e7c-9757-74b10e56cb48">
+  <p>Figure : Architecture Patterns </p>
+</div>
 
 
 
