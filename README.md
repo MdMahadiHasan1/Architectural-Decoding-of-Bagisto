@@ -51,7 +51,9 @@
 6. [System Context](#System-Context)
 7. [Architecture Components](#Architecture-Components)
 8. [Functional Requirements](#Functional-Requirements)
-9. [Architecture Views](#Architecture-Views)
+   - [Essential user interface (UI) Functional Requirements](#Essential-user-interface-(UI)-Functional-Requirements)
+   - [Essential Admin Interface Functional Requirements](#Essential-Admin-Interface-Functional-Requirements)
+10. [Architecture Views](#Architecture-Views)
    - [Context Viewpoint](#Context-Viewpoint)
    - [The 4+1 View Model](#The-4+1-View-Model)
    - [Use Case Viewpoint](#Use-Case-Viewpoint)
@@ -59,9 +61,9 @@
    - [Process Viewpoint](#Process-Viewpoint)
    - [Implementation View](#Implementation-View)
    - [Deployment View](#Deployment-View)
-10. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
-11. [Database Development](#Database-Development)
-12. [Architecture Patterns](#Architecture-Patterns)
+11. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
+12. [Database Development](#Database-Development)
+13. [Architecture Patterns](#Architecture-Patterns)
     - [Modular Monolith Architecture Pattern](#Modular-Monolith-Architecture-Pattern)
     - [Microservices Architecture Pattern](#Microservices-Architecture-Pattern)
     - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
@@ -355,7 +357,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 
 
-**Essential user interface (UI) Functional Requirements**
+### Essential user interface (UI) Functional Requirements
 
 | UI Feature                             | Functional Requirement                                                                                                                                                                           |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -375,7 +377,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 | PWA & Mobile App UI                    | It supports Progressive Web App installability, dark-mode toggle, push notifications, multi-locale and multilingual switching to mirror web-store functionality on mobile.                   |
 | AI-Driven Features                     | It integrates AI modules for semantic search, chatbot support, and automated content generation within the UI, enhancing the shopping experience.                                               |
 
-**Essential Admin Interface Functional Requirements**
+### Essential Admin Interface Functional Requirements
 
 
 | UI Feature                          | Functional Requirement                                                                                                                                                                                                                                                                       |
