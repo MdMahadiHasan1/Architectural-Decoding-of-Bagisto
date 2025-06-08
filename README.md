@@ -59,9 +59,14 @@
 10. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
 11. [Database Development](#Database-Development)
 12. [Architecture Patterns](#Architecture-Patterns)
-13. [Architecture Decisions](#Architecture-Decisions)
-14. [Conclusion](#Conclusion)
-15. [References](References)
+      - [Modular Monolith Architecture Pattern](#Modular-Monolith-Architecture-Pattern)
+      - [Microservices Architecture Pattern](#Microservices-Architecture-Pattern)
+      - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
+      - [Event-Driven Architecture (EDA)](Event-Driven-Architecture-(EDA))
+      
+14. [Architecture Decisions](#Architecture-Decisions)
+15. [Conclusion](#Conclusion)
+16. [References](References)
 
   
 
