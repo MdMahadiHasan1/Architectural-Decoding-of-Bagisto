@@ -591,6 +591,9 @@ Below is a categorized list of architectural decision types made during the deve
 **Total Count:** 556  
 **Note:** These values are approximations based on architectural documentation, codebase reviews, and GitHub issue analysis as of June 2025.
 
+
+## Mapped Architecture Decision Backlog Items
+
 | **Backlog Item**                                                                 | **Related Architecture Decision Type(s)**       | **Rationale**                                                                                       | **Expected Outcome**                                         |
 |----------------------------------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | Refactor Modular Monolith into Fully Decoupled Microservices                     | Architecture Pattern, Decomposition            | Improves fault isolation and independent deployment. Essential for large-scale multi-vendor setups. | Microservices architecture with independent deployment paths. |
