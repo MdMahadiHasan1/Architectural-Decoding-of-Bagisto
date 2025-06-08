@@ -628,6 +628,17 @@ These architecture patterns have been selected to ensure scalability, maintainab
   <p>Figure : Microservice Architecture of Bagisto Service </p>
 </div>
 
+
+
+## MVC (Model-View-Controller)
+
+<div align="center">
+  <img src="">
+  <p>Figure : MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
+</div>
+
+
+
 ## Event-Driven Architecture (EDA)
 
 <div align="center">
