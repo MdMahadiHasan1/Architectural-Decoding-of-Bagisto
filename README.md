@@ -391,7 +391,9 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 
-## The 4 + 1 View Model
+## The 4+1 View Model
+
+
 
 
 <div align="center">
