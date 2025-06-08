@@ -500,31 +500,23 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 ## Deployment Viewpoint
 
 This section elucidates the operational aspects of the Bagisto E-commerce Platform, focusing on how software components are transitioned from development to a live environment. Illustrated in Figure Deployment Lifecycle for Bagisto E-commerce, this diagram details the iterative stages of the application lifecycle, emphasizing the processes and strategies employed for continuous delivery. The following outlines these key phases, highlighting their alignment with modern software architecture practices.
-- *Develop Module / Feature:*
+- **Develop Module / Feature**:
 New functionalities for Bagisto, leveraging Laravel (backend) and Vue.js/React (frontend), are coded and implemented.
-
-- *Unit & Integration Testing:*
+- **Unit & Integration Testing**:
 Code undergoes PHPUnit (Laravel) and Jest/Vue Test Utils (frontend) tests to ensure individual components and their interactions within Bagisto are correct.
-
-- *Code Review & QA:*
+- **Code Review & QA**:
 Peers review code for standards and quality, followed by manual QA checks to verify new features and bug fixes meet requirements.
-
-- *Staging Deployment & UAT:*
+- **Staging Deployment & UAT**:
 Validated code is deployed to a staging environment mirroring production, where stakeholders perform User Acceptance Testing (UAT) to approve the release.
-
-- *Build & Artifact Creation:*
+- **Build & Artifact Creation**:
  Automated processes build and package the application into deployable artifacts, including Docker images, optimized frontend assets, and Composer dependencies.
-
-- *Production Deployment:*
+- **Production Deployment**:
 The verified artifacts are deployed to the live production environment, often using strategies like container orchestration (e.g., Kubernetes) deployments for minimal downtime.
-
-- *System Monitoring & Observability:*
+- **System Monitoring & Observability**:
 Continuous monitoring using tools like Laravel Nova and Sentry tracks performance, errors, and user activity to ensure operational stability.
-
-- *Rollback to Previous Version:*
+- **Rollback to Previous Version**:
 A critical contingency plan allows for rapid reversion to a stable previous version in case of production issues.
-
-- *Feature Live / Stable:*
+- **Feature Live / Stable**:
 The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
 
 <div align="center">
