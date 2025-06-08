@@ -42,19 +42,19 @@
 
 ## Table of Contents
 1. [Introduction](#Introduction)
-- [Stakeholder Analysis](#Stakeholder-Analysis)
-- [Quality Attribute](#Quality-Attribute)
-- [Key Quality Concerns](#Key-Quality-Concerns)
-- [System Context](#System-Context)
-- [Architecture Components](#Architecture-Components)
-- [Functional Requirements](#Functional-Requirements)
-- [Architecture Views](#Architecture-Views)
-- [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
-- [Database Development](#Database-Development)
-- [Architecture Patterns](#Architecture-Patterns)
-- [Architecture Decisions](#Architecture-Decisions)
-- [Conclusion](#Conclusion)
-- [References](References)
+2. [Stakeholder Analysis](#Stakeholder-Analysis)
+3. [Quality Attribute](#Quality-Attribute)
+4. [Key Quality Concerns](#Key-Quality-Concerns)
+5. [System Context](#System-Context)
+6. [Architecture Components](#Architecture-Components)
+7. [Functional Requirements](#Functional-Requirements)
+8. [Architecture Views](#Architecture-Views)
+9. [Process Diagram for Bagisto System](#Process_Diagram_for_Bagisto_System)
+10. [Database Development](#Database-Development)
+11. [Architecture Patterns](#Architecture-Patterns)
+12. [Architecture Decisions](#Architecture-Decisions)
+13. [Conclusion](#Conclusion)
+14. [References](References)
 
   
 
