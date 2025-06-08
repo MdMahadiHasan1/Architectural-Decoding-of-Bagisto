@@ -392,8 +392,17 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 ## The 4+1 View Model
+The Bagisto 4+1 View Model is a software architectural framework that provides a comprehensive understanding of the Bagisto system from multiple perspectives. It is based on the 4+1 view model developed by Philippe Kruchten, which organizes the architecture into five key views:
 
+Logical View: Focuses on the logical organization and allocation of functionality within the system. It helps identify the main design elements and their relationships.
 
+Process View: Describes the system's runtime behavior, including aspects such as concurrency, communication, and synchronization between processes.
+
+Implementation View: Details the code organization, including configuration, build processes, and use of operating systems, databases, and middleware.
+
+Deployment View: Addresses the physical distribution of software and hardware components, defining the system's topology.
+
+Use-case View (central to all): Represents the functional requirements and scenarios that guide the architecture, serving as a bridge between all other views.
 
 
 <div align="center">
