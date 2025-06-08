@@ -395,7 +395,7 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/764809b3-0879-4466-8ce8-29cda3d9d110" width="900">
+  <img src="https://github.com/user-attachments/assets/764809b3-0879-4466-8ce8-29cda3d9d110" width="600">
   <p>Figure: Bagisto 4+1 view model</p>
 </div>
 
