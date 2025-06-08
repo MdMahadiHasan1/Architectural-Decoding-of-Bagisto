@@ -630,7 +630,7 @@ These architecture patterns have been selected to ensure scalability, maintainab
 ## Event-Driven Architecture (EDA)
 
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/0806e0be-7600-436b-a300-2b9427d3dfbe)">
+  <img src="https://github.com/user-attachments/assets/c224d0ca-4100-4a85-8906-831150bff1e9">
   <p>Figure : Event-Driven Architecture (EDA) </p>
 </div>
 
