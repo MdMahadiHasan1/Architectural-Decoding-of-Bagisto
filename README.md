@@ -41,7 +41,7 @@
 
 
 ## Table of Contents
-- [Introduction](#Introduction)
+1. [Introduction](#Introduction)
 - [Stakeholder Analysis](#Stakeholder-Analysis)
 - [Quality Attribute](#Quality-Attribute)
 - [Key Quality Concerns](#Key-Quality-Concerns)
