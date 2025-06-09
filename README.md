@@ -103,7 +103,7 @@ In conclusion, Bagisto’s architecture is a well-balanced combination of modula
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cd76a088-dd9a-4e6b-97fc-a2edb4fc9d2d">
-  <p>Figure 1: Bagisto System overview</p>
+  <p>Figure 01: Bagisto System overview</p>
 </div>
 
 
@@ -210,7 +210,7 @@ The following figure shows some key usability in Bagisto
        
 <div align="center">
   <img src="https://github.com/user-attachments/assets/5ab3b839-658b-46fb-8867-94700bbed272" width="1000" alt=" Pattern">
-  <p>Figure : Usability of Bagisto </p>
+  <p>Figure 02: Usability of Bagisto </p>
 </div>
 
   
@@ -352,7 +352,7 @@ The Bagisto platform is composed of independent, reusable components that collab
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/9071e2ae-5360-426c-8f9d-f596d3ed6110" width="900">
-  <p>Figure : Architecture Component Diagram</p>
+  <p>Figure 03: Architecture Component Diagram</p>
 </div>
 
 ## Functional Requirements
@@ -410,7 +410,7 @@ Vendors participate in the multi-vendor marketplace by listing and managing thei
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2ce69d06-7972-4465-b815-709d7a04310b" width="900" alt="Context Viewpoint">
-  <p>Figure: Context Viewpoint</p>
+  <p>Figure 04: Context Viewpoint</p>
 </div>
 
 
@@ -441,7 +441,7 @@ The Bagisto 4+1 View Model is a software architectural framework that provides a
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/8d686774-f752-41bd-b3fd-1c8ad4950885" width="500">
-  <p>Figure: Bagisto 4+1 view model</p>
+  <p>Figure 05: Bagisto 4+1 view model</p>
 </div>
 
 
@@ -481,7 +481,7 @@ Bagisto’s architecture revolves around clearly defined packages (e.g., Shop, S
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/36b50a93-217d-4a89-b26a-78ba997e2347" alt="Bagisto Use-Case Diagram">
-  <p>Figure: Bagisto Use Case Diagram</p>
+  <p>Figure 06: Bagisto Use Case Diagram</p>
 </div>
 
 
@@ -504,7 +504,7 @@ The Bagisto shopping site can be organized using a layered architecture, which i
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/da20721f-abb7-4654-a3a3-13d0bf9fec3c" width="800" alt="Logical Viewpoint">
-  <p>Figure: Logical Viewpoint</p>
+  <p>Figure 07: Logical Viewpoint</p>
 </div>
 
 
@@ -516,7 +516,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2db416da-d3f0-4ca9-ae5b-1ce93ad3e087">
-  <p>Figure : Process Diagram for Bagisto System </p>
+  <p>Figure 08: Process Diagram for Bagisto System </p>
 </div>
 
 
@@ -601,7 +601,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/11c70996-7340-49c4-bb84-6a2007a4e6b8", heigh="100">
-  <p>Figure: demonstrate Bagisto 4+1 view model Implementation View</p>
+  <p>Figure 09: demonstrate Bagisto 4+1 view model Implementation View</p>
 </div>
 
 The Implementation View demonstrates Bagisto’s modular, layered architecture built atop Laravel. It clearly separates concerns between UI, business logic, and data layers while integrating essential third-party tools. This structure aligns with best practices in modern PHP/Laravel-based application development and ensures extensibility and ease of maintenance.
@@ -630,14 +630,14 @@ The new functionality is successfully deployed, operational, and stable in produ
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ab7e821e-8cf3-44a6-b790-61daf4f312cd">
-  <p>Figure : Deployment Lifecycle </p>
+  <p>Figure 10: Deployment Lifecycle </p>
 </div>
 
 
 # Database Development
 <div align="center">
   <img src="https://github.com/user-attachments/assets/380519a9-039d-4646-a4e1-976d9fa7aead">
-  <p>Figure : Bagisto Schema Diagram </p>
+  <p>Figure 11: Bagisto Schema Diagram </p>
 </div>
 This Bagisto Database Schema illustrates a modular, normalized, and extensible relational design, well aligned with modern e-commerce requirements. Each functional area (identity, catalog, sales, cart, promotions, feedback) is clearly demarcated yet interconnected via foreign-key relationships. Such a schema supports maintainability, future extension (e.g., chat-bot logs, analytics tables), and robust performance tuning (indexes, sharding, caching). This database foundation enables Bagisto to scale from small shops to large multi-vendor marketplaces without requiring major schema overhauls.
 
@@ -647,7 +647,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b511ce11-2254-4e7c-9757-74b10e56cb48">
-  <p>Figure : Architecture Patterns </p>
+  <p>Figure 12: Architecture Patterns </p>
 </div>
 
 
@@ -677,7 +677,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f449a188-ec71-4b16-98ec-ab66fac405e0">
-  <p>Figure : Modular Monolith of Bagisto Service </p>
+  <p>Figure 13: Modular Monolith of Bagisto Service </p>
 </div>
 
 
@@ -687,7 +687,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b">
-  <p>Figure : Microservice Architecture of Bagisto Service </p>
+  <p>Figure 14: Microservice Architecture of Bagisto Service </p>
 </div>
 
 
@@ -696,7 +696,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d29dfecd-c1dd-4f34-a55b-860a08db2503" width="850", height="850">
-  <p>Figure : MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
+  <p>Figure 15: MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
 </div>
 
 
@@ -705,7 +705,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c224d0ca-4100-4a85-8906-831150bff1e9">
-  <p>Figure : Event-Driven Architecture (EDA) </p>
+  <p>Figure 16: Event-Driven Architecture (EDA) </p>
 </div>
 
 
@@ -719,7 +719,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b744e1b3-e3e1-4428-bcbd-2901c0f82b19" width="900">
-  <p>Figure : Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
+  <p>Figure 17: Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
 </div>
 
 
