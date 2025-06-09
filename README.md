@@ -568,6 +568,42 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 ### Implementation View
 
+#### Bagisto Implementation View: Brief Introduction**
+
+The **Implementation View** (or Development View) of the **Bagisto** framework illustrates its **modular architecture, code organization, dependencies, and deployment structure**. Bagisto, built on **Laravel**, follows a **package-driven design**, where core e-commerce functionalities are separated into reusable modules while leveraging Laravel’s foundational components.  
+
+---
+
+#### **Key Layers of Bagisto’s Implementation**  
+
+1. **Bagisto Core Modules**  
+   - **Core**: Base services, helpers, models, and repositories.  
+   - **Admin**: Backend dashboard for managing orders, products, and customers.  
+   - **Shop**: Frontend logic for product display, cart, and checkout.  
+   - **Custom Modules**: Extensions like CMS, marketing tools, or ERP integrations.  
+
+2. **Laravel Foundation**  
+   - **Eloquent ORM**: Database abstraction layer.  
+   - **Routing**: HTTP request handling (web/admin/API routes).  
+   - **Middleware**: Authentication, logging, and security layers.  
+
+3. **Themes & UI**  
+   - **Velocity (Default Theme)**: Blade templates, CSS/JS assets.  
+   - **Localization**: Multi-language support.  
+
+4. **External Dependencies**  
+   - **Composer**: PHP package manager (e.g., Stripe, PayPal integrations).  
+   - **NPM**: Frontend asset compilation (Bootstrap, Vue.js).  
+   - **Databases**: MySQL/PostgreSQL, Redis (caching), Elasticsearch (search).  
+
+---
+
+#### **Why This Matters**  
+- **Modularity**: Plug-and-play modules (e.g., add GraphQL API via `Webkul\GraphQL`).  
+- **Scalability**: Decoupled components allow horizontal scaling (e.g., separate Redis for sessions).  
+- **Extensibility**: Custom themes or modules integrate seamlessly.  
+
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/11c70996-7340-49c4-bb84-6a2007a4e6b8", heigh="100">
   <p>Figure: demonstrate Bagisto 4+1 view model Implementation View</p>
