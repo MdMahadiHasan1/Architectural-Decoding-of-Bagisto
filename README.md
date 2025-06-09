@@ -1108,3 +1108,4 @@ Addressing these limitations through improved testing infrastructure, a broader 
 1. Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice. Addison-Wesley Professional.
 2. Dragoni, N., Giallorenzo, S., Lafuente, A. L., Mazzara, M., Montesi, F., Mustafin, R., & Safina, L. (2017). Microservices: yesterday, today, and tomorrow. Present and ulterior software engineering, 195-216.
 3. Fahima, S. (2022). Develop E-Commerce Website at Xarray. IO (p. 30).
+4. Kruchten, P. (1995). Architecture blueprints—the “4+ 1” view model of software architecture. In Tutorial proceedings on TRI-Ada'91: Ada's role in global markets: solutions for a changing complex world (pp. 540-555).
