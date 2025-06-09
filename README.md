@@ -1106,4 +1106,5 @@ Addressing these limitations through improved testing infrastructure, a broader 
 
 # References
 1. Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice. Addison-Wesley Professional.
-2. Fahima, S. (2022). Develop E-Commerce Website at Xarray. IO (p. 30).
+2. Dragoni, N., Giallorenzo, S., Lafuente, A. L., Mazzara, M., Montesi, F., Mustafin, R., & Safina, L. (2017). Microservices: yesterday, today, and tomorrow. Present and ulterior software engineering, 195-216.
+3. Fahima, S. (2022). Develop E-Commerce Website at Xarray. IO (p. 30).
