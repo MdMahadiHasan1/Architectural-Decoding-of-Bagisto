@@ -841,6 +841,214 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 
 
+  ### Implementation Decision 
+
+**› Issue:** Whether to design Bagisto’s system in a modular way.
+
+**› Importance:** High – Affects extensibility, customization, and community contribution.
+
+**› Decision:** A modular design is observed in a modular Laravel-based architecture to enable plug-and-play capabilities for modules such as inventory, checkout, and customer management.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Core Engineering Team
+
+**› Assumptions:**
+- Different businesses will want to enable/disable features selectively.
+- Community developers will extend functionality without modifying core.
+
+**› Alternatives:**
+- Monolithic structure with tightly coupled features.
+- Microservices approach from the beginning.
+
+**› Arguments:**
+- Modular structure allows isolated development and testing.
+- Enhances maintainability and reusability.
+- Reduces conflicts during third-party contributions.
+
+**› Implications:**
+- Simplified module management and updates.
+- Easier to scale specific features if needed.
+
+**› Possible negative impact on quality:**
+- Risk of module interdependency if boundaries aren’t enforced.
+- Overhead in maintaining compatibility between modules.
+
+
+
+### Data Decision 
+
+**› Issue:** How to manage and persist application data.
+
+**› Importance:** High – Influences data integrity, performance, and scalability.
+
+**› Decision:** Introduced Eloquent ORM with relational database support for storing product catalogs, customer records, and transactional data to ensure consistency and scalability.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Data Architecture Team
+
+**› Assumptions:**
+- The data model will evolve with increasing feature complexity.
+- Relational integrity is important for core modules.
+
+**› Alternatives:**
+- NoSQL (e.g., MongoDB)
+- Manual SQL queries without ORM
+
+**› Arguments:**
+- Eloquent provides easy and expressive interaction with the database.
+- ORM improves code readability and maintenance.
+- Relational DBs are reliable for transactional data.
+
+**› Implications:**
+- Reduced development time using Laravel’s ecosystem.
+- Easy migration and seeding for database setup.
+
+**› Possible negative impact on quality:**
+- ORM abstraction may lead to performance issues if not optimized.
+- Complex joins might become difficult to manage.
+
+
+### Testing Decision 
+
+**› Issue:** Which testing tools and strategies to adopt for quality assurance.
+
+**› Importance:** High – Affects software reliability, maintainability, and release confidence.
+
+**› Decision:** PHPUnit is adopted for back-end and Jest for front-end unit and integration testing across modules to ensure high-quality releases.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** QA & Engineering Team
+
+**› Assumptions:**
+- Automated tests will be maintained alongside development.
+- Community and internal developers will contribute testable code.
+
+**› Alternatives:**
+- Manual QA-only approach
+- Use of Cypress or Mocha instead of Jest
+
+**› Arguments:**
+- PHPUnit integrates well with Laravel for API and logic testing.
+- Jest is lightweight and well-suited for Vue.js component testing.
+- Automated tests reduce regression risk in modular code.
+
+**› Implications:**
+- Safer, faster release cycles.
+- Improved developer confidence and code quality.
+
+**› Possible negative impact on quality:**
+- Initial learning curve for contributors.
+- Test maintenance overhead during refactoring.
+
+
+
+### Deployment Decision 
+
+**› Issue:** How to provision environments for Bagisto deployments.
+
+**› Importance:** Medium to High – Influences reproducibility, DevOps speed, and platform support.
+
+**› Decision:** Docker-based deployment scripts are available for fast environment provisioning and compatibility across various cloud and on-premise platforms.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** DevOps & Platform Engineering
+
+**› Assumptions:**
+- Deployment targets vary widely (local, cloud, enterprise).
+- Container-based deployment improves consistency and onboarding.
+
+**› Alternatives:**
+- Manual installation instructions.
+- Ansible or shell-script based setups.
+
+**› Arguments:**
+- Docker simplifies environment management.
+- Improves team productivity with repeatable infrastructure setup.
+
+**› Implications:**
+- Developers and clients can spin up Bagisto quickly.
+- Facilitates integration with CI/CD pipelines.
+
+**› Possible negative impact on quality:**
+- Requires Docker knowledge to troubleshoot issues.
+- Image size and performance overhead if not optimized.
+
+
+### Containerization Decision 
+
+**› Issue:** Whether to use containerized architecture for local development and CI/CD.
+
+**› Importance:** High – Affects developer experience and deployment reproducibility.
+
+**› Decision:** Docker Compose templates with isolated containers for database, PHP runtime, NGINX server, and cache, improving CI/CD compatibility and team productivity.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** DevOps & Infrastructure Team
+
+**› Assumptions:**
+- Multiple contributors need consistent environments.
+- The system will be deployed across various infrastructures.
+
+**› Alternatives:**
+- Vagrant or Homestead-based development environments.
+- Shared local installations.
+
+**› Arguments:**
+- Isolated containers reduce “works on my machine” issues.
+- Improves build reliability in pipelines.
+- Supports dependency versioning and rollback.
+
+**› Implications:**
+- Faster onboarding and lower setup time.
+- Scalability across team and enterprise environments.
+
+**› Possible negative impact on quality:**
+- Container orchestration adds overhead for small teams.
+- Potential performance tradeoffs during local development.
+
+
+
+### Concurrency Decision 
+
+**› Issue:** How to handle background jobs and asynchronous processing.
+
+**› Importance:** High – Affects user experience and performance during high-load operations.
+
+**› Decision:** Used Laravel queues and broadcasting with Redis for asynchronous processing, such as notifications and background tasks, to improve responsiveness.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Backend & Infrastructure Team
+
+**› Assumptions:**
+- Some operations are time-consuming and should not block users.
+- Redis is available and can be configured for job handling.
+
+**› Alternatives:**
+- Synchronous request processing.
+- Use of third-party queue services like Amazon SQS.
+
+**› Arguments:**
+- Laravel queues offer a native solution.
+- Redis provides fast and reliable job handling.
+- Broadcasting enhances real-time interaction capabilities.
+
+**› Implications:**
+- Improved frontend responsiveness and system scalability.
+- Decouples business logic from user-triggered events.
+
+**› Possible negative impact on quality:**
+- Requires operational awareness for Redis and workers.
+- Failed jobs may require monitoring and recovery systems.
+
+
+
+
 
 
 ## Mapped Architecture Decision Backlog Items
