@@ -690,6 +690,43 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
+### Technology Decision – Structured Template Format
+
+**› Issue:** Decision about which technology stack to use for Bagisto.
+
+**› Importance:** High – Influences development speed, maintainability, and community involvement.
+
+**› Decision:** Chose Laravel (PHP) for the back end and Vue.js for the front end.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Technical Leadership Team
+
+**› Assumptions:**
+- A strong PHP developer community is available.
+- Laravel offers rapid development and built-in features like routing, ORM, and queues.
+- Vue.js offers reactive UI and is beginner-friendly.
+
+**› Alternatives:**
+- Symfony with React.js
+- Node.js with Angular
+- Full-stack JavaScript (e.g., MERN)
+
+**› Arguments:**
+- Laravel has excellent documentation and developer productivity features.
+- Vue.js integrates well with Laravel and offers a lightweight footprint.
+- Large number of developers already proficient in Laravel and Vue.js.
+
+**› Implications:**
+- Faster onboarding for PHP/Vue developers.
+- Easier contribution from the open-source community.
+- Solid ecosystem and long-term maintainability.
+
+**› Possible negative impact on quality:**
+- Limited support for highly scalable applications compared to Node.js or Java.
+- Tight coupling between chosen stack components may reduce portability.
+
+
 ### Architecture Pattern Decision
 
 **› Issue:** Decision about which architecture patterns to apply in Bagisto's system design.
@@ -733,6 +770,75 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Complexity in understanding layered interactions for new developers.
 - Risk of performance bottlenecks if SOA and events are misused.
 - Challenges in enforcing architectural boundaries across community contributions.
+
+### Component Decision – Structured Template Format
+
+**› Issue:** Whether to design the admin panel as a reusable component or tightly coupled with the storefront.
+
+**› Importance:** Medium to High – Impacts flexibility and reusability in different use cases.
+
+**› Decision:** Designed the admin panel as a reusable component decoupled from storefront logic.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Architecture & Product Team
+
+**› Assumptions:**
+- B2B and B2C requirements may differ significantly.
+- Storefront customization should not impact admin functionalities.
+
+**› Alternatives:**
+- Single unified interface for both admin and storefront.
+- Use a headless CMS to manage both front-end and admin concerns.
+
+**› Arguments:**
+- Decoupling supports varied business use-cases.
+- Improves code maintainability and testing.
+- Enables independent scaling and development of admin features.
+
+**› Implications:**
+- Enables reuse of the admin panel across multiple deployments.
+- Supports enterprise scenarios with advanced dashboard needs.
+
+**› Possible negative impact on quality:**
+- Additional complexity in API design.
+- Requires clear interface contracts between components.
+
+
+### Integration Decision – Structured Template Format
+
+**› Issue:** How to enable integration with third-party systems (e.g., ERP, CRM, payment gateways).
+
+**› Importance:** High – Affects system interoperability and extensibility.
+
+**› Decision:** Implemented REST API and GraphQL support.
+
+**› Status:** Accepted and implemented.
+
+**› Group:** API & Integration Team
+
+**› Assumptions:**
+- External services require standards-based interfaces.
+- Developers prefer flexible querying capabilities.
+
+**› Alternatives:**
+- REST-only interface
+- SOAP-based integration
+- Webhooks without formal API design
+
+**› Arguments:**
+- REST is widely adopted and easy to use.
+- GraphQL offers client-side flexibility and reduces over-fetching.
+- Dual support ensures broader compatibility.
+
+**› Implications:**
+- Easier integration with modern services.
+- Greater developer satisfaction and community contribution potential.
+
+**› Possible negative impact on quality:**
+- Increased surface area for security vulnerabilities.
+- More maintenance effort for two API paradigms.
+
 
 
 
