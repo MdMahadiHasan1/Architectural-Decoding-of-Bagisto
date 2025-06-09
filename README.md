@@ -70,9 +70,8 @@
     - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
     - [Event-Driven Architecture (EDA)](Event-Driven-Architecture-(EDA))
 11. [Architecture Decisions](#Architecture-Decisions)
-12. [Mapped Architecture Decision Backlog Items](#Mapped-Architecture-Decision-Backlog-Items)
-13. [Conclusion](#Conclusion)
-14. [References](#References)
+12. [Conclusion](#Conclusion)
+13. [References](#References)
 
   
 
