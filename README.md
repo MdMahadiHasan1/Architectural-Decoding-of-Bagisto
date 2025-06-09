@@ -1049,19 +1049,19 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Limitations
 
-## Performance Bottlenecks:
+#### Performance Bottlenecks:
 Due to its reliance on Laravel and Eloquent ORM, Bagisto may encounter performance issues with complex queries or high-volume data processing, especially in catalog-heavy environments without caching optimizations.
 
-## Limited Third-party Ecosystem:
+#### Limited Third-party Ecosystem:
 Compared to platforms like Magento or Shopify, Bagisto has a smaller marketplace of plugins and integrations, which can limit out-of-the-box compatibility with third-party services like ERP, POS, and advanced analytics.
 
-## Incomplete Testing Coverage:
+#### Incomplete Testing Coverage:
 While the framework supports PHPUnit and Jest for testing, the core modules may not have comprehensive test coverage, which could affect stability during upgrades or third-party integrations.
 
-## Internationalization Gaps:
+#### Internationalization Gaps:
 While multi-language and multi-currency support exist, deeper international commerce features like localized tax systems, regional compliance (e.g., GDPR, CCPA), and language-specific SEO are limited.
 
-## Upgrade and Migration Challenges:
+#### Upgrade and Migration Challenges:
 As Bagisto evolves, backward compatibility is not always guaranteed. Upgrading between major versions or migrating custom modules can require significant effort and careful testing.
 
 
