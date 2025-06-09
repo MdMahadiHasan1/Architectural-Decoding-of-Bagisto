@@ -1075,4 +1075,5 @@ Addressing these limitations through improved testing infrastructure, a broader 
 
 
 # References
-1. Fahima, S. (2022). Develop E-Commerce Website at Xarray. IO (p. 30).
+1. Bass, L., Clements, P., & Kazman, R. (2021). Software architecture in practice. Addison-Wesley Professional.
+2. Fahima, S. (2022). Develop E-Commerce Website at Xarray. IO (p. 30).
