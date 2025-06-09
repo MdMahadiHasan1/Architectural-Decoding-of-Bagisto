@@ -438,7 +438,7 @@ The Bagisto 4+1 View Model is a software architectural framework that provides a
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8d686774-f752-41bd-b3fd-1c8ad4950885" width="600">
+  <img src="https://github.com/user-attachments/assets/8d686774-f752-41bd-b3fd-1c8ad4950885" width="400">
   <p>Figure: Bagisto 4+1 view model</p>
 </div>
 
