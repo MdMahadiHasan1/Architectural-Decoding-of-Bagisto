@@ -689,25 +689,50 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
-Below is a categorized list of architectural decision types made during the development and maintenance of the Bagisto open-source e-commerce platform, including representative examples, counts, and estimated percentages.
+### Architecture Pattern Decision – Structured Template Format
 
-| 🏷️ **Decision Type**              | 💡 **Example**                                                                                                                                                                                                                                                                                                                                                                                                  |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Implementation Decision**       | A modular design is observed in a modular Laravel-based architecture to enable plug-and-play capabilities for modules such as inventory, checkout, and customer management.                                                                                                                                                                                                                                     |
-| **Technology Decision**           | Bagisto opted to use Laravel (PHP Framework) for back-end and Vue.js for front-end development to leverage community support and ecosystem maturity.                                                                                                                                                                                                                                                            |
-| **Architecture Pattern Decision** | Bagisto follows multiple architecture patterns: MVC (Model-View-Controller) for module separation and maintainability, SOA (Service-Oriented Architecture) for inter-module interaction, Event-Driven Architecture for background processing (e.g., order placement, indexing), Layered Architecture for clean separation of concerns, and a Modular Monolith structure that enables easy modularization without the overhead of microservices. |
-| **Component Decision**            | The admin panel was architected as a reusable component to support B2B and B2C use-cases independently from storefront logic.                                                                                                                                                                                                                                                                                  |
-| **Tool Decision**                 | Integrated Composer for PHP dependency management and Webpack for asset bundling to streamline build processes and manage third-party libraries.                                                                                                                                                                                                                                                              |
-| **Data Decision**                 | Introduced Eloquent ORM with relational database support for storing product catalogs, customer records, and transactional data to ensure consistency and scalability.                                                                                                                                                                                                                                         |
-| **Decomposition Decision**        | The codebase is decomposed into independent modules such as Catalog, Checkout, Customer, Admin, and API packages to support service-level scalability and facilitate community contribution.                                                                                                                                                                                                                   |
-| **Integration Decision**          | REST API and GraphQL support are included to integrate Bagisto with third-party systems like ERP, CRM, and payment gateways.                                                                                                                                                                                                                                                                                    |
-| **Behavior Decision**             | Default cart behavior supports guest checkout and session-based persistence without mandatory account creation.                                                                                                                                                                                                                                                                                                 |
-| **Design Pattern Decision**       | Repository and service provider patterns are employed for better encapsulation and separation between business logic and persistence layer.                                                                                                                                                                                                                                                                     |
-| **Service Decision**              | The job queue system is organized into separate services for email, order placement, and indexing to enhance reliability under load.                                                                                                                                                                                                                                                                            |
-| **Testing Decision**              | PHPUnit is adopted for back-end and Jest for front-end unit and integration testing across modules to ensure high-quality releases.                                                                                                                                                                                                                                                                              |
-| **Deployment Decision**           | Docker-based deployment scripts are available for fast environment provisioning and compatibility across various cloud and on-premise platforms.                                                                                                                                                                                                                                                                 |
-| **Containerization Decision**     | Docker Compose templates with isolated containers for database, PHP runtime, NGINX server, and cache, improving CI/CD compatibility and team productivity.                                                                                                                                                                                                                                                     |
-| **Concurrency Decision**          | Used Laravel queues and broadcasting with Redis for asynchronous processing, such as notifications and background tasks, to improve responsiveness.                                                                                                                                                                                                                                                            |
+**› Issue:** Decision about which architecture patterns to apply in Bagisto's system design.
+
+**› Importance:** High – Determines system maintainability, scalability, modularity, and extensibility.
+
+**› Decision:** Adopted a combination of architecture patterns: 
+- MVC (Model-View-Controller)
+- SOA (Service-Oriented Architecture)
+- Event-Driven Architecture
+- Layered Architecture
+- Modular Monolith
+
+**› Status:** Accepted and implemented.
+
+**› Group:** Core Architecture Team
+
+**› Assumptions:**
+- The platform will evolve to support both B2C and B2B use cases.
+- Developers will contribute modular features via community or enterprise extensions.
+- Performance and maintainability are critical across modules.
+
+**› Alternatives:**
+- Microservices architecture
+- Monolithic without modular structure
+- Clean Architecture without MVC or service separation
+
+**› Arguments:**
+- MVC ensures separation of concerns for maintainable code.
+- SOA promotes reusability and clear API boundaries between modules.
+- Event-Driven Architecture decouples background processing and enhances responsiveness.
+- Layered Architecture enforces clean dependency rules and abstraction.
+- Modular Monolith allows for modular development without microservice overhead.
+
+**› Implications:**
+- Easier onboarding for Laravel/Vue developers familiar with MVC.
+- Enables gradual evolution toward microservices if needed in the future.
+- Simplifies testing and CI/CD by keeping codebase monolithic yet modular.
+
+**› Possible negative impact on quality:**
+- Complexity in understanding layered interactions for new developers.
+- Risk of performance bottlenecks if SOA and events are misused.
+- Challenges in enforcing architectural boundaries across community contributions.
+
 
 
 
