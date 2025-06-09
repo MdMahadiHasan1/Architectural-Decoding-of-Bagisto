@@ -568,8 +568,6 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 ### Implementation View
 
-#### Bagisto Implementation View: Brief Introduction**
-
 The **Implementation View** (or Development View) of the **Bagisto** framework illustrates its **modular architecture, code organization, dependencies, and deployment structure**. Bagisto, built on **Laravel**, follows a **package-driven design**, where core e-commerce functionalities are separated into reusable modules while leveraging Laravel’s foundational components.
 
 #### Key Layers of Bagisto’s Implementation  
@@ -581,7 +579,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
    - **Custom Modules**: Extensions like CMS, marketing tools, or ERP integrations.  
 
 2. **Laravel Foundation**  
-   - **Eloquent ORM**: Database abstraction layer.  
+   - **Eloquent ORM(Object-Relational Mapping)**: Database abstraction layer.  
    - **Routing**: HTTP request handling (web/admin/API routes).  
    - **Middleware**: Authentication, logging, and security layers.  
 
@@ -591,7 +589,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 
 4. **External Dependencies**  
    - **Composer**: PHP package manager (e.g., Stripe, PayPal integrations).  
-   - **NPM**: Frontend asset compilation (Bootstrap, Vue.js).  
+   - **NPM(Node Package Manager)**: Frontend asset compilation (Bootstrap, Vue.js).  
    - **Databases**: MySQL/PostgreSQL, Redis (caching), Elasticsearch (search).
 
 #### **Why This Matters**  
