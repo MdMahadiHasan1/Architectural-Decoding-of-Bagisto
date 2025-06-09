@@ -38,8 +38,8 @@
 - **2025, May 11**: *Task Description: Architecture Views* – **Mahadi, Ashikur, Shantu, Asifa, Limu**
 - **2025, May 20**: *Task Description: Architecture Patterns* – **Ashikur**
 - **2025, May 26**: *Task Description: Architecture Decisions* – **Ashikur, Mahadi, Limu**
-- **2025, June 9**: *Task Description: Architecture Decision Backlog* – **Mahadi**
--  **2025, June 9**: *Task Description: Architecture Patterns* – **Md Ashikur Rahman**
+- **2025, June 9**: *Task Description: Architecture Patterns* – **Md Ashikur Rahman**
+- **2025, June 9**: *Task Description: Architecture Decision, overall review* – **Mahadi**
 
 
 ## Table of Contents
