@@ -1044,32 +1044,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 **› Possible negative impact on quality:**
 - Requires operational awareness for Redis and workers.
-- Failed jobs may require monitoring and recovery systems.
-
-
-
-
-
-
-## Mapped Architecture Decision Backlog Items
-
-| **Backlog Item**                                                                 | **Related Architecture Decision Type(s)**       | **Rationale**                                                                                       | **Expected Outcome**                                         |
-|----------------------------------------------------------------------------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| Refactor Modular Monolith into Fully Decoupled Microservices                     | Architecture Pattern, Decomposition            | Improves fault isolation and independent deployment. Essential for large-scale multi-vendor setups. | Microservices architecture with independent deployment paths. |
-| Implement API Gateway with Rate Limiting and Caching                             | Integration, Tool Decision                     | Centralized entry point for APIs. Secures access and improves latency through caching.              | Better API governance, security, and response times.         |
-| Standardize Event Sourcing for All Critical Domain Events                         | Behavior, Data Decision                         | Improves system traceability and simplifies rollback or reconstruction of domain state.             | Robust event log and replay capability.                      |
-| Apply Domain-Driven Design (DDD) for Business-Critical Modules (e.g., Checkout)   | Architecture Pattern, Component Decision        | Aligns code with business domains; reduces technical debt.                                           | Clearer domain boundaries and scalable business logic.       |
-| Introduce Service Mesh for Microservice Communication                             | Integration, Service Decision                  | Enables fine-grained control, resilience, and encryption for inter-service traffic.                 | Improved security and traffic management between services.   |
-| Apply Saga Pattern for Long-running Transactions (e.g., Orders + Payments)        | Behavior, Concurrency Decision                  | Ensures eventual consistency in a distributed system without using global locks.                    | Reliable handling of distributed workflows.                  |
-| Enforce Hexagonal Architecture (Ports and Adapters) on All New Services           | Design Pattern Decision, Maintainability       | Promotes isolation of domain logic from frameworks and I/O operations.                              | Easier testing and framework-agnostic core logic.            |
-| Integrate GraphQL Federation Across Microservices                                 | Integration, Tool Decision                     | Unifies GraphQL APIs from different services into one schema for frontend.                          | Simplified API usage in frontend or mobile clients.          |
-| Adopt Policy-as-Code for Role-Based Access Control (RBAC)                        | Security, Tool Decision                         | Enables dynamic and auditable access decisions using tools like OPA.                                | Fine-grained and compliant access control system.            |
-| Establish Chaos Engineering Practice for Resilience Testing                       | Testing, Service Decision                       | Validates system's ability to withstand and recover from failures in production.                    | Increased fault tolerance and observability.                 |
-| Optimize CQRS Adoption in Reporting & Analytics                                   | Data, Architecture Pattern Decision             | Supports fast query performance without blocking transactional writes.                              | Scalable reporting layer that doesn’t affect core operations.|
-| Adopt Infrastructure as Code (IaC) for Environment Reproducibility                | Deployment, Containerization Decision           | Automates infrastructure provisioning for CI/CD and environment replication.                        | Reduced deployment errors and better environment control.    |
-| Introduce Centralized Configuration Service (e.g., Consul, Spring Config)         | Tool Decision, Data Decision                    | Manages environment-specific config centrally to avoid duplication.                                | Easier configuration management across services.             |
-| Integrate AI Services (LLMs, Recommendations, Chatbots) with Isolated Adapters    | Component, Integration Decision                 | Keeps AI-related services decoupled for replacement or upgrades.                                    | Maintainability and future-proof AI service integration.     |
-
+- Failed jobs may require monitoring and recovery systems
 
 
 # Conclusion
