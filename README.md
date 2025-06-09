@@ -690,7 +690,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
-### Technology Decision 
+## Technology Decision 
 
 **› Issue:** Decision about which technology stack to use for Bagisto.
 
@@ -727,7 +727,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Tight coupling between chosen stack components may reduce portability.
 
 
-### Architecture Pattern Decision
+## Architecture Pattern Decision
 
 **› Issue:** Decision about which architecture patterns to apply in Bagisto's system design.
 
@@ -771,7 +771,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Risk of performance bottlenecks if SOA and events are misused.
 - Challenges in enforcing architectural boundaries across community contributions.
 
-### Component Decision 
+## Component Decision 
 
 **› Issue:** Whether to design the admin panel as a reusable component or tightly coupled with the storefront.
 
@@ -805,7 +805,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Requires clear interface contracts between components.
 
 
-### Integration Decision 
+## Integration Decision 
 
 **› Issue:** How to enable integration with third-party systems (e.g., ERP, CRM, payment gateways).
 
@@ -840,7 +840,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - More maintenance effort for two API paradigms.
 
 
-### Implementation Decision 
+## Implementation Decision 
 
 **› Issue:** Whether to design Bagisto’s system in a modular way.
 
@@ -875,7 +875,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 
 
-### Data Decision 
+## Data Decision 
 
 **› Issue:** How to manage and persist application data.
 
@@ -909,7 +909,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Complex joins might become difficult to manage.
 
 
-### Testing Decision 
+## Testing Decision 
 
 **› Issue:** Which testing tools and strategies to adopt for quality assurance.
 
@@ -944,7 +944,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 
 
-### Deployment Decision 
+## Deployment Decision 
 
 **› Issue:** How to provision environments for Bagisto deployments.
 
@@ -977,7 +977,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Image size and performance overhead if not optimized.
 
 
-### Containerization Decision 
+## Containerization Decision 
 
 **› Issue:** Whether to use containerized architecture for local development and CI/CD.
 
@@ -1012,7 +1012,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 
 
-### Concurrency Decision 
+## Concurrency Decision 
 
 **› Issue:** How to handle background jobs and asynchronous processing.
 
