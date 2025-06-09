@@ -690,6 +690,8 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
+The architectural decisions behind Bagisto reflect a thoughtful alignment with modern e-commerce requirements, leveraging Laravel as the core technology to benefit from a robust PHP ecosystem and developer-friendly syntax. The architecture follows a modular monolith pattern, enabling scalability and maintainability while preserving tight integration between components. Key components include product management, customer management, cart and checkout systems, and an admin panel, all organized using a layered structure for separation of concerns. Integration decisions favor RESTful APIs and support for GraphQL, facilitating communication with third-party services and frontend clients. Implementation is grounded in Laravel best practices, with service providers, repositories, and event-driven structures guiding the application logic. Data decisions prioritize Eloquent ORM for relational data handling, enhanced with database migrations and seeders to ensure consistency across environments. Testing is approached through unit, feature, and browser testing using Laravel’s testing suite, promoting high reliability. For deployment, Bagisto supports both traditional LAMP stack environments and modern CI/CD workflows. Containerization is enabled via Docker support, allowing flexible development and deployment setups across systems. Concurrency is managed through Laravel queues and job dispatching, ensuring asynchronous processing for tasks like order confirmation emails and inventory updates without blocking the main execution flow.
+
 ## Technology Decision 
 
 **› Issue:** Decision about which technology stack to use for Bagisto.
