@@ -690,7 +690,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
-### Technology Decision – Structured Template Format
+### Technology Decision 
 
 **› Issue:** Decision about which technology stack to use for Bagisto.
 
@@ -771,7 +771,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Risk of performance bottlenecks if SOA and events are misused.
 - Challenges in enforcing architectural boundaries across community contributions.
 
-### Component Decision – Structured Template Format
+### Component Decision 
 
 **› Issue:** Whether to design the admin panel as a reusable component or tightly coupled with the storefront.
 
@@ -805,7 +805,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Requires clear interface contracts between components.
 
 
-### Integration Decision – Structured Template Format
+### Integration Decision 
 
 **› Issue:** How to enable integration with third-party systems (e.g., ERP, CRM, payment gateways).
 
