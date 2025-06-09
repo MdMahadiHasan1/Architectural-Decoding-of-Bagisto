@@ -70,7 +70,7 @@
     - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
     - [Event-Driven Architecture (EDA)](Event-Driven-Architecture-(EDA))
 11. [Architecture Decisions](#Architecture-Decisions)
-12. Limitations[#Limitations]
+12. [Limitations](#Limitations)
 13. [Conclusion](#Conclusion)
 14. [References](#References)
 
