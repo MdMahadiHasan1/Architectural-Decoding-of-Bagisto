@@ -689,7 +689,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 # Architecture Decisions
 
-### Architecture Pattern Decision – Structured Template Format
+### Architecture Pattern Decision
 
 **› Issue:** Decision about which architecture patterns to apply in Bagisto's system design.
 
