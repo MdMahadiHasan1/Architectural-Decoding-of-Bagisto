@@ -681,9 +681,11 @@ For enterprise-level scalability and flexibility, Bagisto can be adapted to a Mi
 In summary, Bagisto's architecture supports a transition from a modular monolith to microservices, allowing businesses to start with a simpler structure and evolve to a more complex, scalable system as their needs grow.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a5195b7a-0033-497a-af7c-6736951beaae" width="700">
+  <img src="https://github.com/user-attachments/assets/b744e1b3-e3e1-4428-bcbd-2901c0f82b19" width="700">
   <p>Figure : Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
 </div>
+
+
 
 # Architecture Decisions
 
