@@ -36,7 +36,7 @@
 - **2025, April 20**: *Task Description: System Context* – **Limu**
 - **2025, April 20**: *Task Description: Introduction, Quality Attribute,Key Quality Concerns(Scalability), Database Development* – **Md Ashikur Rahman**
 - **2025, May 11**: *Task Description: Architecture Views* – **Mahadi, Md Ashikur Rahman, Shantu, Asifa, Limu**
-- **2025, May 15**: *Task Description:Implementation View* – **Md Ashikur Rahman**
+- **2025, May 15**: *Task Description: Implementation View* – **Md Ashikur Rahman**
 - **2025, May 20**: *Task Description: Architecture Patterns* – **Md Ashikur Rahman**
 - **2025, May 26**: *Task Description: Architecture Decisions* – **Md Ashikur Rahman, Mahadi, Limu**
 - **2025, June 9**: *Task Description: Architecture Patterns Design Part in Bagisto* – **Md Ashikur Rahman**
