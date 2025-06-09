@@ -1112,4 +1112,4 @@ Addressing these limitations through improved testing infrastructure, a broader 
 4. Kruchten, P. (1995). Architecture blueprints—the “4+ 1” view model of software architecture. In Tutorial proceedings on TRI-Ada'91: Ada's role in global markets: solutions for a changing complex world (pp. 540-555).
 5. Woodside, M. (2021, April). Performance models of event-driven architectures. In Companion of the ACM/SPEC International Conference on Performance Engineering (pp. 145-149).
 6. Kumari, A., & Mohan, K. S. (2023). A Cloud Native Framework for Real-time Pricing in e-Commerce. International Journal of Advanced Computer Science and Applications, 14(4).
-7. Teacher's PowerPoint slides.
+7. Professor's Class lectures and valuables PowerPoint slides.
