@@ -439,7 +439,7 @@ The Bagisto 4+1 View Model is a software architectural framework that provides a
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8d686774-f752-41bd-b3fd-1c8ad4950885" width="400">
+  <img src="https://github.com/user-attachments/assets/8d686774-f752-41bd-b3fd-1c8ad4950885" width="500">
   <p>Figure: Bagisto 4+1 view model</p>
 </div>
 
@@ -569,7 +569,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 ### Implementation View
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/11c70996-7340-49c4-bb84-6a2007a4e6b8" >
+  <img src="https://github.com/user-attachments/assets/11c70996-7340-49c4-bb84-6a2007a4e6b8",heigh="600" >
   <p>Figure: Bagisto 4+1 view model Implementation View</p>
 </div>
 
