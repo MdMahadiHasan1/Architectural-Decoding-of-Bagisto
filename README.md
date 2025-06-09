@@ -574,7 +574,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 
 ---
 
-#### **Key Layers of Bagisto’s Implementation**  
+#### Key Layers of Bagisto’s Implementation  
 
 1. **Bagisto Core Modules**  
    - **Core**: Base services, helpers, models, and repositories.  
