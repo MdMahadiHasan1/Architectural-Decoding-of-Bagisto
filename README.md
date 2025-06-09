@@ -839,9 +839,8 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 - Increased surface area for security vulnerabilities.
 - More maintenance effort for two API paradigms.
 
-<span style="color:red">This text is red</span>
 
-  ### Implementation Decision 
+### Implementation Decision 
 
 **› Issue:** Whether to design Bagisto’s system in a modular way.
 
