@@ -658,7 +658,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 ## MVC (Model-View-Controller)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d29dfecd-c1dd-4f34-a55b-860a08db2503" width="900", height="900">
+  <img src="https://github.com/user-attachments/assets/d29dfecd-c1dd-4f34-a55b-860a08db2503" width="850", height="850">
   <p>Figure : MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
 </div>
 
