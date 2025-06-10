@@ -727,6 +727,11 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 In the following sections, we examine Bagisto's architectural decisions, encompassing a comprehensive range of considerations: technology choices, architectural pattern selection, component design, system integration strategies, implementation approaches, data management policies, testing methodologies, deployment strategies, containerization practices, and concurrency handling mechanisms.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3e61a3dd-cbb1-411a-835a-bcac661e2b58">
+  <p>Figure 18: Topological Graph of Bagisto Architectural Decisions </p>
+</div>
+
 ## Technology Decision 
 
 **› Issue:** Decision about which technology stack to use for Bagisto.
