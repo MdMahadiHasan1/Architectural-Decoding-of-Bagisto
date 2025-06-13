@@ -796,14 +796,6 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 In the following sections, we examine Bagisto's architectural decisions, encompassing a comprehensive range of considerations: technology choices, architectural pattern selection, component design, system integration strategies, implementation approaches, data management policies, testing methodologies, deployment strategies, containerization practices, and concurrency handling mechanisms.
 
-
-
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/df9f7af7-551e-435e-b3ee-2f3dada006d5">
-  <p>Figure 18: Architectural Decisions Tree</p>
-</div>
-
 ## Technology Decision
 
 **› Issue:** Decision about which technology stack to adopt for Bagisto.
@@ -1136,6 +1128,15 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 **› Possible negative impact on quality:**
 - Redis setup requires monitoring.
 - Job failure handling adds operational complexity
+
+
+# Bagisto Architectural Decisions Tree
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/df9f7af7-551e-435e-b3ee-2f3dada006d5">
+  <p>Figure 18: Architectural Decisions Tree</p>
+</div>
 
 ## Bagisto Architecture: Limitations & Improvement Opportunities
 
