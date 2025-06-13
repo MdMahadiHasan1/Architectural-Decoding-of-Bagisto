@@ -732,41 +732,51 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
   <p>Figure 18: Topological Graph of Bagisto Architectural Decisions </p>
 </div>
 
-## Technology Decision 
+# Technology Stack Decision
 
-**› Issue:** Decision about which technology stack to use for Bagisto.
+## Status
+Accepted and implemented
 
-**› Importance:** High – Influences development speed, maintainability, and community involvement.
+## Context
+Selection of the core technology stack for Bagisto.
 
-**› Decision:** Chose Laravel (PHP) for the back end and Vue.js for the front end.
+### Importance (Quality Attributes)
+High – Affects:
+- Functional suitability  
+- Maintainability  
+- Community support  
+- Performance efficiency  
+- Extensibility
 
-**› Status:** Accepted and implemented.
+## Decision
+Adopted **Laravel (PHP)** for the backend and **Vue.js** for the frontend.
 
-**› Group:** Technical Leadership Team
+## Decision-Making Group
+Technical Leadership Team
 
-**› Assumptions:**
-- A strong PHP developer community is available.
-- Laravel offers rapid development and built-in features like routing, ORM, and queues.
-- Vue.js offers reactive UI and is beginner-friendly.
+## Assumptions
+- Strong global PHP developer community  
+- Laravel provides robust built-in capabilities (routing, ORM, jobs)  
+- Vue.js is beginner-friendly and easily integrates with Laravel
 
-**› Alternatives:**
-- Symfony with React.js
-- Node.js with Angular
-- Full-stack JavaScript (e.g., MERN)
+## Alternatives Considered
+- **Symfony with React.js**: Strong structure, less beginner-friendly  
+- **Node.js with Angular**: Modern JS stack, steep learning curve  
+- **Full-stack JavaScript (MERN)**: Rapid development, but JS-only constraint
 
-**› Arguments:**
-- Laravel has excellent documentation and developer productivity features.
-- Vue.js integrates well with Laravel and offers a lightweight footprint.
-- Large number of developers already proficient in Laravel and Vue.js.
+## Arguments
+- Laravel’s expressive syntax and rich ecosystem boost productivity  
+- Vue.js provides reactive components and low integration overhead  
+- High availability of Laravel/Vue developers ensures community scaling
 
-**› Implications:**
-- Faster onboarding for PHP/Vue developers.
-- Easier contribution from the open-source community.
-- Solid ecosystem and long-term maintainability.
+## Implications
+- Accelerated onboarding and time-to-market  
+- Greater community contributions and ecosystem compatibility
 
-**› Possible negative impact on quality:**
-- Limited support for highly scalable applications compared to Node.js or Java.
-- Tight coupling between chosen stack components may reduce portability.
+## Potential Negative Impacts on Quality
+- Limited horizontal scalability versus Node.js or Java  
+- Tight stack coupling may reduce portability
+
 
 
 ## Architecture Pattern Decision
