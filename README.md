@@ -641,6 +641,15 @@ The new functionality is successfully deployed, operational, and stable in produ
 </div>
 
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
+  <p>Figure 10: Deployment Diagram for Microservices Architecture </p>
+</div>
+
+
+
+
+
 # Database Development
 <div align="center">
   <img src="https://github.com/user-attachments/assets/380519a9-039d-4646-a4e1-976d9fa7aead">
