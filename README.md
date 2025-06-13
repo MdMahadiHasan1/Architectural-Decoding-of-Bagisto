@@ -688,13 +688,6 @@ The deployment viewpoint provides a detailed perspective of how Bagisto's e-comm
   * Web and Mobile clients send requests to the API Gateway.
   * API Gateway routes requests to the appropriate microservices.
 
-## Benefits
-
-* **Independent Scaling** of services
-* **Fault Isolation** for better resilience
-* **Ease of Maintenance** due to service decoupling
-* **Technology Flexibility** across microservices
-
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
