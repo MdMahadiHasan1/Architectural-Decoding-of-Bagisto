@@ -722,7 +722,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 
 
-## Event-Driven Architecture (EDA)
+### Event-Driven Architecture (EDA)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c224d0ca-4100-4a85-8906-831150bff1e9">
