@@ -640,12 +640,15 @@ The new functionality is successfully deployed, operational, and stable in produ
 
 
 
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/402240a9-fa26-4bed-b407-650d0fad853b">
+  <p>Figure 11: Deployment View of Bagisto's  Modular Monolith </p>
+</div>
 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
-  <p>Figure 10: Deployment View of Bagisto's Microservices Architecture </p>
+  <p>Figure 12: Deployment View of Bagisto's Microservices Architecture </p>
 </div>
 
 
@@ -655,7 +658,7 @@ The new functionality is successfully deployed, operational, and stable in produ
 # Database Development
 <div align="center">
   <img src="https://github.com/user-attachments/assets/380519a9-039d-4646-a4e1-976d9fa7aead">
-  <p>Figure 11: Bagisto Schema Diagram </p>
+  <p>Figure 13: Bagisto Schema Diagram </p>
 </div>
 This Bagisto Database Schema illustrates a modular, normalized, and extensible relational design, well aligned with modern e-commerce requirements. Each functional area (identity, catalog, sales, cart, promotions, feedback) is clearly demarcated yet interconnected via foreign-key relationships. Such a schema supports maintainability, future extension (e.g., chat-bot logs, analytics tables), and robust performance tuning (indexes, sharding, caching). This database foundation enables Bagisto to scale from small shops to large multi-vendor marketplaces without requiring major schema overhauls.
 
@@ -665,7 +668,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b511ce11-2254-4e7c-9757-74b10e56cb48">
-  <p>Figure 12: Architecture Patterns </p>
+  <p>Figure 14: Architecture Patterns </p>
 </div>
 
 
