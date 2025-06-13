@@ -111,13 +111,22 @@ Stakeholders in e-commerce ecosystems are individuals, groups, or entities that 
 
 **Primary Stakeholders**
 
-| Stakeholder    | Analysis |
-|----------------|----------|
-| **Customers**  | End-users purchasing goods/services; central to revenue generation and user experience. |
-| **Business Owners/Shareholders**     | Entities investing capital and driving strategic decisions to maximize profitability. |
-| **Employees**    | Staff involved in platform development, marketing, customer support, and logistics (e.g., developers, sales teams). |
-| **Suppliers/Vendors** | Third-party providers of goods, raw materials, or services integrated into the platform.|
-| **Logistics Partners** | Delivery and warehousing firms ensuring order fulfillment (e.g., FedEx, DHL). |
+| Stakeholder               | Role & Responsibilities |
+|---------------------------|--------------------------|
+| **Customers**             | End-users purchasing goods or services through Bagisto-powered stores. Their satisfaction drives platform adoption and revenue. |
+| **Business Owners / Shareholders** | Define strategic goals, manage financial investments, and oversee platform scalability and market fit. |
+| **Developers (Full Stack)** | Responsible for building, maintaining, and extending the platform. This includes backend (Laravel), frontend (Vue.js), API design, performance optimization, and bug fixes. |
+| **DevOps Engineers**      | Manage CI/CD pipelines, Docker orchestration, server deployment, and infrastructure scaling. |
+| **QA / Test Engineers**   | Perform automated (PHPUnit, Jest) and manual testing to ensure code reliability, security, and a bug-free experience. |
+| **Product Managers**      | Define and prioritize features, coordinate cross-functional teams, and ensure that product development aligns with business and customer needs. |
+| **UI/UX Designers**       | Design user-friendly and responsive interfaces for the storefront and admin panel to improve usability and satisfaction. |
+| **Sales & Marketing Teams** | Attract merchants and customers through digital marketing, SEO, community engagement, and sales campaigns. |
+| **Customer Support Agents** | Provide technical assistance, resolve issues, and ensure a positive post-sale experience. Gather user feedback for continuous improvement. |
+| **Suppliers / Vendors**   | Provide goods and services that are listed and sold on Bagisto-powered platforms. Essential for inventory variety and marketplace operations. |
+| **Logistics / Delivery Partners** | Handle shipping, delivery tracking, and warehousing to ensure timely order fulfillment. |
+| **Open-Source Contributors** | Community members enhancing the Bagisto codebase, fixing bugs, suggesting features, or developing extensions. |
+| **System Integrators / Agencies** | Deploy, customize, and maintain Bagisto implementations for enterprises and SMEs. Help clients tailor the platform to their needs. |
+
 
 
 **Secondary Stakeholders**
