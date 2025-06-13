@@ -635,9 +635,9 @@ Therefore, this section covers both deployment scenarios:
 #### Deployment View of Bagisto's Microservices Architecture
 
 
-The deployment viewpoint provides a detailed perspective of how Bagisto's e-commerce platform is deployed across infrastructure nodes using a microservices architecture. It is intended for developers, DevOps engineers, and architects to understand component distribution and communication across services.
+Bagisto employs a microservices deployment model to enhance modularity, maintainability, and scalability. Each functional module is encapsulated within its own service, allowing independent deployment and scaling.
 
-## Nodes and Components
+### Nodes and Components
 
 ### 1. Computer
 
