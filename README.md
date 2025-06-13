@@ -905,7 +905,7 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - Module dependency risks.
 - Compatibility challenges during upgrades.
 
-## Testing Decision
+## Data Decision
 
 **› Issue:** Design of data access and persistence mechanisms.
 
@@ -937,7 +937,7 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - ORM misuse can lead to performance bottlenecks.
 - Complex queries harder to optimize.
 
----
+## Testing Decision
 
 **› Issue:** Choose testing tools and methods.
 
