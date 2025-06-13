@@ -1132,11 +1132,14 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 
 # Bagisto Architectural Decisions Tree
 
+The Bagisto architectural decision tree is designed in alignment with its overall system structure, as illustrated in the accompanying figure.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/df9f7af7-551e-435e-b3ee-2f3dada006d5">
   <p>Figure 18: Architectural Decisions Tree</p>
 </div>
+
+The Bagisto Architectural Decision Tree illustrates the key technical decisions made during the design and implementation of Bagisto’s platform architecture. Each node in the tree encapsulates a major decision point — ranging from technology stack selections (like choosing Laravel and Vue.js) and architecture patterns (such as a combination of MVC, event-driven, or modular monolith) to data persistence strategies, API design, and testing frameworks. The diagram also shows alternative options considered at each step alongside the eventual choices that were implemented in the platform. This systematic approach helps stakeholders visualize the architectural landscape, track decision rationales, and identify potential impacts stemming from each choice. The decision tree serves as both a form of technical documentation and a guide for future contributors, making it easier to understand, modify, or extend Bagisto’s architecture in a consistent and purposeful manner.
 
 ## Bagisto Architecture: Limitations & Improvement Opportunities
 
