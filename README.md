@@ -618,30 +618,14 @@ The Implementation View demonstrates Bagisto’s modular, layered architecture b
 
 ### Deployment Viewpoint
 
-This section elucidates the operational aspects of the Bagisto E-commerce Platform, focusing on how software components are transitioned from deployment to a live environment. Illustrated in Figure Deployment Lifecycle for Bagisto E-commerce, this diagram details the iterative stages of the application lifecycle, emphasizing the processes and strategies employed for continuous delivery. The following outlines these key phases, highlighting their alignment with modern software architecture practices.
-- **Develop Module / Feature**:
-New functionalities for Bagisto, leveraging Laravel (backend) and Vue.js/React (frontend), are coded and implemented.
-- **Unit & Integration Testing**:
-Code undergoes PHPUnit (Laravel) and Jest/Vue Test Utils (frontend) tests to ensure individual components and their interactions within Bagisto are correct.
-- **Code Review & QA**:
-Peers review code for standards and quality, followed by manual QA checks to verify new features and bug fixes meet requirements.
-- **Staging Deployment & UAT**:
-Validated code is deployed to a staging environment mirroring production, where stakeholders perform User Acceptance Testing (UAT) to approve the release.
-- **Build & Artifact Creation**:
- Automated processes build and package the application into deployable artifacts, including Docker images, optimized frontend assets, and Composer dependencies.
-- **Production Deployment**:
-The verified artifacts are deployed to the live production environment, often using strategies like container orchestration (e.g., Kubernetes) deployments for minimal downtime.
-- **System Monitoring & Observability**:
-Continuous monitoring using tools like Laravel Nova and Sentry tracks performance, errors, and user activity to ensure operational stability.
-- **Rollback to Previous Version**:
-A critical contingency plan allows for rapid reversion to a stable previous version in case of production issues.
-- **Feature Live / Stable**:
-The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
+The Deployment Viewpoint illustrates how Bagisto's software components are physically deployed across infrastructure nodes. This view helps stakeholders understand runtime environments, server responsibilities, communication channels, and scalability implications.
 
+Bagisto adopts a modular monolith architecture by default, which is well-suited for small to medium-sized deployments due to its simplicity and ease of management. However, for enterprise-grade needs, it can be restructured into a microservices architecture, offering better scalability, flexibility, and maintainability across distributed systems.
 
-This deployment diagram illustrates a centralized architecture for the Bagisto E-commerce System. The entire system, including the Customer Interface, Vendor Interface, Admin Interface, and the System Database, is deployed on a single Web Server.
+Therefore, this section covers both deployment scenarios:
 
-The view highlights how different types of users connect to the system from their respective devices. Both Customers and Vendors access the application securely over the internet via HTTPS. In contrast, the Admin connects through a Private Network, suggesting enhanced security for administrative functions. This model emphasizes access segregation, with all core components hosted on one server.
+- A Modular Monolith Deployment, reflecting Bagisto’s default structure.
+- A Microservices-Based Deployment, showcasing how Bagisto can be re-architected to support large-scale, cloud-native operations.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/303e52f7-bc67-42ea-b2cd-a7f50cd8503f">
