@@ -71,7 +71,7 @@
     - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
     - [Event-Driven Architecture (EDA)](Event-Driven-Architecture-(EDA))
 11. [Architecture Decisions](#Architecture-Decisions)
-12. [Limitations](#Bagisto-Architecture:-Limitations-&-Improvement-Opportunities)
+12. [Limitations](#bagisto-architecture-limitations--improvement-opportunities)
 13. [Conclusion](#Conclusion)
 14. [References](#References)
 
@@ -1068,7 +1068,7 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - Redis setup requires monitoring.
 - Job failure handling adds operational complexity
 
-# Bagisto Architecture: Limitations & Improvement Opportunities
+## Bagisto Architecture: Limitations & Improvement Opportunities
 
 | Architecture Area       | Limitation                                                                 | Possible Improvement                                                                 |
 |-------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
