@@ -634,6 +634,68 @@ Therefore, this section covers both deployment scenarios:
 
 #### Deployment View of Bagisto's Microservices Architecture
 
+
+The deployment viewpoint provides a detailed perspective of how Bagisto's e-commerce platform is deployed across infrastructure nodes using a microservices architecture. It is intended for developers, DevOps engineers, and architects to understand component distribution and communication across services.
+
+## Nodes and Components
+
+### 1. Computer
+
+* **Web Browser**
+
+  * Component: `Ecommerce Client Module`
+  * Artifacts: `Styles`, `Scripts`
+  * Communicates with the API Server via REST API.
+
+### 2. Smartphone
+
+* **Mobile Application**
+
+  * Component: `Ecommerce App`
+  * Module: `Mobile API Gateway Module`
+  * Communicates with the backend services via REST API.
+
+### 3. API Server
+
+* **API Gateway Service**
+
+  * Acts as the central gateway for routing API requests.
+  * Handles authentication, authorization, and API aggregation.
+
+### 4. Product Server
+
+* **Services**:
+
+  * `Product Catalog` → `Product Database`
+  * `Invoicing Service` → `Invoice Database`
+
+### 5. Bank Server
+
+* **Services**:
+
+  * `Currency Exchange Rate Service`
+  * `Payment Gateway`
+
+### 6. Courier Server
+
+* **Service**: `Shipping Service`
+
+## Communication
+
+* **Protocol**: REST API
+* **Flow**:
+
+  * Web and Mobile clients send requests to the API Gateway.
+  * API Gateway routes requests to the appropriate microservices.
+
+## Benefits
+
+* **Independent Scaling** of services
+* **Fault Isolation** for better resilience
+* **Ease of Maintenance** due to service decoupling
+* **Technology Flexibility** across microservices
+
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
   <p>Figure 12: Deployment View of Bagisto's Microservices Architecture </p>
