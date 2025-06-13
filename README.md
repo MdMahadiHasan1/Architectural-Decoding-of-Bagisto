@@ -641,7 +641,7 @@ The new functionality is successfully deployed, operational, and stable in produ
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/402240a9-fa26-4bed-b407-650d0fad853b">
+  <img src="https://github.com/user-attachments/assets/303e52f7-bc67-42ea-b2cd-a7f50cd8503f">
   <p>Figure 11: Deployment View of Bagisto's  Modular Monolith </p>
 </div>
 
