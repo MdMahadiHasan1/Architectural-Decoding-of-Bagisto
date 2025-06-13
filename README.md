@@ -68,7 +68,7 @@
 10. [Architecture Patterns](#Architecture-Patterns)
     - [Modular Monolith Architecture Pattern](#Modular-Monolith-Architecture-Pattern)
     - [Microservices Architecture Pattern](#Microservices-Architecture-Pattern)
-    - [MVC (Model-View-Controller)](#MVC-(Model-View-Controller))
+    - [MVC (Model-View-Controller)](#mvc-model-view-controller)
     - [Event-Driven Architecture (EDA)](#Event-Driven-Architecture-(EDA))
 11. [Architecture Decisions](#Architecture-Decisions)
 12. [Limitations](#bagisto-architecture-limitations--improvement-opportunities)
