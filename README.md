@@ -1066,22 +1066,7 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 
 **› Possible negative impact on quality:**
 - Redis setup requires monitoring.
-- Job failure handling adds operational complexity.
-
-
-
-
-
-# Limitations
-The following table summarizes some of the key limitations of the Bagisto e-commerce framework:
-
-| Limitation                          | Description                                                                                                                                                                                                                                         |
-|-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Performance Bottlenecks**         | Due to its reliance on Laravel and Eloquent ORM, Bagisto may encounter performance issues with complex queries or high-volume data processing, especially in catalog-heavy environments without caching optimizations.                               |
-| **Limited Third-party Ecosystem**   | Compared to platforms like Magento or Shopify, Bagisto has a smaller marketplace of plugins and integrations, which can limit out-of-the-box compatibility with third-party services like ERP, POS, and advanced analytics.                       |
-| **Incomplete Testing Coverage**     | While the framework supports PHPUnit and Jest for testing, the core modules may not have comprehensive test coverage, which could affect stability during upgrades or third-party integrations.                                                    |
-| **Internationalization Gaps**       | While multi-language and multi-currency support exist, deeper international commerce features like localized tax systems, regional compliance (e.g., GDPR, CCPA), and language-specific SEO are limited.                                           |
-| **Upgrade and Migration Challenges**| As Bagisto evolves, backward compatibility is not always guaranteed. Upgrading between major versions or migrating custom modules can require significant effort and careful testing.                                                              |
+- Job failure handling adds operational complexity
 
 # Conclusion
 In summary, Bagisto exemplifies a well-architected, open-source e-commerce platform that effectively integrates modular design, extensibility, and modern web technologies such as Laravel and Vue.js. Its architectural foundation supports a range of digital commerce models—from B2C and B2B to multi-vendor marketplaces—while catering to diverse stakeholders including end users, administrators, developers, integrators, and business owners. Core strengths include its scalable modular monolith structure, event-driven capabilities, RESTful API integration, containerized deployment, and a flexible package-based system for feature encapsulation.
