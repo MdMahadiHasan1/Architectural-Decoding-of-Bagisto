@@ -639,6 +639,9 @@ A critical contingency plan allows for rapid reversion to a stable previous vers
 The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
 
 
+This deployment diagram illustrates a centralized architecture for the Bagisto E-commerce System. The entire system, including the Customer Interface, Vendor Interface, Admin Interface, and the System Database, is deployed on a single Web Server.
+
+The view highlights how different types of users connect to the system from their respective devices. Both Customers and Vendors access the application securely over the internet via HTTPS. In contrast, the Admin connects through a Private Network, suggesting enhanced security for administrative functions. This model emphasizes access segregation, with all core components hosted on one server.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/303e52f7-bc67-42ea-b2cd-a7f50cd8503f">
