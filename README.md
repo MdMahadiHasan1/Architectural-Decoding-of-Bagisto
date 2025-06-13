@@ -632,13 +632,14 @@ Therefore, this section covers both deployment scenarios:
   <p>Figure 11: Deployment View of Bagisto's  Modular Monolith </p>
 </div>
 
+#### Deployment View of Bagisto's Microservices Architecture
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
   <p>Figure 12: Deployment View of Bagisto's Microservices Architecture </p>
 </div>
 
-
+The Bagisto Microservices-Based Deployment Viewpoint illustrates a distributed architecture where independent services communicate over REST APIs to fulfill business functions. Each domain-specific service—such as Product Catalog, Invoicing, Payment Gateway, and Shipping—is deployed on its dedicated server, enabling independent development, scaling, and deployment. The API Gateway Service centrally manages client requests from both web and mobile applications, routing them to appropriate microservices. This design supports high availability, modularity, and better fault isolation, making it suitable for large-scale enterprise applications seeking flexibility, horizontal scaling, and cloud-native infrastructure readiness.
 
 
 
