@@ -732,7 +732,7 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
   <p>Figure 18: Topological Graph of Bagisto Architectural Decisions </p>
 </div>
 
-## Technology Stack Decision
+## Technology Decision
 
 **› Issue:** Decision about which technology stack to adopt for Bagisto.
 
@@ -810,280 +810,262 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - Increased complexity for new developers due to layered design.
 - Risk of performance inefficiencies if architectural boundaries are misused.
 
+## Componentization Decision
 
-## Component Decision 
+**› Issue:** Determine coupling level between admin panel and storefront.
 
-**› Issue:** Whether to design the admin panel as a reusable component or tightly coupled with the storefront.
+**› Importance:** Medium to High – Impacts reusability, maintainability, usability, and extensibility.
 
-**› Importance:** Medium to High – Impacts flexibility and reusability in different use cases.
-
-**› Decision:** Designed the admin panel as a reusable component decoupled from storefront logic.
+**› Decision:** Built admin panel as a reusable, decoupled component.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** Architecture & Product Team
 
 **› Assumptions:**
-- B2B and B2C requirements may differ significantly.
-- Storefront customization should not impact admin functionalities.
+- B2B/B2C stores may need different admin experiences.
+- Storefront changes shouldn't affect the admin panel.
 
 **› Alternatives:**
-- Single unified interface for both admin and storefront.
-- Use a headless CMS to manage both front-end and admin concerns.
+- Unified interface (simpler, less reusable)
+- Headless CMS model (complex, less focused)
 
 **› Arguments:**
-- Decoupling supports varied business use-cases.
-- Improves code maintainability and testing.
-- Enables independent scaling and development of admin features.
+- Decoupling improves maintainability and independence.
+- Supports reuse and variation in enterprise deployments.
 
 **› Implications:**
-- Enables reuse of the admin panel across multiple deployments.
-- Supports enterprise scenarios with advanced dashboard needs.
+- Flexible for multi-tenant and enterprise systems.
 
 **› Possible negative impact on quality:**
-- Additional complexity in API design.
-- Requires clear interface contracts between components.
+- Increased API complexity.
+- Need for clear contract-based interaction.
 
+## Integration Decision
 
-## Integration Decision 
+**› Issue:** Enabling integration with third-party systems.
 
-**› Issue:** How to enable integration with third-party systems (e.g., ERP, CRM, payment gateways).
+**› Importance:** High – Relates to interoperability, extensibility, and security.
 
-**› Importance:** High – Affects system interoperability and extensibility.
-
-**› Decision:** Implemented REST API and GraphQL support.
+**› Decision:** Implemented REST and GraphQL APIs.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** API & Integration Team
 
 **› Assumptions:**
-- External services require standards-based interfaces.
-- Developers prefer flexible querying capabilities.
+- REST and GraphQL are industry standards.
+- Developers value flexible and efficient APIs.
 
 **› Alternatives:**
-- REST-only interface
-- SOAP-based integration
-- Webhooks without formal API design
+- REST-only (less flexibility for clients)
+- SOAP (legacy, heavier)
+- Webhooks-only (no querying capabilities)
 
 **› Arguments:**
-- REST is widely adopted and easy to use.
-- GraphQL offers client-side flexibility and reduces over-fetching.
-- Dual support ensures broader compatibility.
+- REST is ubiquitous and straightforward.
+- GraphQL reduces over-fetching and under-fetching.
 
 **› Implications:**
-- Easier integration with modern services.
-- Greater developer satisfaction and community contribution potential.
+- Greater adoption and ease of integration.
+- Supports complex frontend applications.
 
 **› Possible negative impact on quality:**
-- Increased surface area for security vulnerabilities.
-- More maintenance effort for two API paradigms.
+- Higher security exposure surface.
+- Maintenance complexity of two API types.
 
+## Implementation Decision
 
-## Implementation Decision 
+**› Issue:** Organize system architecture modularly.
 
-**› Issue:** Whether to design Bagisto’s system in a modular way.
+**› Importance:** High – Affects extensibility, maintainability, and testability.
 
-**› Importance:** High – Affects extensibility, customization, and community contribution.
-
-**› Decision:** A modular design is observed in a modular Laravel-based architecture to enable plug-and-play capabilities for modules such as inventory, checkout, and customer management.
+**› Decision:** Adopted modular Laravel architecture enabling plug-and-play modules.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** Core Engineering Team
 
 **› Assumptions:**
-- Different businesses will want to enable/disable features selectively.
-- Community developers will extend functionality without modifying core.
+- Features will vary by deployment and industry.
+- Community developers will build extensions.
 
 **› Alternatives:**
-- Monolithic structure with tightly coupled features.
-- Microservices approach from the beginning.
+- Monolithic app (simple but rigid)
+- Microservices (high overhead)
 
 **› Arguments:**
-- Modular structure allows isolated development and testing.
-- Enhances maintainability and reusability.
-- Reduces conflicts during third-party contributions.
+- Isolated modules reduce code conflicts.
+- Easier testing and independent upgrades.
 
 **› Implications:**
-- Simplified module management and updates.
-- Easier to scale specific features if needed.
+- Rapid third-party development and integrations.
 
 **› Possible negative impact on quality:**
-- Risk of module interdependency if boundaries aren’t enforced.
-- Overhead in maintaining compatibility between modules.
+- Module dependency risks.
+- Compatibility challenges during upgrades.
 
+## Testing Decision
 
+**› Issue:** Design of data access and persistence mechanisms.
 
-## Data Decision 
+**› Importance:** High – Tied to data integrity, scalability, and performance efficiency.
 
-**› Issue:** How to manage and persist application data.
-
-**› Importance:** High – Influences data integrity, performance, and scalability.
-
-**› Decision:** Introduced Eloquent ORM with relational database support for storing product catalogs, customer records, and transactional data to ensure consistency and scalability.
+**› Decision:** Adopted Eloquent ORM with relational databases.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** Data Architecture Team
 
 **› Assumptions:**
-- The data model will evolve with increasing feature complexity.
-- Relational integrity is important for core modules.
+- Data will grow with business complexity.
+- Consistency and transactions are vital.
 
 **› Alternatives:**
-- NoSQL (e.g., MongoDB)
-- Manual SQL queries without ORM
+- NoSQL (flexible but less consistent)
+- Manual SQL queries (powerful but harder to maintain)
 
 **› Arguments:**
-- Eloquent provides easy and expressive interaction with the database.
-- ORM improves code readability and maintenance.
-- Relational DBs are reliable for transactional data.
+- Eloquent simplifies DB interaction.
+- Relational DBs offer transactional safety.
 
 **› Implications:**
-- Reduced development time using Laravel’s ecosystem.
-- Easy migration and seeding for database setup.
+- Developers can rapidly define and evolve models.
+- Reliable for commerce-related operations.
 
 **› Possible negative impact on quality:**
-- ORM abstraction may lead to performance issues if not optimized.
-- Complex joins might become difficult to manage.
+- ORM misuse can lead to performance bottlenecks.
+- Complex queries harder to optimize.
 
+---
 
-## Testing Decision 
+**› Issue:** Choose testing tools and methods.
 
-**› Issue:** Which testing tools and strategies to adopt for quality assurance.
+**› Importance:** High – Supports reliability, testability, and maintainability.
 
-**› Importance:** High – Affects software reliability, maintainability, and release confidence.
-
-**› Decision:** PHPUnit is adopted for back-end and Jest for front-end unit and integration testing across modules to ensure high-quality releases.
+**› Decision:** Adopted PHPUnit for backend and Jest for frontend testing.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** QA & Engineering Team
 
 **› Assumptions:**
-- Automated tests will be maintained alongside development.
-- Community and internal developers will contribute testable code.
+- Test coverage will be enforced.
+- Contributors will follow test-first or test-driven practices.
 
 **› Alternatives:**
-- Manual QA-only approach
-- Use of Cypress or Mocha instead of Jest
+- Manual testing only (limited scalability)
+- Cypress/Mocha (valid for UI but heavier for unit tests)
 
 **› Arguments:**
-- PHPUnit integrates well with Laravel for API and logic testing.
-- Jest is lightweight and well-suited for Vue.js component testing.
-- Automated tests reduce regression risk in modular code.
+- PHPUnit is native to Laravel and highly integrated.
+- Jest is optimized for Vue.js.
 
 **› Implications:**
-- Safer, faster release cycles.
-- Improved developer confidence and code quality.
+- Early bug detection.
+- Faster CI/CD cycles.
 
 **› Possible negative impact on quality:**
-- Initial learning curve for contributors.
-- Test maintenance overhead during refactoring.
+- Steep learning curve for some contributors.
+- Higher test maintenance.
 
+## Deployment Decision
 
+**› Issue:** Setup for consistent environment provisioning.
 
-## Deployment Decision 
+**› Importance:** Medium to High – Affects deployability, portability, and maintainability.
 
-**› Issue:** How to provision environments for Bagisto deployments.
-
-**› Importance:** Medium to High – Influences reproducibility, DevOps speed, and platform support.
-
-**› Decision:** Docker-based deployment scripts are available for fast environment provisioning and compatibility across various cloud and on-premise platforms.
+**› Decision:** Provided Docker-based deployment scripts.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** DevOps & Platform Engineering
 
 **› Assumptions:**
-- Deployment targets vary widely (local, cloud, enterprise).
-- Container-based deployment improves consistency and onboarding.
+- Multi-environment compatibility is essential.
+- DevOps skills will support containerization.
 
 **› Alternatives:**
-- Manual installation instructions.
-- Ansible or shell-script based setups.
+- Manual setups (error-prone, inconsistent)
+- Ansible/shell scripts (less portable)
 
 **› Arguments:**
-- Docker simplifies environment management.
-- Improves team productivity with repeatable infrastructure setup.
+- Docker ensures consistent environments.
+- Reduces time-to-setup.
 
 **› Implications:**
-- Developers and clients can spin up Bagisto quickly.
-- Facilitates integration with CI/CD pipelines.
+- Faster onboarding.
+- Seamless integration with cloud and CI/CD tools.
 
 **› Possible negative impact on quality:**
-- Requires Docker knowledge to troubleshoot issues.
-- Image size and performance overhead if not optimized.
+- Docker expertise required.
+- Possible image performance overhead.
 
+## Containerization for Development and CI/CD
 
-## Containerization Decision 
+**› Issue:** Environment reproducibility and developer onboarding.
 
-**› Issue:** Whether to use containerized architecture for local development and CI/CD.
+**› Importance:** High – Impacts testability, deployability, and portability.
 
-**› Importance:** High – Affects developer experience and deployment reproducibility.
-
-**› Decision:** Docker Compose templates with isolated containers for database, PHP runtime, NGINX server, and cache, improving CI/CD compatibility and team productivity.
+**› Decision:** Adopted Docker Compose for local and CI/CD environments.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** DevOps & Infrastructure Team
 
 **› Assumptions:**
-- Multiple contributors need consistent environments.
-- The system will be deployed across various infrastructures.
+- Multiple contributors.
+- Infrastructure heterogeneity.
 
 **› Alternatives:**
-- Vagrant or Homestead-based development environments.
-- Shared local installations.
+- Vagrant/Homestead (more resource-heavy)
+- Local installation guides (inconsistent setups)
 
 **› Arguments:**
-- Isolated containers reduce “works on my machine” issues.
-- Improves build reliability in pipelines.
-- Supports dependency versioning and rollback.
+- Isolated containers prevent environment mismatch.
+- CI/CD reliability improves.
 
 **› Implications:**
-- Faster onboarding and lower setup time.
-- Scalability across team and enterprise environments.
+- Better team scaling.
+- Reproducible builds.
 
 **› Possible negative impact on quality:**
-- Container orchestration adds overhead for small teams.
-- Potential performance tradeoffs during local development.
+- Overhead for small teams.
+- Requires Docker ecosystem knowledge.
 
+## Concurrency Handling Decision
 
+**› Issue:** Background and asynchronous processing.
 
-## Concurrency Decision 
+**› Importance:** High – Influences performance efficiency, reliability, and responsiveness.
 
-**› Issue:** How to handle background jobs and asynchronous processing.
-
-**› Importance:** High – Affects user experience and performance during high-load operations.
-
-**› Decision:** Used Laravel queues and broadcasting with Redis for asynchronous processing, such as notifications and background tasks, to improve responsiveness.
+**› Decision:** Used Laravel queues and Redis broadcasting.
 
 **› Status:** Accepted and implemented.
 
 **› Group:** Backend & Infrastructure Team
 
 **› Assumptions:**
-- Some operations are time-consuming and should not block users.
-- Redis is available and can be configured for job handling.
+- Some jobs are time-consuming.
+- Redis will be available.
 
 **› Alternatives:**
-- Synchronous request processing.
-- Use of third-party queue services like Amazon SQS.
+- Fully synchronous execution (slower UX)
+- AWS SQS or third-party queues (external dependency)
 
 **› Arguments:**
-- Laravel queues offer a native solution.
-- Redis provides fast and reliable job handling.
-- Broadcasting enhances real-time interaction capabilities.
+- Native Laravel queue integration.
+- Redis supports high-speed job processing.
 
 **› Implications:**
-- Improved frontend responsiveness and system scalability.
-- Decouples business logic from user-triggered events.
+- Better user responsiveness.
+- Improved backend scalability.
 
 **› Possible negative impact on quality:**
-- Requires operational awareness for Redis and workers.
-- Failed jobs may require monitoring and recovery systems
+- Redis setup requires monitoring.
+- Job failure handling adds operational complexity.
+
+
 
 
 
