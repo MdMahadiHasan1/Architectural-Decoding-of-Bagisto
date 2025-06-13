@@ -732,6 +732,8 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
   <p>Figure 18: Topological Graph of Bagisto Architectural Decisions </p>
 </div>
 
+## Technology Stack Decision
+
 **› Issue:** Decision about which technology stack to adopt for Bagisto.
 
 **› Importance:** High – Affects functional suitability, maintainability, community support, performance efficiency, and extensibility.
@@ -766,16 +768,13 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - Tight stack coupling may reduce portability.
 
 
-
-
-
 ## Architecture Pattern Decision
 
-**› Issue:** Decision about which architecture patterns to apply in Bagisto's system design.
+**› Issue:** Selection of foundational architectural patterns.
 
-**› Importance:** High – Determines system maintainability, scalability, modularity, and extensibility.
+**› Importance:** High – Influences scalability, modularity, extensibility, maintainability, and testability.
 
-**› Decision:** Adopted a combination of architecture patterns: 
+**› Decision:** Adopted a combination of architecture patterns:
 - MVC (Model-View-Controller)
 - SOA (Service-Oriented Architecture)
 - Event-Driven Architecture
@@ -787,31 +786,30 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 **› Group:** Core Architecture Team
 
 **› Assumptions:**
-- The platform will evolve to support both B2C and B2B use cases.
-- Developers will contribute modular features via community or enterprise extensions.
-- Performance and maintainability are critical across modules.
+- Bagisto will serve both B2C and B2B use cases.
+- The community will build modular extensions.
+- Code quality and separation of concerns are essential.
 
 **› Alternatives:**
-- Microservices architecture
-- Monolithic without modular structure
-- Clean Architecture without MVC or service separation
+- Microservices architecture (offers greater scalability, but introduces operational complexity)
+- Pure Monolith (simpler to implement, but not scalable)
+- Clean Architecture without MVC (high abstraction but less familiar to many developers)
 
 **› Arguments:**
-- MVC ensures separation of concerns for maintainable code.
-- SOA promotes reusability and clear API boundaries between modules.
-- Event-Driven Architecture decouples background processing and enhances responsiveness.
-- Layered Architecture enforces clean dependency rules and abstraction.
-- Modular Monolith allows for modular development without microservice overhead.
+- MVC ensures clarity and maintainability.
+- SOA encourages reuse and clear API boundaries.
+- Event-Driven Architecture boosts responsiveness and enables decoupling.
+- Layered Architecture reinforces separation of concerns and clean dependencies.
+- Modular Monolith provides many microservice benefits with less overhead.
 
 **› Implications:**
-- Easier onboarding for Laravel/Vue developers familiar with MVC.
-- Enables gradual evolution toward microservices if needed in the future.
-- Simplifies testing and CI/CD by keeping codebase monolithic yet modular.
+- Improves modular development and ease of testing.
+- Provides a solid foundation for future migration to microservices if needed.
 
 **› Possible negative impact on quality:**
-- Complexity in understanding layered interactions for new developers.
-- Risk of performance bottlenecks if SOA and events are misused.
-- Challenges in enforcing architectural boundaries across community contributions.
+- Increased complexity for new developers due to layered design.
+- Risk of performance inefficiencies if architectural boundaries are misused.
+
 
 ## Component Decision 
 
