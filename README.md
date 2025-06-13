@@ -603,13 +603,22 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 #### **Why This Matters**  
 - **Modularity**: Plug-and-play modules (e.g., add GraphQL API via `Webkul\GraphQL`).  
 - **Scalability**: Decoupled components allow horizontal scaling (e.g., separate Redis for sessions).  
-- **Extensibility**: Custom themes or modules integrate seamlessly.  
+- **Extensibility**: Custom themes or modules integrate seamlessly.
+
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ab7e821e-8cf3-44a6-b790-61daf4f312cd">
+  <p>Figure 10: Deployment Lifecycle </p>
+</div>
 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/11c70996-7340-49c4-bb84-6a2007a4e6b8", heigh="100">
   <p>Figure 09: demonstrate Bagisto 4+1 view model Implementation View</p>
 </div>
+
+
+
 
 The Implementation View demonstrates Bagisto’s modular, layered architecture built atop Laravel. It clearly separates concerns between UI, business logic, and data layers while integrating essential third-party tools. This structure aligns with best practices in modern PHP/Laravel-based application development and ensures extensibility and ease of maintenance.
 
@@ -635,10 +644,6 @@ A critical contingency plan allows for rapid reversion to a stable previous vers
 - **Feature Live / Stable**:
 The new functionality is successfully deployed, operational, and stable in production, delivering value to the Bagisto platform.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ab7e821e-8cf3-44a6-b790-61daf4f312cd">
-  <p>Figure 10: Deployment Lifecycle </p>
-</div>
 
 
 <div align="center">
