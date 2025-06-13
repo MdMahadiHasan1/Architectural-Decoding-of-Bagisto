@@ -627,6 +627,9 @@ Therefore, this section covers both deployment scenarios:
 - A Modular Monolith Deployment, reflecting Bagisto’s default structure.
 - A Microservices-Based Deployment, showcasing how Bagisto can be re-architected to support large-scale, cloud-native operations.
 
+#### Deployment View of Bagisto's Modular Monolith
+This is Bagisto's default architecture, characterized by a single, unified codebase that contains all functionalities, but is organized into distinct, self-contained modules. This approach simplifies deployment and management, making it well-suited for small to medium-sized businesses. In this scenario, all software components typically run on a single server or a small cluster of servers, with communication happening internally within the application. The image might depict a single server hosting the entire Bagisto application, connecting to a database.
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/303e52f7-bc67-42ea-b2cd-a7f50cd8503f">
   <p>Figure 11: Deployment View of Bagisto's  Modular Monolith </p>
