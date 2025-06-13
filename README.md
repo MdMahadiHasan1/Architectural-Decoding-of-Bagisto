@@ -1068,6 +1068,21 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
 - Redis setup requires monitoring.
 - Job failure handling adds operational complexity
 
+# Bagisto Architecture: Limitations & Improvement Opportunities
+
+| Architecture Area       | Limitation                                                                 | Possible Improvement                                                                 |
+|-------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| **Technology Stack**    | Limited horizontal scalability vs Node.js/Java; Tight stack coupling       | Implement read/write database splitting; Explore serverless functions for intensive tasks |
+| **Architecture Pattern**| Increased complexity for new developers; Performance inefficiency risks    | Develop standardized module templates; Create visual debugging tools for event flows |
+| **Componentization**    | API complexity; Contract management challenges                             | Establish versioned API contracts; Implement consumer-driven contract testing        |
+| **Integration**         | Higher security exposure; Dual API maintenance complexity                  | Implement unified API gateway; Consolidate authentication mechanisms                 |
+| **Implementation**      | Module dependency risks; Upgrade compatibility challenges                  | Enforce semantic versioning; Develop dependency compatibility checker               |
+| **Data Management**     | ORM performance bottlenecks; Complex query optimization difficulties       | Introduce query monitoring; Support NoSQL for unstructured data                     |
+| **Testing**             | High test maintenance; Steep contributor learning curve                    | Develop codeless testing tools; Integrate AI-generated test cases                   |
+| **Deployment**          | Docker expertise barrier; Potential image performance issues               | Provide hybrid deployment options; Optimize multi-stage container builds            |
+| **Containerization**    | Overhead for small teams; Docker knowledge requirement                     | Simplify Compose setups; Offer cloud-specific deployment packs                      |
+| **Concurrency**         | Redis monitoring dependency; Job failure complexity                        | Implement fallback queues; Add dead-letter queue monitoring                         |
+
 # Conclusion
 In summary, Bagisto exemplifies a well-architected, open-source e-commerce platform that effectively integrates modular design, extensibility, and modern web technologies such as Laravel and Vue.js. Its architectural foundation supports a range of digital commerce models—from B2C and B2B to multi-vendor marketplaces—while catering to diverse stakeholders including end users, administrators, developers, integrators, and business owners. Core strengths include its scalable modular monolith structure, event-driven capabilities, RESTful API integration, containerized deployment, and a flexible package-based system for feature encapsulation.
 
