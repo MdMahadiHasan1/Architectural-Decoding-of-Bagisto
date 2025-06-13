@@ -732,44 +732,39 @@ In the following sections, we examine Bagisto's architectural decisions, encompa
   <p>Figure 18: Topological Graph of Bagisto Architectural Decisions </p>
 </div>
 
-## Technology Stack Decision
+**› Issue:** Decision about which technology stack to adopt for Bagisto.
 
-**›Issue:**  
-Selection of the core technology stack for Bagisto.  
-**›Importance (Quality Attributes):**  
-High – Affects functional suitability, maintainability, community support, performance efficiency, and extensibility.
+**› Importance:** High – Affects functional suitability, maintainability, community support, performance efficiency, and extensibility.
 
-**›Decision:**  
-Adopted Laravel (PHP) for backend and Vue.js for frontend.
+**› Decision:** Adopted Laravel (PHP) for backend and Vue.js for frontend.
 
-**›Status:**  
-Accepted and implemented.
+**› Status:** Accepted and implemented.
 
-**›Decision-Making Group:**  
-Technical Leadership Team
+**› Group:** Technical Leadership Team
 
-**›Assumptions:**
+**› Assumptions:**
 - Strong global PHP developer community.
 - Laravel provides robust built-in capabilities (routing, ORM, jobs).
 - Vue.js is beginner-friendly and easily integrates with Laravel.
 
-**›Alternatives Considered:**
+**› Alternatives:**
 - Symfony with React.js (strong structure, less beginner-friendly)
 - Node.js with Angular (modern JS stack, steep learning curve)
 - Full-stack JavaScript (MERN – rapid development, JS-only constraint)
 
-**›Arguments:**
+**› Arguments:**
 - Laravel’s expressive syntax and rich ecosystem boost productivity.
 - Vue.js provides reactive components and low integration overhead.
 - High availability of Laravel/Vue developers ensures community scaling.
 
-**›Implications:**
+**› Implications:**
 - Accelerated onboarding and time-to-market.
 - Greater community contributions and ecosystem compatibility.
 
-**›Potential Negative Impacts on Quality:**
+**› Possible negative impact on quality:**
 - Limited horizontal scalability versus Node.js or Java.
 - Tight stack coupling may reduce portability.
+
 
 
 
