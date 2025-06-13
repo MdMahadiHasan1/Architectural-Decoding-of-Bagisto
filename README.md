@@ -751,11 +751,10 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 
 
-
 ## Microservices Architecture Pattern
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d6cbafc4-dcd8-4665-a9fd-be5c9818413b">
+  <img src="https://github.com/user-attachments/assets/60188036-c976-4878-a851-c0f5790cbe18">
   <p>Figure 14: Microservice Architecture of Bagisto Service </p>
 </div>
 
