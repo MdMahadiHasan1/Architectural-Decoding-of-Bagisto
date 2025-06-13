@@ -643,7 +643,7 @@ The new functionality is successfully deployed, operational, and stable in produ
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/fb8a646d-303c-4c12-b031-1f49359835b1">
-  <p>Figure 10: Deployment Diagram for Microservices Architecture </p>
+  <p>Figure 10: Deployment View of Bagisto's Microservices Architecture </p>
 </div>
 
 
