@@ -582,8 +582,13 @@ The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c",height="400" weight="400">
-  <p>Figure 09: Implementation(Development Lifecycle) </p>
+  <img
+    src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c"
+    alt="Figure 09: Implementation (Development Lifecycle)"
+    width="400"
+    height="400"
+  />
+  <p>Figure 09: Implementation (Development Lifecycle)</p>
 </div>
 
 The diagram details Bagisto's core development lifecycle, focusing on the iterative workflow from code creation to deployment completion. Developers begin by writing feature or fix implementations, immediately followed by performing unit tests to validate functionality. The process then requires mandatory code reviews to ensure quality and adherence to standards before progressing to a production-specific build step. Once built, the changes are deployed, with an explicit rollback provision to revert if issues arise post-deployment. The cycle concludes at "Done," emphasizing a closed-loop approach that prioritizes test-driven development, collaborative review, and operational safety—enabling consistent delivery of stable enhancements within the Bagisto framework.
