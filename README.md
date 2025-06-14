@@ -577,21 +577,19 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 ### Implementation View
 
-The **Implementation View** (or Development View) of the **Bagisto** framework illustrates its **modular architecture, code organization, dependencies, and deployment structure**. Bagisto, built on **Laravel**, follows a **package-driven design**, where core e-commerce functionalities are separated into reusable modules while leveraging Laravel’s foundational components.
-
+The Implementation View of Bagisto defines its structured development workflow and CI/CD pipeline, designed to ensure reliable, automated delivery of e-commerce features. It begins with developers writing code and performing unit tests, followed by peer reviews and formal acceptance ("Accept/Land") to merge changes into the main codebase. Accepted code then triggers an automated CI/CD pipeline—building, testing, and deploying iteratively to staging for validation, followed by canary releases to production with rigorous metric monitoring. Rollback mechanisms exist at every stage (testing, staging, production) to mitigate risks, while post-mortem analysis drives continuous improvement, collectively enabling Bagisto to maintain stability, velocity, and operational safety in a complex e-commerce environment.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2a920ede-d9c3-44ac-8cb7-9f105c793766">
-  <p>Figure 10: Implementation(Development Lifecycle) </p>
+  <p>Figure 09: Implementation(Development Lifecycle) </p>
 </div>
-
 
 The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the workflow from code submission to production deployment. It begins with planning features or fixes and writing code, followed by submitting a Pull Request (PR) that triggers automated building and testing. If tests pass, the changes deploy to a staging environment for validation; failure triggers rollback. Successful staging checks enable production deployment via a controlled canary release, where metrics are closely monitored to ensure stability before a full rollout. Any production issues prompt immediate rollback, and the process concludes with a post-mortem analysis to capture learnings, ensuring continuous improvement in Bagisto's development lifecycle while mitigating risks through systematic quality gates and fallback mechanisms.
 
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c",height="400" weight="400">
-  <p>Figure 09: Implementation(Development Lifecycle) </p>
+  <p>Figure 10: Implementation(Development Lifecycle) </p>
 </div>
 
 #### Synthesizing the Two Views for Bagisto's Implementation
