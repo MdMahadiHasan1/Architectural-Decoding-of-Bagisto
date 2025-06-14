@@ -608,7 +608,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6b024433-07d6-4c3c-ab23-32fba57f8c18">
+  <img src="https://github.com/user-attachments/assets/66b9cdf4-f38c-43e3-9468-5d9595925ab2">
   <p>Figure 10: Implementation View </p>
 </div>
 
