@@ -581,7 +581,7 @@ The Implementation View of Bagisto defines its structured development workflow a
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2a920ede-d9c3-44ac-8cb7-9f105c793766">
-  <p>Figure 09: Implementation(Development Lifecycle) </p>
+  <p>Figure 09: Implementation View (Development Lifecycle) of Bagisto </p>
 </div>
 
 The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the workflow from code submission to production deployment. It begins with planning features or fixes and writing code, followed by submitting a Pull Request (PR) that triggers automated building and testing. If tests pass, the changes deploy to a staging environment for validation; failure triggers rollback. Successful staging checks enable production deployment via a controlled canary release, where metrics are closely monitored to ensure stability before a full rollout. Any production issues prompt immediate rollback, and the process concludes with a post-mortem analysis to capture learnings, ensuring continuous improvement in Bagisto's development lifecycle while mitigating risks through systematic quality gates and fallback mechanisms.
@@ -589,7 +589,7 @@ The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c",height="400" weight="400">
-  <p>Figure 10: Alternative Implementation(Development Lifecycle) </p>
+  <p>Figure 10: Alternative Implementation View (Development  Lifecycle) Bagisto </p>
 </div>
 
 ####Synthesized Implementation Lifecycle
