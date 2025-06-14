@@ -599,6 +599,7 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
    - **Composer**: PHP package manager (e.g., Stripe, PayPal integrations).  
    - **NPM(Node Package Manager)**: Frontend asset compilation (Bootstrap, Vue.js).  
    - **Databases**: MySQL/PostgreSQL, Redis (caching), Elasticsearch (search).
+   - **Vendor**: Third-party providers supplying reusable packages, ERP/CMS integrations, and frontend/backend tools (via Composer, NPM, or direct integration).
 
 #### **Why This Matters**  
 - **Modularity**: Plug-and-play modules (e.g., add GraphQL API via `Webkul\GraphQL`).  
@@ -607,8 +608,8 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ab7e821e-8cf3-44a6-b790-61daf4f312cd">
-  <p>Figure 10: Deployment Lifecycle </p>
+  <img src="https://github.com/user-attachments/assets/6b024433-07d6-4c3c-ab23-32fba57f8c18">
+  <p>Figure 10: Implementation View </p>
 </div>
 
 
