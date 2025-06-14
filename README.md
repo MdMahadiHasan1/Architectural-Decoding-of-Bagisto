@@ -1,7 +1,3 @@
-<img width="374" alt="image" src="https://github.com/user-attachments/assets/56a4b3c0-5036-4b70-a0a6-b602be3e09e8" /><div align="center">
-  <img src="https://github.com/user-attachments/assets/2e783412-7ece-416e-8f1f-763cfaca88b7" alt="Your description here" width="100">
-</div>
-
 
 <div align="center">
   
