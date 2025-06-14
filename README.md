@@ -578,33 +578,7 @@ In conclusion, the logical viewpoint provides a clear and structured representat
 
 The **Implementation View** (or Development View) of the **Bagisto** framework illustrates its **modular architecture, code organization, dependencies, and deployment structure**. Bagisto, built on **Laravel**, follows a **package-driven design**, where core e-commerce functionalities are separated into reusable modules while leveraging Laravel’s foundational components.
 
-#### Key Layers of Bagisto’s Implementation  
-
-1. **Bagisto Core Modules**  
-   - **Core**: Base services, helpers, models, and repositories.  
-   - **Admin**: Backend dashboard for managing orders, products, and customers.  
-   - **Shop**: Frontend logic for product display, cart, and checkout.  
-   - **Custom Modules**: Extensions like CMS, marketing tools, or ERP integrations.  
-
-2. **Laravel Foundation**  
-   - **Eloquent ORM(Object-Relational Mapping)**: Database abstraction layer.  
-   - **Routing**: HTTP request handling (web/admin/API routes).  
-   - **Middleware**: Authentication, logging, and security layers.  
-
-3. **Themes & UI**  
-   - **Velocity (Default Theme)**: Blade templates, CSS/JS assets.  
-   - **Localization**: Multi-language support.  
-
-4. **External Dependencies**  
-   - **Composer**: PHP package manager (e.g., Stripe, PayPal integrations).  
-   - **NPM(Node Package Manager)**: Frontend asset compilation (Bootstrap, Vue.js).  
-   - **Databases**: MySQL/PostgreSQL, Redis (caching), Elasticsearch (search).
-   - **Vendor**: Third-party providers supplying reusable packages, ERP/CMS integrations, and frontend/backend tools (via Composer, NPM, or direct integration).
-
-#### **Why This Matters**  
-- **Modularity**: Plug-and-play modules (e.g., add GraphQL API via `Webkul\GraphQL`).  
-- **Scalability**: Decoupled components allow horizontal scaling (e.g., separate Redis for sessions).  
-- **Extensibility**: Custom themes or modules integrate seamlessly.
+The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the workflow from code submission to production deployment. It begins with planning features or fixes and writing code, followed by submitting a Pull Request (PR) that triggers automated building and testing. If tests pass, the changes deploy to a staging environment for validation; failure triggers rollback. Successful staging checks enable production deployment via a controlled canary release, where metrics are closely monitored to ensure stability before a full rollout. Any production issues prompt immediate rollback, and the process concludes with a post-mortem analysis to capture learnings, ensuring continuous improvement in Bagisto's development lifecycle while mitigating risks through systematic quality gates and fallback mechanisms.
 
 
 <div align="center">
@@ -612,15 +586,27 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
   <p>Figure 10: Implementation(Development Lifecycle) </p>
 </div>
 
+The diagram details Bagisto's core development lifecycle, focusing on the iterative workflow from code creation to deployment completion. Developers begin by writing feature or fix implementations, immediately followed by performing unit tests to validate functionality. The process then requires mandatory code reviews to ensure quality and adherence to standards before progressing to a production-specific build step. Once built, the changes are deployed, with an explicit rollback provision to revert if issues arise post-deployment. The cycle concludes at "Done," emphasizing a closed-loop approach that prioritizes test-driven development, collaborative review, and operational safety—enabling consistent delivery of stable enhancements within the Bagisto framework.
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4174cf8b-ea5e-4ac6-9e58-b6046982f817">
   <p>Figure 11: Development Lifecycle: Implementation Stage </p>
 </div>
 
+#### Synthesizing the Two Views for Bagisto's Implementation
+The two figures are not contradictory; instead, the first figure is a detailed, modern expansion of the second. The "Bagisto Development Lifecycle View" (Figure11) can be seen as a zoomed-in look at the initial development stages ("Write Code," "Local Test," "Submit PR," and "Review") found in the more comprehensive CI/CD pipeline (Figure 10).
+
+Together, the Implementation View of the Bagisto framework as follows:
+
+-**Development is Iterative:** Both diagrams emphasize the iterative cycle of writing code, testing, and reviewing to ensure code quality.
+-**Automation is Key:** Figure 10 shows that Bagisto likely employs a high degree of automation through a CI/CD pipeline, which handles everything from building and testing to deployment.
+-**Phased Rollouts for Safety:** The framework uses advanced deployment strategies like Staging Environments and Canary Releases. This minimizes risk by validating changes in a controlled manner before a full release.
+-**Monitoring and Feedback:** The process includes continuous monitoring of the application in production, with clear procedures for Rollback and Post-Mortem analysis in case of failure. This feedback loop is crucial for system stability and improvement.
+
+In essence, the Implementation View of Bagisto is one of a mature, agile, and robust development and deployment process that prioritizes code quality, automation, and system stability.
 
 
-The Implementation View demonstrates Bagisto’s modular, layered architecture built atop Laravel. It clearly separates concerns between UI, business logic, and data layers while integrating essential third-party tools. This structure aligns with best practices in modern PHP/Laravel-based application development and ensures extensibility and ease of maintenance.
 
 ### Deployment Viewpoint
 
