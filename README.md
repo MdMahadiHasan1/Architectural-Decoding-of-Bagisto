@@ -589,20 +589,12 @@ The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c",height="400" weight="400">
-  <p>Figure 10: Implementation(Development Lifecycle) </p>
+  <p>Figure 10: Alternative Implementation(Development Lifecycle) </p>
 </div>
 
-#### Synthesizing the Two Views for Bagisto's Implementation
-The two figures are not contradictory; instead, the first figure is a detailed, modern expansion of the second. The "Bagisto Development Lifecycle View" (Figure10) can be seen as a zoomed-in look at the initial development stages ("Write Code," "Local Test," "Submit PR," and "Review") found in the more comprehensive CI/CD pipeline (Figure 09).
+####Synthesized Implementation Lifecycle
+Bagisto's Implementation View combines a granular development workflow with an automated CI/CD pipeline, creating an end-to-end lifecycle that progresses from code creation to production deployment. Developers begin by writing and testing code locally, followed by mandatory peer review before changes are formally accepted and merged ("Accept/Land") into the main branch. This triggers the CI/CD pipeline, which automatically builds production-optimized artifacts, runs comprehensive tests, and deploys to staging for validation. Upon successful staging checks, changes proceed to production via controlled canary releases while real-time metric monitoring occurs. Rollback mechanisms activate at any failure point (tests, staging, or production monitoring), ensuring rapid recovery. The cycle concludes with post-mortem analysis, feeding insights back into future development iterations while maintaining a closed-loop "Done" state that enables continuous delivery of stable e-commerce features.
 
-Together, the Implementation View of the Bagisto framework as follows:
-
-- **Development is Iterative:** Both diagrams emphasize the iterative cycle of writing code, testing, and reviewing to ensure code quality.
-- **Automation is Key:** Figure 09 shows that Bagisto likely employs a high degree of automation through a CI/CD pipeline, which handles everything from building and testing to deployment.
-- **Phased Rollouts for Safety:** The framework uses advanced deployment strategies like Staging Environments and Canary Releases. This minimizes risk by validating changes in a controlled manner before a full release.
-- **Monitoring and Feedback:** The process includes continuous monitoring of the application in production, with clear procedures for Rollback and Post-Mortem analysis in case of failure. This feedback loop is crucial for system stability and improvement.
-
-In essence, the Implementation View of Bagisto is one of a mature, agile, and robust development and deployment process that prioritizes code quality, automation, and system stability.
 
 
 
