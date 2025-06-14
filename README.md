@@ -599,10 +599,10 @@ The two figures are not contradictory; instead, the first figure is a detailed, 
 
 Together, the Implementation View of the Bagisto framework as follows:
 
--**Development is Iterative:** Both diagrams emphasize the iterative cycle of writing code, testing, and reviewing to ensure code quality.
--**Automation is Key:** Figure 10 shows that Bagisto likely employs a high degree of automation through a CI/CD pipeline, which handles everything from building and testing to deployment.
--**Phased Rollouts for Safety:** The framework uses advanced deployment strategies like Staging Environments and Canary Releases. This minimizes risk by validating changes in a controlled manner before a full release.
--**Monitoring and Feedback:** The process includes continuous monitoring of the application in production, with clear procedures for Rollback and Post-Mortem analysis in case of failure. This feedback loop is crucial for system stability and improvement.
+- **Development is Iterative:** Both diagrams emphasize the iterative cycle of writing code, testing, and reviewing to ensure code quality.
+- **Automation is Key:** Figure 10 shows that Bagisto likely employs a high degree of automation through a CI/CD pipeline, which handles everything from building and testing to deployment.
+- **Phased Rollouts for Safety:** The framework uses advanced deployment strategies like Staging Environments and Canary Releases. This minimizes risk by validating changes in a controlled manner before a full release.
+- **Monitoring and Feedback:** The process includes continuous monitoring of the application in production, with clear procedures for Rollback and Post-Mortem analysis in case of failure. This feedback loop is crucial for system stability and improvement.
 
 In essence, the Implementation View of Bagisto is one of a mature, agile, and robust development and deployment process that prioritizes code quality, automation, and system stability.
 
