@@ -581,15 +581,14 @@ The **Implementation View** (or Development View) of the **Bagisto** framework i
 The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the workflow from code submission to production deployment. It begins with planning features or fixes and writing code, followed by submitting a Pull Request (PR) that triggers automated building and testing. If tests pass, the changes deploy to a staging environment for validation; failure triggers rollback. Successful staging checks enable production deployment via a controlled canary release, where metrics are closely monitored to ensure stability before a full rollout. Any production issues prompt immediate rollback, and the process concludes with a post-mortem analysis to capture learnings, ensuring continuous improvement in Bagisto's development lifecycle while mitigating risks through systematic quality gates and fallback mechanisms.
 
 
-<div align="center">
+<p align="center">
   <img
     src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c"
     alt="Figure 09: Implementation (Development Lifecycle)"
-    width="200"
-    height="200"
+    width="400"
+    height="400"
   />
-  <p>Figure 09: Implementation (Development Lifecycle)</p>
-</div>
+</p>
 
 The diagram details Bagisto's core development lifecycle, focusing on the iterative workflow from code creation to deployment completion. Developers begin by writing feature or fix implementations, immediately followed by performing unit tests to validate functionality. The process then requires mandatory code reviews to ensure quality and adherence to standards before progressing to a production-specific build step. Once built, the changes are deployed, with an explicit rollback provision to revert if issues arise post-deployment. The cycle concludes at "Done," emphasizing a closed-loop approach that prioritizes test-driven development, collaborative review, and operational safety—enabling consistent delivery of stable enhancements within the Bagisto framework.
 
