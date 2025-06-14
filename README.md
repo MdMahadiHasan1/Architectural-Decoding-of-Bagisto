@@ -590,7 +590,7 @@ The diagram details Bagisto's core development lifecycle, focusing on the iterat
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4174cf8b-ea5e-4ac6-9e58-b6046982f817">
+  <img src="https://github.com/user-attachments/assets/b21dc44c-9154-43b1-b837-e5f7a9029186">
   <p>Figure 10: Development Lifecycle: Implementation Stage </p>
 </div>
 
