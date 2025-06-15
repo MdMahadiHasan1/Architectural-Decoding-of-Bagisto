@@ -34,11 +34,11 @@
 - **2025, May 11**: *Task Description: Architecture Views* – **Mahadi, Md Ashikur Rahman, Shantu, Asifa, Limu**
 - **2025, May 15**: *Task Description: Implementation View* – **Md Ashikur Rahman**
 - **2025, May 20**: *Task Description: Architecture Patterns* – **Md Ashikur Rahman**
-- **2025, May 26**: *Task Description: Architecture Decisions* – **Md Ashikur Rahman, Mahadi, Limu**
+- **2025, May 26**: *Task Description: Architecture Decisions* – **Md Ashikur Rahman, Mahadi, Limu, Shantu**
 - **2025, June 09**: *Task Description: Architecture Patterns Design Part in Bagisto* – **Md Ashikur Rahman**
 - **2025, June 09**: *Task Description: Architecture Decision* – **Mahadi**
 - **2025, June 13**: *Task Description: Deployment View of Bagisto's Modular Monolith* - **Md Ashikur Rahman**
-- **2025, June 13**: *Task Description: Deployment View of Bagisto's Microservices Architecture* - **Mahadi**
+- **2025, June 13**: *Task Description: Deployment View of Bagisto's Microservices Architecture* - **Mahadi, Shantu**
 - **2025, June 14**: *Task Description: (Improvement) Implementation View and MVC Diagram* - **Md Ashikur Rahman**
 - **2025, June 14**: *Task Description: Architecture Decision Tree, Limitations* - **Mahadi**
 
