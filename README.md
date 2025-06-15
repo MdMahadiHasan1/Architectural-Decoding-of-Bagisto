@@ -349,7 +349,7 @@ This component diagram illustrates the layered architecture of Bagisto, highligh
 
 | Component | Description |
 |----------------|-----------------|
-| **Laravel Framework** | Provides the foundational PHP framework for Bagisto's backend operations. It handles routing, middleware processing, and service container management while enabling rapid development through its expressive syntax and modular structure.|
+| **Laravel** | Provides the foundational PHP framework for Bagisto's backend operations. It handles routing, middleware processing, and service container management while enabling rapid development through its expressive syntax and modular structure.|
 | **Admin Panel** | Serves as the central management interface for store administrators to control products, vendors, and orders. It features role-based access control and comprehensive dashboards for monitoring business operations and system performance.|
 | **Storefront** | Delivers the customer-facing shopping experience through Vue.js-powered interfaces. It enables product browsing, cart management, and checkout workflows while maintaining responsiveness across all device types.|
 | **Vendor Management** | Facilitates multi-vendor marketplace operations including vendor onboarding and product approval. It handles commission calculations and provides vendors with dedicated dashboards for order and inventory tracking.|
@@ -359,7 +359,7 @@ This component diagram illustrates the layered architecture of Bagisto, highligh
 | **Shipping** | Manages logistics through carrier integrations for real-time rate calculations. It generates shipping labels, tracks deliveries, and synchronizes inventory levels across warehouses.|
 | **Security Infrastructure** |Enforces protection mechanisms including encryption, RBAC, and compliance standards. It monitors for threats and secures sensitive operations like payment processing and data access.|
 | **MySQL Database** |Serves as the primary relational datastore for all transactional and configuration data. It maintains product catalogs, customer records, and order histories through structured schemas.|
-| **Vue.js Dependency** |Powers the reactive frontend interfaces for both storefront and admin panel. It enables dynamic content updates and single-page application behaviors without full page reloads.|
+| **Vue.js** |Powers the reactive frontend interfaces for both storefront and admin panel. It enables dynamic content updates and single-page application behaviors without full page reloads.|
 
 
 <div align="center">
