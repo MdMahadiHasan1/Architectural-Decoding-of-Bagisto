@@ -26,7 +26,7 @@
 
 ## History Log
 
-- **2025, April 8**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
+- **2025, April 08**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
 - **2025, April 20**: *Task Description: Business Requirements* – **ASIFA**
 - **2025, April 20**: *Task Description: Key Quality Concerns* – **Mahadi, ASIFA**
 - **2025, April 20**: *Task Description: System Context* – **Limu**
@@ -35,8 +35,8 @@
 - **2025, May 15**: *Task Description: Implementation View* – **Md Ashikur Rahman**
 - **2025, May 20**: *Task Description: Architecture Patterns* – **Md Ashikur Rahman**
 - **2025, May 26**: *Task Description: Architecture Decisions* – **Md Ashikur Rahman, Mahadi, Limu**
-- **2025, June 9**: *Task Description: Architecture Patterns Design Part in Bagisto* – **Md Ashikur Rahman**
-- **2025, June 9**: *Task Description: Architecture Decision* – **Mahadi**
+- **2025, June 09**: *Task Description: Architecture Patterns Design Part in Bagisto* – **Md Ashikur Rahman**
+- **2025, June 09**: *Task Description: Architecture Decision* – **Mahadi**
 - **2025, June 13**: *Task Description: Deployment View of Bagisto's Modular Monolith* - **Md Ashikur Rahman**
 - **2025, June 13**: *Task Description: Deployment View of Bagisto's Microservices Architecture* - **Mahadi**
 - **2025, June 14**: *Task Description: (Improvement) Implementation View and MVC Diagram* - **Md Ashikur Rahman**
