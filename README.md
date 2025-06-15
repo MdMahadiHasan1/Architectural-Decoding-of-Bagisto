@@ -38,7 +38,7 @@
 - **2025, June 9**: *Task Description: Architecture Patterns Design Part in Bagisto* – **Md Ashikur Rahman**
 - **2025, June 9**: *Task Description: Architecture Decision* – **Mahadi**
 - **2025, June 13:** *Task Description: Deployment View of Bagisto's Modular Monolith - **Md Ashikur Rahman**
-- **2025, June 13**: *Task Description: * Deployment View of Bagisto's Microservices Architecture - **Mahadi**
+- **2025, June 13**: *Task Description: Deployment View of Bagisto's Microservices Architecture - **Mahadi**
 - **2025, June 14:** *Task Description: Improvement Implementation View Figure - **Md Ashikur Rahman**
 - **2025, June 14**: *Task Description: Architecture Decision Tree, Limitations* - **Mahadi**
 
