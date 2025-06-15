@@ -41,6 +41,7 @@
 - **2025, June 13**: *Task Description: Deployment View of Bagisto's Microservices Architecture* - **Mahadi, Shantu**
 - **2025, June 14**: *Task Description: (Improvement) Implementation View and MVC Diagram* - **Md Ashikur Rahman**
 - **2025, June 14**: *Task Description: Architecture Decision Tree, Limitations* - **Mahadi**
+- **2025, June 14**: *Task Description: Architecture Decision Tree, Overall Review* - **Mahadi**
 
 
 ## Table of Contents
