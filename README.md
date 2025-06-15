@@ -29,7 +29,7 @@
 - **2025, April 08**: *Task Description: Initial setup of project structure and documentation* – **Mahadi**
 - **2025, April 20**: *Task Description: Business Requirements* – **ASIFA**
 - **2025, April 20**: *Task Description: Key Quality Concerns* – **Mahadi, ASIFA**
-- **2025, April 20**: *Task Description: System Context* – **Limu**
+- **2025, April 20**: *Task Description: System Context, Architecture Components* – **Limu**
 - **2025, April 20**: *Task Description: Introduction, Quality Attribute,Key Quality Concerns(Scalability), Database Development* – **Md Ashikur Rahman**
 - **2025, May 11**: *Task Description: Architecture Views* – **Mahadi, Md Ashikur Rahman, Shantu, Asifa, Limu**
 - **2025, May 15**: *Task Description: Implementation View* – **Md Ashikur Rahman**
