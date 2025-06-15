@@ -733,7 +733,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f449a188-ec71-4b16-98ec-ab66fac405e0">
-  <p>Figure 13: Modular Monolith of Bagisto Service </p>
+  <p>Figure 15: Modular Monolith of Bagisto Service </p>
 </div>
 
 
@@ -742,7 +742,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/60188036-c976-4878-a851-c0f5790cbe18">
-  <p>Figure 14: Microservice Architecture of Bagisto Service </p>
+  <p>Figure 16: Microservice Architecture of Bagisto Service </p>
 </div>
 
 
@@ -751,7 +751,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/de9cac54-94b1-4316-9e2f-fff183b2d798">
-  <p>Figure 15: MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
+  <p>Figure 17: MVC (Model-View-Controller) Architectures Pattern for  Bagisto E-ecommerce </p>
 </div>
 
 
@@ -760,7 +760,7 @@ Bagisto’s architecture Pattern blends the simplicity of a modular Laravel mono
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c224d0ca-4100-4a85-8906-831150bff1e9">
-  <p>Figure 16: Event-Driven Architecture (EDA) </p>
+  <p>Figure 18: Event-Driven Architecture (EDA) </p>
 </div>
 
 
@@ -774,7 +774,7 @@ In summary, Bagisto's architecture supports a transition from a modular monolith
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b744e1b3-e3e1-4428-bcbd-2901c0f82b19" width="900">
-  <p>Figure 17: Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
+  <p>Figure 19: Architecture Decision for Microservice Pattern and Modular Monolith of Bagisto </p>
 </div>
 
 
