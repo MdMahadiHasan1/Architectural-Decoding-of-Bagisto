@@ -1134,7 +1134,7 @@ The Bagisto Architectural Decision Tree illustrates the key technical decisions 
 ### An Example of Architectural Decision Relationship
 
 
-For added clarity, we present an architectural decision example, specifically the relationship under the Technology Decision node. As part of the Bagisto architecture planning process, this decision led to the selection of a core technology stack. Multiple alternatives were evaluated, including Symfony+React, Node.js+Angular, and the MERN stack. Ultimately, the team selected Laravel (PHP) for the backend and Vue.js for the frontend. This decision was driven by Laravel’s built-in capabilities (such as routing, ORM, and middleware), its strong global community, and Vue.js’s lightweight and reactive design, which aligns well with modern frontend development practices. The Technology Decision thus plays a pivotal role in shaping and connecting subsequent architectural decisions throughout the system.
+For more clarity, we present an architectural decision example, specifically the relationship under the Technology Decision node. As part of the Bagisto architecture planning process, this decision led to the selection of a core technology stack. Multiple alternatives were evaluated, including Symfony+React, Node.js+Angular, and the MERN stack. Ultimately, the team selected Laravel (PHP) for the backend and Vue.js for the frontend. This decision was driven by Laravel’s built-in capabilities (such as routing, ORM, and middleware), its strong global community, and Vue.js’s lightweight and reactive design, which aligns well with modern frontend development practices. The Technology Decision thus plays a pivotal role in shaping and connecting subsequent architectural decisions throughout the system.
 
 
 
