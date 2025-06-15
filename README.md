@@ -596,7 +596,7 @@ The diagram illustrates Bagisto's end-to-end CI/CD pipeline, which automates the
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e5cccd10-9afd-4edc-a8e6-e128727c726c",height="400" weight="400">
-  <p>Figure 10: Alternative Implementation View (Development  Lifecycle) Bagisto </p>
+  <p>Figure 10: Alternative Implementation View (Development  Lifecycle) of Bagisto </p>
 </div>
 
 #### Synthesized Implementation Lifecycle for two figures 
