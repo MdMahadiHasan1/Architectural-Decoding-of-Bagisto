@@ -346,7 +346,9 @@ Finally, customer Rating refers to the review system where buyers can evaluate p
 ## Architecture Components
 This component diagram outlines the modular, service-oriented architecture of the Bagisto E-Commerce Platform, emphasizing its core components, interfaces, and interrelationships. Designed for scalability and extensibility, these components collaborate to deliver a robust, secure, and user-centric e-commerce ecosystem.
 
-The Bagisto platform is composed of independent, reusable components that collaborate to deliver a cohesive e-commerce experience. Each component operates as a self-contained service, communicating via well-defined interfaces (APIs, webhooks) and adhering to standardized protocols. Below are the critical components and their roles:
+The Bagisto platform is composed of independent, reusable components that collaborate to deliver a cohesive e-commerce experience. Each component operates as a self-contained service, communicating via well-defined interfaces (APIs, webhooks) and adhering to standardized protocols. 
+
+As shown in Figure 3, the light blue/purple components (User Interface, Order Management, Buyer Management, AI/ML, Analytics, Marketing) represent the core, internal modules of the Bagisto system, while the orange components (Shipping, Security and Compliance, Third-Party Integration) denote essential external systems or third-party integrations crucial for the platform's operation. Additionally, the white/light grey block visually sets apart "Users" as the external human actors interacting with the system, and the darker computer/mobile icons within it illustrate the various access devices.
 
 | Component | Description |
 |----------------|-----------------|
