@@ -345,27 +345,25 @@ AI Powered E-Commerce indicates the use of Large Language Model to enhance vario
 Finally, customer Rating refers to the review system where buyers can evaluate products and share their experiences. These ratings influence future customers’ purchasing decisions and help merchants identify popular items or areas needing improvement. The platform included features to verify purchases before allowing reviews.
 
 ## Architecture Components
-This component diagram outlines the modular, service-oriented architecture of the Bagisto E-Commerce Platform, emphasizing its core components, interfaces, and interrelationships. Designed for scalability and extensibility, these components collaborate to deliver a robust, secure, and user-centric e-commerce ecosystem.
-
-The Bagisto platform is composed of independent, reusable components that collaborate to deliver a cohesive e-commerce experience. Each component operates as a self-contained service, communicating via well-defined interfaces (APIs, webhooks) and adhering to standardized protocols. 
-
-As shown in Figure 3, the light blue/purple components (User Interface, Order Management, Buyer Management, AI/ML, Analytics, Marketing) represent the core, internal modules of the Bagisto system, while the orange components (Shipping, Security and Compliance, Third-Party Integration) denote essential external systems or third-party integrations crucial for the platform's operation. Additionally, the white/light grey block visually sets apart "Users" as the external human actors interacting with the system, and the darker computer/mobile icons within it illustrate the various access devices.
+This component diagram illustrates the layered architecture of Bagisto, highlighting key components and their relationships. At the foundation, the Laravel framework powers the entire ecosystem. Two primary applications operate atop this foundation: the Admin Panel for system management and the Storefront for customer interactions. The Control Interface enables the Admin Panel to manage core business components including Vendor Management (multi-vendor operations), Customer Management (user profiles and authentication), Order Management (transaction processing), Payment Gateway (payment processing), and Shipping (logistics coordination). The Security infrastructure provides essential protection mechanisms, particularly for payment transactions. All persistent data is stored in the MySQL Database, while Vue.js serves as the frontend dependency powering the Storefront's responsive interface. This componentized structure enables clear separation of concerns while facilitating integration through standardized interfaces.
 
 | Component | Description |
 |----------------|-----------------|
-| **User Interface Component** | Manages customer and administrator interactions via responsive web/mobile interfaces built with Vue.js/React. Includes product browsing, cart management, and checkout workflows.|
-| **Order Management Component** | Orchestrates order processing, inventory synchronization, tax calculations, and multi-channel integration (POS, marketplaces). Built on Laravel, it ensures transactional consistency across distributed systems.|
-| **Shipping Integration Component** | Integrates with global carriers (FedEx, DHL) via RESTful APIs for real-time rate calculation, label generation, and package tracking. Optimizes delivery costs using rule-based logic.|
-| **Analytics & Reporting Component** | Aggregates sales, inventory, and user data for actionable insights. Interfaces: Data pipelines for dashboards and predictive models.|
-| **Marketing Component** | Manages promotions, discounts, and loyalty programs. Interfaces: Email/SMS APIs for campaigns. |
-| **AI/ML Component** |Powers personalized product recommendations and dynamic pricing algorithms using collaborative filtering and neural networks. Adapts to user preferences over time.|
-| **Buyer Management Component** | Handles user profiles, authentication, and role-based access control. Manages guest checkout and purchase-verified reviews.|
-| **Security & Compliance Component** | Enforces encryption, GDPR/CCPA compliance, and audit logging. Interfaces: Threat detection APIs and consent management tools.|
-| **Third-Party Integration Component** |The Third-Party Integration Component connects Bagisto to external tools to share data and automate tasks. It ensures the platform works smoothly with other systems, saving time and reducing errors.|
+| **Laravel Framework** | Provides the foundational PHP framework for Bagisto's backend operations. It handles routing, middleware processing, and service container management while enabling rapid development through its expressive syntax and modular structure.|
+| **Admin Panel** | Serves as the central management interface for store administrators to control products, vendors, and orders. It features role-based access control and comprehensive dashboards for monitoring business operations and system performance.|
+| **Storefront** | Delivers the customer-facing shopping experience through Vue.js-powered interfaces. It enables product browsing, cart management, and checkout workflows while maintaining responsiveness across all device types.|
+| **Vendor Management** | Facilitates multi-vendor marketplace operations including vendor onboarding and product approval. It handles commission calculations and provides vendors with dedicated dashboards for order and inventory tracking.|
+| **Customer Management** | Manages user authentication, profile data, and access permissions. It supports guest checkouts, address books, and purchase history while integrating with security infrastructure.|
+| **Order Management** |Orchestrates end-to-end order processing from creation to fulfillment. It coordinates inventory updates, payment processing, and shipment tracking while maintaining transaction consistency.|
+| **Payment Gateway** | Integrates with external payment processors to handle secure transaction processing. It implements tokenization for PCI compliance and supports multiple payment methods including cards and digital wallets.|
+| **Shipping** | Manages logistics through carrier integrations for real-time rate calculations. It generates shipping labels, tracks deliveries, and synchronizes inventory levels across warehouses.|
+| **Security Infrastructure** |Enforces protection mechanisms including encryption, RBAC, and compliance standards. It monitors for threats and secures sensitive operations like payment processing and data access.|
+| **MySQL Database** |Serves as the primary relational datastore for all transactional and configuration data. It maintains product catalogs, customer records, and order histories through structured schemas.|
+| **Vue.js Dependency** |Powers the reactive frontend interfaces for both storefront and admin panel. It enables dynamic content updates and single-page application behaviors without full page reloads.|
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f4e50e7f-0195-4f2b-81cf-044bd4c6a484">
+  <img src="https://github.com/user-attachments/assets/35ac19cf-3add-442f-8991-3d0635937203">
   <p>Figure 03: Architecture Component Diagram</p>
 </div>
 
